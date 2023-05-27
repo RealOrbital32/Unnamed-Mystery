@@ -1,0 +1,92 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ghost Moon",
+	"starSystem": "O32.UnnamedMystery",
+	"isQuantumState": true,
+	"Base": {
+		"surfaceSize": 160,
+		"surfaceGravity": 12,
+		"hasMapMarker": false,
+		"showMinimap": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 2000,
+		"inclination": 16,
+		"primaryBody": "Teraxia",
+		"trueAnomaly": 65,
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 245,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 5,
+		"showOrbitLine": false
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/ghostmoon_h.png",
+		"textureMap": "planets/assets/ghostmoon_t.png",
+		"resolution": 600,
+		"minHeight": 105,
+		"maxHeight": 130
+	},
+	"Atmosphere": {
+		"size": 170,
+		"fogSize": 155,
+		"fogDensity": 1,
+		"atmosphereSunIntensity": 1,
+		"atmosphereTint": {
+			"r": 238,
+			"g": 220,
+			"b": 242
+		},
+		"fogTint": {
+			"r": 238,
+			"g": 220,
+			"b": 242
+		},
+		"clouds": {
+			"cloudsPrefab": "giantsDeep",
+			"texturePath": "planets/assets/ghostmoon_g.png",
+			"innerCloudRadius": 150,
+			"outerCloudRadius": 165,
+			"rotationSpeed": -2,
+			"tint": {
+				"r": 238,
+				"g": 220,
+				"b": 242
+			}
+		}
+	},
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"radius": 700,
+				"entryNotification": {
+					"displayMessage": "Warning: Object contains unknown matter. Proceed with caution.",
+					"duration": 10
+				}
+			}
+		],
+		"visorEffects": {
+			"frostEffectVolumes": [
+				{
+					"radius": 230,
+					"frostRate": 1
+				}
+			]
+		},
+		"referenceFrameBlockerVolumes": [
+			{
+				"radius": 230
+			}
+		],
+		"destructionVolumes": [
+			{
+				"deathType": "energy",
+				"radius": 155,
+				"shrinkBodies": true
+			}
+		]
+	}
+}

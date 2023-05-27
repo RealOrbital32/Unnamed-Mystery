@@ -1,0 +1,71 @@
+ManifestFileVersion: 0
+CRC: 2332946624
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fba9feb403b74fead6682d9ff9ab1743
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a3667c0a5aa2a7457fda7dd3fb278fc9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 500372b3b1087d375c2f72ed03fa5a23, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a3dbd5d33cd5bb1a8af7dca28fc8752b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Real Stuff/SupplyStation.prefab
+- Assets/Nomai Ruins/Real Stuff/ElectrumTower.prefab
+- Assets/Nomai Ruins/Real Stuff/WorkerHouse_VerB.prefab
+- Assets/Nomai Ruins/Real Stuff/WorkerHouse_VerA.prefab
+- Assets/Nomai Ruins/Real Stuff/WorkerHouse_VerC.prefab
+Dependencies: []

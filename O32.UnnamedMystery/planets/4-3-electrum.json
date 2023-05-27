@@ -1,0 +1,392 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Electrum",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 350,
+		"surfaceGravity": 12,
+		"hasMapMarker": true,
+		"showMinimap": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 3000,
+		"inclination": 1.32,
+		"primaryBody": "Barycenter",
+		"trueAnomaly": 276,
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 98,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 9,
+		"tint": {
+			"r": 240,
+			"g": 206,
+			"b": 38,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/electrum_h.png",
+		"textureMap": "planets/assets/electrum_t.png",
+		"resolution": 300,
+		"minHeight": 290,
+		"maxHeight": 310,
+		"smoothness": 0.8,
+		"metallic": 0.6
+	},
+	"Lava": {
+		"size": 296,
+		"tint": {
+			"r": 242,
+			"g": 141,
+			"b": 82
+		}
+	},
+	"Atmosphere": {
+		"size": 350,
+		"fogSize": 350,
+		"fogDensity": 0.7,
+		"atmosphereSunIntensity": 0.7,
+		"atmosphereTint": {
+			"r": 210,
+			"g": 150,
+			"b": 30
+		},
+		"fogTint": {
+			"r": 210,
+			"g": 150,
+			"b": 30
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [ "tower-rumor-2" ],
+				"revealOn": "observe",
+				"maxDistance": 10,
+				"radius": 20,
+				"position": {
+					"x": -168.1617,
+					"y": -162.8169,
+					"z": -203.2416
+				}
+			},
+			{
+				"reveals": [ "tower-fact-1" ],
+				"revealOn": "enter",
+				"radius": 5,
+				"position": {
+					"x": -195.9672,
+					"y": -169.0124,
+					"z": -211.8203
+				}
+			},
+			{
+				"reveals": [ "outpost-fact-1" ],
+				"revealOn": "enter",
+				"radius": 100,
+				"position": {
+					"x": -262.9928,
+					"y": -151.3036,
+					"z": 13.98122
+				}
+			}
+		]
+	},
+	"Props": {
+		"singularities": [
+			{
+				"horizonRadius": 50,
+				"distortRadius": 350,
+				"type": "blackHole"
+			}
+		],
+		"translatorText": [
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": -180.257,
+					"y": -166.2844,
+					"z": -196.8189
+				},
+				"rotation": {
+					"x": 308.2645,
+					"y": 182.2662,
+					"z": 215.5637
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/elecTower1.xml",
+				"position": {
+					"x": -178.4136,
+					"y": -161.0392,
+					"z": -205.8926
+				},
+				"rotation": {
+					"x": 342.268,
+					"y": 309.0779,
+					"z": 151.171
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/elecTower2.xml",
+				"position": {
+					"x": -177.914,
+					"y": -165.3306,
+					"z": -201.7433
+				},
+				"rotation": {
+					"x": 332.8281,
+					"y": 287.046,
+					"z": 159.68
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/elecTower3.xml",
+				"position": {
+					"x": -210.0827,
+					"y": -184.7814,
+					"z": -225.6967
+				},
+				"rotation": {
+					"x": 300.5898,
+					"y": 215.3473,
+					"z": 187.9769
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/elecTower4.xml",
+				"position": {
+					"x": -191.3761,
+					"y": -152.2975,
+					"z": -199.0201
+				},
+				"rotation": {
+					"x": 59.641,
+					"y": 39.51015,
+					"z": 175.6237
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/elecTower5.xml",
+				"position": {
+					"x": -178.0779,
+					"y": -153.248,
+					"z": -198.8602
+				},
+				"rotation": {
+					"x": 311.2213,
+					"y": 179.8651,
+					"z": 248.3757
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/elecTower6.xml",
+				"position": {
+					"x": -181.1646,
+					"y": -156.8811,
+					"z": -193.9522
+				},
+				"rotation": {
+					"x": 298.3826,
+					"y": 190.8514,
+					"z": 239.3143
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/elecOutpost1.xml",
+				"position": {
+					"x": -255.8052,
+					"y": -163.225,
+					"z": -13.29152
+				},
+				"rotation": {
+					"x": 309.2814,
+					"y": 311.0681,
+					"z": 145.9434
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/elecOutpost2.xml",
+				"position": {
+					"x": -251.3444,
+					"y": -165.2212,
+					"z": 46.51638
+				},
+				"rotation": {
+					"x": 33.72851,
+					"y": 167.4226,
+					"z": 241.6317
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/elecOutpost3.xml",
+				"position": {
+					"x": -265.4724,
+					"y": -145.047,
+					"z": 26.91523
+				},
+				"rotation": {
+					"x": 356.6258,
+					"y": 9.698378,
+					"z": 121.4666
+				}
+			},
+			{
+				"type": "cairnVariant",
+				"xmlFile": "planets/xml/riddleA.xml",
+				"position": {
+					"x": -195.5469,
+					"y": -166.1922,
+					"z": -214.5462
+				},
+				"rotation": {
+					"x": 52.11446,
+					"y": 3.136526,
+					"z": 145.1214
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "ElectrumTower.prefab",
+				"position": {
+					"x": -178.8316,
+					"y": -155.6333,
+					"z": -194.1719
+				},
+				"rotation": {
+					"x": 21.57612,
+					"y": 121.2539,
+					"z": 237.1982
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "WorkerHouse_VerA.prefab",
+				"position": {
+					"x": -247.4954,
+					"y": -171.9256,
+					"z": 35.90612
+				},
+				"rotation": {
+					"x": 328.499,
+					"y": 212.0666,
+					"z": 229.0378
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "WorkerHouse_VerC.prefab",
+				"position": {
+					"x": -250.8297,
+					"y": -163.7365,
+					"z": 44.92692
+				},
+				"rotation": {
+					"x": 348.5685,
+					"y": 204.0316,
+					"z": 237.0198
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "SupplyStation.prefab",
+				"position": {
+					"x": -266.1426,
+					"y": -140.7522,
+					"z": 30.11709
+				},
+				"rotation": {
+					"x": 46.93948,
+					"y": 52.55534,
+					"z": 139.7614
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "WorkerHouse_VerB.prefab",
+				"position": {
+					"x": -267.9498,
+					"y": -143.1548,
+					"z": 7.758484
+				},
+				"rotation": {
+					"x": 49.63985,
+					"y": 41.58817,
+					"z": 145.185
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "SupplyStation.prefab",
+				"position": {
+					"x": -267.4012,
+					"y": -143.7418,
+					"z": -10.08859
+				},
+				"rotation": {
+					"x": 18.60242,
+					"y": 9.77389,
+					"z": 120.1477
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "WorkerHouse_VerA.prefab",
+				"position": {
+					"x": -258.6746,
+					"y": -158.4341,
+					"z": 13.06787
+				},
+				"rotation": {
+					"x": 329.4518,
+					"y": 191.4518,
+					"z": 239.1914
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "WorkerHouse_VerB.prefab",
+				"position": {
+					"x": -257.6459,
+					"y": -158.0788,
+					"z": -14.50699
+				},
+				"rotation": {
+					"x": 37.43255,
+					"y": 28.05408,
+					"z": 131.3297
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/electrum.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/electrum.png",
+			"scale": 0.4,
+			"manualPosition": {
+				"x": 450,
+				"y": -110
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
+	}
+}

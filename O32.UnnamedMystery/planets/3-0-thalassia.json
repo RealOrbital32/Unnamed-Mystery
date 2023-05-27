@@ -1,0 +1,314 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Thalassia",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 620,
+		"surfaceGravity": 15,
+		"hasMapMarker": true,
+		"showMinimap": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 13000,
+		"inclination": 1.32,
+		"primaryBody": "Aetherion",
+		"trueAnomaly": 276,
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 98,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 15,
+		"tint": {
+			"r": 41,
+			"g": 75,
+			"b": 143,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/thalassia_h.png",
+		"textureMap": "planets/assets/thalassia_t.png",
+		"resolution": 600,
+		"minHeight": 520,
+		"maxHeight": 550
+	},
+	"Water": {
+		"size": 530
+	},
+	"Atmosphere": {
+		"hasOxygen": true,
+		"hasTrees": true,
+		"size": 620,
+		"fogSize": 620,
+		"fogDensity": 0.6,
+		"atmosphereSunIntensity": 1,
+		"atmosphereTint": {
+			"r": 50,
+			"g": 80,
+			"b": 200
+		},
+		"fogTint": {
+			"r": 50,
+			"g": 80,
+			"b": 200
+		},
+		"clouds": {
+			"cloudsPrefab": "transparent",
+			"texturePath": "planets/assets/thalassia_g.png",
+			"innerCloudRadius": 0,
+			"outerCloudRadius": 610,
+			"rotationSpeed": -3
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 50,
+				"reveals": [ "ruins-fact-1" ],
+				"revealOn": "enter",
+				"position": {
+					"x": -508.4457,
+					"y": -176.532,
+					"z": 82.61487
+				}
+			},
+			{
+				"radius": 2,
+				"reveals": [ "ruins-fact-4" ],
+				"revealOn": "enter",
+				"position": {
+					"x": -511.0168,
+					"y": -183.8323,
+					"z": 59.99408
+				}
+			}
+		]
+	},
+	"Props": {
+		"remotes": [
+			{
+				"id": "2",
+				"decalPath": "planets/assets/pool_helioplasmia.png",
+				"stones": [
+					{
+						"position": {
+							"x": -511.0168,
+							"y": -183.8323,
+							"z": 59.99408
+						},
+						"rotation": {
+							"x": 46.32787,
+							"y": 22.01913,
+							"z": 110.5919
+						}
+					}
+				]
+			}
+		],
+		"signals": [
+			{
+				"frequency": "EscapePod",
+				"audio": "OW_NM_EscapePodDistressSignal",
+				"name": "Thalassia Ruins",
+				"detectionRadius": 500,
+				"identificationRadius": 20,
+				"position": {
+					"x": -508.4457,
+					"y": -176.532,
+					"z": 82.61487
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/ruins2.xml",
+				"position": {
+					"x": -504.9929,
+					"y": -170.4137,
+					"z": 114.0216
+				},
+				"rotation": {
+					"x": 348.9762,
+					"y": 200.9536,
+					"z": 251.6698
+				}
+			},
+			{
+				"type": "preCrashRecorder",
+				"xmlFile": "planets/xml/ruins3.xml",
+				"position": {
+					"x": -515.2962,
+					"y": -152.0941,
+					"z": 73.27991
+				},
+				"rotation": {
+					"x": 67.36012,
+					"y": 111.0025,
+					"z": 192.1449
+				}
+			},
+			{
+				"type": "cairn",
+				"xmlFile": "planets/xml/ruinsStone.xml",
+				"position": {
+					"x": -510.0351,
+					"y": -184.0951,
+					"z": 58.57367
+				},
+				"rotation": {
+					"x": 31.67959,
+					"y": 15.69371,
+					"z": 106.5662
+				}
+			},
+			{
+				"type": "cairnVariant",
+				"xmlFile": "planets/xml/riddleB.xml",
+				"position": {
+					"x": -511.535,
+					"y": -200.7068,
+					"z": 75.79668
+				},
+				"rotation": {
+					"x": 355.7457,
+					"y": 192.0502,
+					"z": 246.9685
+				}
+			}
+		],
+		"details": [
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
+				"position": {
+					"x": -508.4457,
+					"y": -176.532,
+					"z": 82.61487
+				},
+				"alignRadial": true
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam",
+				"position": {
+					"x": -508.4457,
+					"y": -176.532,
+					"z": 82.61487
+				},
+				"alignRadial": true
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "BasicHouse.prefab",
+				"position": {
+					"x": -509.5925,
+					"y": -159.78,
+					"z": 91.18878
+				},
+				"rotation": {
+					"x": 48.29058,
+					"y": 173.1248,
+					"z": 247.4677
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "BasicHouse.prefab",
+				"position": {
+					"x": -514.4941,
+					"y": -152.5368,
+					"z": 69.94983
+				},
+				"rotation": {
+					"x": 61.37291,
+					"y": 56.00915,
+					"z": 141.8037
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "SmallHouse.prefab",
+				"position": {
+					"x": -512.2455,
+					"y": -165.1934,
+					"z": 56.20569
+				},
+				"rotation": {
+					"x": 43.48679,
+					"y": 51.4306,
+					"z": 140.1821
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "SmallHouse.prefab",
+				"position": {
+					"x": -502.0169,
+					"y": -168.2076,
+					"z": 109.0002
+				},
+				"rotation": {
+					"x": 313.7,
+					"y": 217.1819,
+					"z": 243.4611
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "SmallHouse.prefab",
+				"position": {
+					"x": -505.8728,
+					"y": -183.1195,
+					"z": 59.36609
+				},
+				"rotation": {
+					"x": 23.85199,
+					"y": 13.16357,
+					"z": 105.3846
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "Arch.prefab",
+				"position": {
+					"x": -501.7512,
+					"y": -194.6337,
+					"z": 63.55518
+				},
+				"rotation": {
+					"x": 67.02242,
+					"y": 102.2972,
+					"z": 181.8906
+				}
+			}
+		],
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 40,
+				"minHeight": 530
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"count": 2
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/thalassia.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/thalassia.png",
+			"scale": 0.6,
+			"manualPosition": {
+				"x": 325,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 2,
+				"y": 2
+			}
+		}
+	}
+}

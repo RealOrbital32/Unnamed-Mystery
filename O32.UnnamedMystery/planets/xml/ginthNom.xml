@@ -1,0 +1,11 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>WELBAR: You know what's funny? This moon is tidally locked to the planet it's orbiting.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>WELBAR: Even crazier is the fact that the planet's clouds are perfectly in sync with this moon's orbit.</Text>
+	</TextBlock>
+</NomaiObject>

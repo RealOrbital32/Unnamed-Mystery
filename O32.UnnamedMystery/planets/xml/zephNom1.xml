@@ -1,0 +1,37 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DARVY: Well ringdingding my rear, we've managed to crash TWICE in less than 3 months! What kind of sick luck is this?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BLUH: Dunno but- <![CDATA[<color=red>*heavy wind sounds*</color>]]> Ow, shidunes! Ah, my suit is tearing apart!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DARVY: What on Dyseria is this place? My suit fabric is- <![CDATA[<color=red>*heavy clang*</color>]]> Fudge! My helmet!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text><![CDATA[<color=red>*other Nomai yelling in despair*</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>ARVI: We need to build shelter immediately!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>BLUH: Yeah, no kidding! Wait, woah! Woah! <![CDATA[<color=red>*hard impact on the floor*</color>]]></Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>zephyria-fact-1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

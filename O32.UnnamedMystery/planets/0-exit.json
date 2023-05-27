@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "EXIT",
+	"starSystem": "O32.UnnamedMystery",
+	"Spawn": {
+		"playerSpawn": {
+			"startWithSuit": true,
+			"position": {
+				"x": 100,
+				"y": -800,
+				"z": 100
+			}
+		},
+		"shipSpawn": {
+			"position": {
+				"x": 100,
+				"y": -815,
+				"z": 100
+			}
+		}
+	},
+	"Base": {
+		"surfaceSize": 0,
+		"surfaceGravity": 0,
+		"hasMapMarker": false,
+		"showMinimap": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 20000,
+		"inclination": 56,
+		"primaryBody": "Aetherion",
+		"trueAnomaly": 319,
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": -66,
+		"longitudeOfAscendingNode": 52,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 213,
+		"siderealPeriod": 66,
+		"showOrbitLine": false
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

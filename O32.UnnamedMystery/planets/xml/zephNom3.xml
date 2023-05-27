@@ -1,0 +1,56 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>KRAK: We did it! We're saved!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>UBILE: Not yet. <![CDATA[<color=red>(shouting)</color>]]> Everybody, get inside the building!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DARVY: Huh. Didn't think I'd see the day where we just might have saved our ashes.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>KRAK: Nylox, you coming? Come on, move it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NYLOX: <![CDATA[<color=red>(unintelligible)</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>UBILE: So, how bout that ship we're going to build? Didn't we talk about-</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>KRAK: That's not on our agenda right now. But when we do finally leave this place... You see that?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>UBILE: Oh! The <![CDATA[<color=orange>yellow shiny planet!</color>]]> Could be useful. I see where you're going.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>NYLOX: What did I miss?</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>outpost-rumor</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>zephyria-fact-3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,37 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>UBILE: Is it just me, or is a moon forming from that planet's atmosphere?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>OYVAR: What? That sounds nonsensical. There's no way that a moon can just-</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>OYVAR: Oh. My. Goodness.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>UBILE: See? It's just... growing. Brown gas from the planet is just being sucked into that moon and getting cooled.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>OYVAR: Well, I don't know about you, but I think Helioplasmia just spat out all the pieces that fell into it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>UBILE: Oh, right. I almost forgot about that. So much hard work gone to waste...</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>outpost-fact-2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

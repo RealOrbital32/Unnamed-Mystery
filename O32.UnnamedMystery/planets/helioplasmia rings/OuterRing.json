@@ -1,0 +1,91 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ring1",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 0,
+		"surfaceGravity": 0,
+		"hasMapMarker": false,
+		"showMinimap": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 0.0001,
+		"axialTilt": 67,
+		"primaryBody": "Helioplasmia",
+		"isMoon": true,
+		"siderealPeriod": 2
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"radius": 50,
+				"priority": 5,
+				"layer": 1,
+				"position": {
+					"x": 0.006652832,
+					"y": -209.0999,
+					"z": 1055.515
+				}
+			}
+		]
+	},
+	"Props": {
+		"remotes": [
+			{
+				"id": "2",
+				"decalPath": "planets/assets/pool_helioplasmia.png",
+				"platform": {
+					"reveals": "rings-rumor",
+					"position": {
+						"x": -2.614044,
+						"y": -209.3602,
+						"z": 1062.295
+					},
+					"rotation": {
+						"x": 78.72106,
+						"y": 142.5758,
+						"z": 143.1137
+					}
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "cairnVariant",
+				"xmlFile": "planets/xml/riddle.xml"
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "HelioRing.prefab",
+				"scale": 20,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-helioplasmiacore",
+				"path": "GoofyAhhCylinder.prefab",
+				"scale": 6.5,
+				"keepLoaded": true,
+				"position": {
+					"x": 0.006652832,
+					"y": -209.0999,
+					"z": 1055.515
+				},
+				"rotation": {
+					"x": 303.4963,
+					"y": 283.8468,
+					"z": 253.5334
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

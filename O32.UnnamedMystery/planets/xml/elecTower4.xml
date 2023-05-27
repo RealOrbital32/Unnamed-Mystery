@@ -1,0 +1,45 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>ARVI: I have an idea involving the <![CDATA[<color=orange>white gas giant</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BLUH: What is it? Something to do with its gravity?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>ARVI: Uh, yeah, actually. I was thinking we use the data from the <![CDATA[<color=orange>asteroid base</color>]]> in order to advance further.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>ARVI: Though I do mourn over <![CDATA[<color=green>his</color>]]> death.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>BLUH: We all do, Arvi. So, what's this idea of yours?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>ARVI: Well, it involves building a base <![CDATA[<color=orange>right on the core</color>]]>.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>tower-fact-3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>spacestation-rumor-2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>teraxia-rumor-1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

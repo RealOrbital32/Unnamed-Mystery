@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+
+  "credits": [
+    "Orbital 32#Lead everything",
+    "",
+    "Voice Actors",
+    "Nylox#official.SneakyVase1",
+    "Darvy#theoccupied",
+    "Welbar#Orbital 32",
+    "Zircon#Bunny",
+    "Quiax#To be voiced",
+    "Ubile#To be voiced",
+    "Oyvar#To be voiced",
+    "Krak#FunkyShoeMan",
+    "Rerere#To be voiced",
+    "Bluh#Texture_Turtle",
+    "Irna#To be voiced",
+    "Trov#To be voiced",
+    "Arvi#To be voiced",
+    "Plod#To be voiced",
+    "",
+    "Playtesters"
+  ],
+  "popupMessage": "UNNA-MYST: Hey there! This mod is better experienced with Suit Log and Voice Mod, and is compatible with Funny System, but those are not required. Enjoy!"
+}

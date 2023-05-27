@@ -1,0 +1,95 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>KRAK: I feel like this outpost is/should be our main base of operations.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: What makes you state that?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>KRAK: Well first let's state the obvious: we almost died on the sandstorm planet. This place is the opposite of that.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>KRAK: There's literally no wind, the gravity is perfect, and this whole moon is stone and metal.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NYLOX: Oh, I see. Hold on, let me write that in my journal...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>NYLOX: Wait, made out of stone and metal... Could we extract things from here like copper and iron to build a computer of sorts?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>QUIAX: Hm? Computer you say? I am an expert in those.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>KRAK: Really? Good to know.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>NYLOX: That's perfect! Recently, with all the Ghost Moon findings and stuff, I have been dreaming of a concept to get us out of this place.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>NYLOX: We could forge an Advanced Warp Core and use it to teleport back to Wher.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>QUIAX: What- Why do we need an advanced one specifically?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>NYLOX: Uh... because we need lots of power. But this system is also full of radiation.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>KRAK: Who told you this place is full of radiation?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text>NYLOX: I told myself. I'll have to show you my shoulder once we get to somewhere with oxygen. It's all mutated.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>NYLOX: We should put it on Zephyria! It's closest to the sun!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<Text>QUIAX: What? We almost died there. If you insist, then sure, but it's a bad idea.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>outpost-fact-4</FactID>
+			<Condition>14</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>outpost-fact-3</FactID>
+			<Condition>15</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>gateway-rumor</FactID>
+			<Condition>15</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

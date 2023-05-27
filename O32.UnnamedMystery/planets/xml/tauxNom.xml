@@ -1,0 +1,66 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DARVY: Alas! We've finally finished the construction of the Geothermal Dynamo Generator!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>DARVY: Thanks to the help of Quiax's sister Plod and the master builder Trov, of course. I only came up with the idea.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DARVY: Uh, nonetheless, this thing is supposed to be powered by the tidal forces exerted by what we've named Teraxia.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>DARVY: Both that and geothermal activity. Anyways, that's besides the point.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>DARVY: Today I activate the machine that will be our first steps into the <![CDATA[<color=orange>fourth dimension</color>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>DARVY: If this all goes well, we'll be able to conquer the <![CDATA[<color=orange>Ghost Moon</color>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>DARVY: It may also confirm some of my suspicions. But I should mention this is dangerous, toying around with 4D matter. So if I don't come out alive,</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>DARVY: Nylox. Read my notebook.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>DARVY: <![CDATA[<color=red>(maniacal laughter)</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>DARVY: NOW WE ACTIVATE THE MACHINE!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text><![CDATA[<color=red>(whirring can be heard, followed by a loud crash, and screaming)</color>]]></Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>spacestation-fact-2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ghostmoon-rumor-3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

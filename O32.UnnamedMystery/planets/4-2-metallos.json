@@ -1,0 +1,70 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Metallos",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 170,
+		"surfaceGravity": 6,
+		"hasMapMarker": true,
+		"showMinimap": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1500,
+		"inclination": 3,
+		"primaryBody": "Helioplasmia",
+		"trueAnomaly": 276,
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 98,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 5.5,
+		"tint": {
+			"r": 145,
+			"g": 44,
+			"b": 0,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/metallos_h.png",
+		"textureMap": "planets/assets/metallos_t.png",
+		"resolution": 300,
+		"minHeight": 115,
+		"maxHeight": 140,
+		"metallic": 0.9,
+		"smoothness": 0.55
+	},
+	"Atmosphere": {
+		"hasSnow": true,
+		"size": 145,
+		"fogSize": 145,
+		"fogDensity": 0.1,
+		"atmosphereSunIntensity": 0.1,
+		"atmosphereTint": {
+			"r": 70,
+			"g": 50,
+			"b": 24
+		},
+		"fogTint": {
+			"r": 70,
+			"g": 50,
+			"b": 24
+		}
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/ionos.png",
+			"scale": 0.2,
+			"manualPosition": {
+				"x": 450,
+				"y": -65
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 1
+			}
+		}
+	}
+}

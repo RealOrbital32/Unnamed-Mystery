@@ -1,0 +1,213 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"canEnterViaWarpDrive": true,
+	"travelAudioFilePath": "planets/music/aemutic.wav",
+	"mapRestricted": false,
+	"destroyStockPlanets": true,
+	"enableTimeLoop": true,
+	"respawnHere": true,
+	"loopDuration": 11,
+	"Skybox": {
+		"destroyStarField": true,
+		"rightPath": "planets/assets/dark.png",
+		"leftPath": "planets/assets/dark.png",
+		"topPath": "planets/assets/dark.png",
+		"bottomPath": "planets/assets/dark.png",
+		"frontPath": "planets/assets/dark.png",
+		"backPath": "planets/assets/dark.png"
+	},
+	"curiosities": [
+		{
+			"id": "thalassia",
+			"color": {
+				"r": 35,
+				"g": 64,
+				"b": 168,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 93,
+				"g": 121,
+				"b": 222,
+				"a": 255
+			}
+		},
+		{
+			"id": "zephyria",
+			"color": {
+				"r": 212,
+				"g": 0,
+				"b": 71,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 240,
+				"g": 70,
+				"b": 126,
+				"a": 255
+			}
+		},
+		{
+			"id": "electrum",
+			"color": {
+				"r": 255,
+				"g": 219,
+				"b": 38,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 255,
+				"g": 220,
+				"b": 125,
+				"a": 255
+			}
+		},
+		{
+			"id": "ghost_moon_curiosity",
+			"color": {
+				"r": 120,
+				"g": 150,
+				"b": 120,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 150,
+				"g": 200,
+				"b": 150,
+				"a": 255
+			}
+		},
+		{
+			"id": "taux",
+			"color": {
+				"r": 93,
+				"g": 62,
+				"b": 102,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 176,
+				"g": 126,
+				"b": 191,
+				"a": 255
+			}
+		},
+		{
+			"id": "teraxia",
+			"color": {
+				"r": 138,
+				"g": 228,
+				"b": 255,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 194,
+				"g": 241,
+				"b": 255,
+				"a": 255
+			}
+		},
+		{
+			"id": "helioplasmia",
+			"color": {
+				"r": 115,
+				"g": 0,
+				"b": 222,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 165,
+				"g": 69,
+				"b": 255,
+				"a": 255
+			}
+		}
+	],
+	"initialReveal": [
+		"ruins-rumor"
+	],
+	"entryPositions": [
+		{
+			"id": "ghostmoon-b",
+			"position": {
+				"x": -700.0,
+				"y": -1000.0
+			}
+		},
+		{
+			"id": "ghostmoon-a",
+			"position": {
+				"x": -900.0,
+				"y": -1000.0
+			}
+		},
+		{
+			"id": "spacestation-ghostmoon",
+			"position": {
+				"x": -300.0,
+				"y": -400.0
+			}
+		},
+		{
+			"id": "teraxia-core",
+			"position": {
+				"x": -350.0,
+				"y": 500.0
+			}
+		},
+		{
+			"id": "electrum-outpost",
+			"position": {
+				"x": -800.0
+			}
+		},
+		{
+			"id": "electrum-tower",
+			"position": {
+				"x": -400.0
+			}
+		},
+		{
+			"id": "mining-rings",
+			"position": {
+				"x": 100.0,
+				"y": 100.0
+			}
+		},
+		{
+			"id": "core",
+			"position": {
+				"x": 100.0,
+				"y": -200.0
+			}
+		},
+		{
+			"id": "ginth-hearthian",
+			"position": {
+				"x": -600.0,
+				"y": 200.0
+			}
+		},
+		{
+			"id": "thalassia-ruins",
+			"position": {
+				"x": -1000.0,
+				"y": 400.0
+			}
+		},
+		{
+			"id": "zephyria-gateway",
+			"position": {
+				"x": -1400.0,
+				"y": -200.0
+			}
+		},
+		{
+			"id": "zephyria-ruins",
+			"position": {
+				"x": -1400.0,
+				"y": 100.0
+			}
+		}
+	]
+}

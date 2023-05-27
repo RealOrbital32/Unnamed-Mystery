@@ -1,0 +1,27 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>NYLOX: So. I had to make a new journal, because I forgot the one on that sandy planet.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: Anyways. I am now residing in the <![CDATA[<color=orange>Electrum Tower</color>]]>, so there's that.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NYLOX: Oh, and they've done more research on what we've named the <![CDATA[<color=orange>Ghost Moon</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>NYLOX: Uh... until then, I will be flying to the water planet soon. Scheduled for tomorrow.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>ghostmoon-rumor-1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

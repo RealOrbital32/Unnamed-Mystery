@@ -1,0 +1,502 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Zephyria",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 450,
+		"surfaceGravity": 12,
+		"hasMapMarker": true,
+		"showMinimap": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 9000,
+		"inclination": 1.32,
+		"primaryBody": "Aetherion",
+		"trueAnomaly": 276,
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 52,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 12,
+		"tint": {
+			"r": 255,
+			"g": 51,
+			"b": 112,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/zephyria_h.png",
+		"textureMap": "planets/assets/zephyria_t.png",
+		"resolution": 300,
+		"minHeight": 350,
+		"maxHeight": 450
+	},
+	"Atmosphere": {
+		"size": 500,
+		"fogSize": 500,
+		"fogDensity": 0.4,
+		"atmosphereSunIntensity": 1.2,
+		"atmosphereTint": {
+			"r": 120,
+			"g": 25,
+			"b": 55
+		},
+		"fogTint": {
+			"r": 120,
+			"g": 25,
+			"b": 55
+		},
+		"clouds": {
+			"cloudsPrefab": "transparent",
+			"texturePath": "planets/assets/zephyria_g.png",
+			"innerCloudRadius": 0,
+			"outerCloudRadius": 490,
+			"rotationSpeed": -6
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [ "gateway-fact-1" ],
+				"revealOn": "enter",
+				"radius": 50,
+				"position": {
+					"x": 10.88367,
+					"y": -79.99599,
+					"z": -384.3431
+				}
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+			{
+				"type": "preCrashComputer",
+				"xmlFile": "planets/xml/zephNom1.xml",
+				"position": {
+					"x": -175.557,
+					"y": -85.09772,
+					"z": 343.9775
+				},
+				"rotation": {
+					"x": 59.80249,
+					"y": 85.05843,
+					"z": 114.9135
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/zephNom2.xml",
+				"position": {
+					"x": -65.65112,
+					"y": -122.1322,
+					"z": 369.86
+				},
+				"rotation": {
+					"x": 329.6604,
+					"y": 267.6527,
+					"z": 248.4349
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/zephNom3.xml",
+				"position": {
+					"x": -75.84509,
+					"y": -68.05824,
+					"z": 384.8918
+				},
+				"rotation": {
+					"x": 73.58138,
+					"y": 217.1528,
+					"z": 226.3257
+				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/xml/zephSign1.xml",
+				"position": {
+					"x": -128.235,
+					"y": -79.55936,
+					"z": 362.4218
+				},
+				"rotation": {
+					"x": 26.12504,
+					"y": 239.2185,
+					"z": 244.8302
+				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/xml/zephSign2.xml",
+				"position": {
+					"x": -122.3252,
+					"y": -60.93464,
+					"z": 369.429
+				},
+				"rotation": {
+					"x": 27.33628,
+					"y": 75.76836,
+					"z": 100.1013
+				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/xml/zephSign3.xml",
+				"position": {
+					"x": -75.93958,
+					"y": -101.5165,
+					"z": 372.0773
+				},
+				"rotation": {
+					"x": 323.6003,
+					"y": 260.4756,
+					"z": 252.1885
+				}
+			},
+			{
+				"type": "cairnVariant",
+				"xmlFile": "planets/xml/riddleE.xml",
+				"position": {
+					"x": -159.3047,
+					"y": -45.59696,
+					"z": 379.68
+				},
+				"rotation": {
+					"x": 329.484,
+					"y": 251.9008,
+					"z": 263.4815
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "MainBase.prefab",
+				"position": {
+					"x": -69.06807,
+					"y": -78.80684,
+					"z": 379.6873
+				},
+				"rotation": {
+					"x": 58.01575,
+					"y": 241.0536,
+					"z": 248.377
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -26.90044,
+					"y": -90.31512,
+					"z": 382.8715
+				},
+				"rotation": {
+					"x": 0.6933494,
+					"y": 265.2419,
+					"z": 256.379
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "ReallyRuinedHouse.prefab",
+				"position": {
+					"x": -29.74202,
+					"y": -104.9089,
+					"z": 378.9135
+				},
+				"rotation": {
+					"x": 354.823,
+					"y": 266.7543,
+					"z": 255.0866
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -33.72888,
+					"y": -120.5921,
+					"z": 374.8795
+				},
+				"rotation": {
+					"x": 354.6464,
+					"y": 266.2365,
+					"z": 260.2464
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -50.26912,
+					"y": -136.9882,
+					"z": 367.2485
+				},
+				"rotation": {
+					"x": 282.4113,
+					"y": 1.304379,
+					"z": 162.1691
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -70.99649,
+					"y": -123.1116,
+					"z": 367.061
+				},
+				"rotation": {
+					"x": 311.4291,
+					"y": 54.074,
+					"z": 118.6484
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "ReallyRuinedHouse.prefab",
+				"position": {
+					"x": -83.1607,
+					"y": -115.1413,
+					"z": 365.5832
+				},
+				"rotation": {
+					"x": 307.5951,
+					"y": 50.29961,
+					"z": 119.0251
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "MassPlanting.prefab",
+				"position": {
+					"x": -104.608,
+					"y": -103.4163,
+					"z": 363.7182
+				},
+				"rotation": {
+					"x": 316.0651,
+					"y": 59.71232,
+					"z": 110.968
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "MassPlanting.prefab",
+				"position": {
+					"x": -129.9923,
+					"y": -57.199,
+					"z": 367.8423
+				},
+				"rotation": {
+					"x": 23.69603,
+					"y": 74.67472,
+					"z": 98.60559
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "Tower.prefab",
+				"position": {
+					"x": -157.3832,
+					"y": -39.32546,
+					"z": 359.4761
+				},
+				"rotation": {
+					"x": 351.4588,
+					"y": 67.73452,
+					"z": 95.67561
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -126.5709,
+					"y": -18.29816,
+					"z": 372.5078
+				},
+				"rotation": {
+					"x": 72.20327,
+					"y": 253.5733,
+					"z": 272.3552
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "ReallyRuinedHouse.prefab",
+				"position": {
+					"x": -98.16617,
+					"y": -23.14642,
+					"z": 380.8203
+				},
+				"rotation": {
+					"x": 84.3952,
+					"y": 220.9111,
+					"z": 233.0441
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -66.7556,
+					"y": -1.543401,
+					"z": 385.8925
+				},
+				"rotation": {
+					"x": 79.14913,
+					"y": 118.554,
+					"z": 123.4511
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "ReallyRuinedHouse.prefab",
+				"position": {
+					"x": -52.91619,
+					"y": 13.76762,
+					"z": 389.0551
+				},
+				"rotation": {
+					"x": 59.74656,
+					"y": 70.17432,
+					"z": 85.89026
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "ReallyRuinedHouse.prefab",
+				"position": {
+					"x": -38.58163,
+					"y": 30.54127,
+					"z": 391.196
+				},
+				"rotation": {
+					"x": 76.67371,
+					"y": 65.60509,
+					"z": 70.62484
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
+				"removeChildren": [ "Interactibles_EscapePod/Prefab_NOM_Vessel_ComputerProps_NOM_Vessel_Computer 1" ],
+				"position": {
+					"x": -168.6379,
+					"y": -94.92142,
+					"z": 345.3428
+				},
+				"rotation": {
+					"x": 53.26292,
+					"y": 83.36404,
+					"z": 114.771
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "Gateway.prefab",
+				"position": {
+					"x": -18.09116,
+					"y": -81.14132,
+					"z": -383.0274
+				},
+				"rotation": {
+					"x": 9.426567,
+					"y": 90.17652,
+					"z": 257.4078
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "FuelCells.prefab",
+				"position": {
+					"x": 51.83006,
+					"y": -100.1423,
+					"z": -377.246
+				},
+				"rotation": {
+					"x": 317.8715,
+					"y": 245.283,
+					"z": 113.9402
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "FuelCells.prefab",
+				"position": {
+					"x": 56.14805,
+					"y": -71.8478,
+					"z": -384.2654
+				},
+				"rotation": {
+					"x": 13.71174,
+					"y": 270.3372,
+					"z": 100.5141
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "FuelCells.prefab",
+				"position": {
+					"x": 28.74406,
+					"y": -104.8572,
+					"z": -377.3799
+				},
+				"rotation": {
+					"x": 290.8831,
+					"y": 221.349,
+					"z": 135.9749
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "FuelCells.prefab",
+				"position": {
+					"x": 33.14839,
+					"y": -80.71404,
+					"z": -383.7242
+				},
+				"rotation": {
+					"x": 8.264686,
+					"y": 267.3199,
+					"z": 102.5769
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "FuelCells.prefab",
+				"position": {
+					"x": 38.08723,
+					"y": -52.08056,
+					"z": -389.0945
+				},
+				"rotation": {
+					"x": 47.56313,
+					"y": 285.7042,
+					"z": 110.2634
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/zephyria.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/zephyria.png",
+			"scale": 0.5,
+			"manualPosition": {
+				"x": 225,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 2
+			}
+		}
+	}
+}

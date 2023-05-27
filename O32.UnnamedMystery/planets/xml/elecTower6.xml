@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>WELBAR: Am I the only one who hears that humming sound?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>WELBAR: It sounds strange, but... I wouldn't doubt that it's a black hole.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>BLUH: Don't be silly, black holes don't make sound. But solid matter does.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: Uh... no.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>RERERE: What do you mean? <![CDATA[<color=red>(obnoxious chuckle)</color>]]> I hear nothing!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>WELBAR: But then this whole moon would be gone by now, wouldn't it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>3</ParentID>
+		<Text>RERERE: Solid as in state of matter? <![CDATA[<color=red>(loud snort)</color>]]></Text>
+	</TextBlock>
+</NomaiObject>

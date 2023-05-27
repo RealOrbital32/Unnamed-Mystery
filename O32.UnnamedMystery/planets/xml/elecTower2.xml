@@ -1,0 +1,55 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DARVY: Heh. Get this, the <![CDATA[<color=orange>Ghost Moon</color>]]> is completely mucked up.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>DARVY: From what we've gathered, it appears as if we need a higher level of technology to investigate.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DARVY: Or should I say a <![CDATA[<color=orange>higher dimension</color>]]> of technology.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text><![CDATA[<color=red>(a pillar can be heard falling)</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>PLOD: Oops... sorry.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>DARVY: <![CDATA[<color=red>(sigh)</color>]]> Well, anyways, I think we'll have to build <![CDATA[<color=orange>a space station</color>]]> of sorts.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>DARVY: You know, because of the space. Pun not intended.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>DARVY: Actually, better idea, we should build a base on that <![CDATA[<color=orange>asteroid orbiting the white gas giant</color>]]>.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>tower-fact-2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>spacestation-rumor</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ghostmoon-rumor-2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

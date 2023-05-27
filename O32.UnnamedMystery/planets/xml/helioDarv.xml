@@ -1,0 +1,87 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DARVY: What- What is this place?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>DARVY: Agh, my arm hurts... Why is it so dark?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DARVY: You know what? No. I'm the one who created that portal. I can do this.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>DARVY: Let's see here, where's my headlamp? There we go. Now I can see.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>DARVY: I have no clue where I am. The atmosphere is thick and electrified, though.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>DARVY: Maybe if I continue forward I will-</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text><![CDATA[<color=red>(crash)</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>DARVY: Ow! There's a flipping wall here! Why is it so dense?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>DARVY: I need to call for back-up. My radio... the radio... Aha!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>DARVY: Hello? Anybody at base? Anybody?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>DARVY: Oh no... I'm not getting any response. No static either.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>DARVY: Don't panic. Don't panic. Don't panic.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>DARVY: I won't die. I won't die. I won't die.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text><![CDATA[<color=red>(a low, ominous humming can be heard)</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>DARVY: AAAAAHHHHHHH!!! GET AWAY FROM ME!!!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<Text><![CDATA[<color=red>(blood splatter)</color>]]></Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>spacestation-fact-4</FactID>
+			<Condition>15</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,16 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RERERE: <![CDATA[<color=red>(strange chuckle)</color>]]> So um, we've done research on the <![CDATA[<color=orange>Ghost Moon</color>]]> and uh...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>RERERE: It has a strange property that we must investigate further.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>RERERE: I think we can- <![CDATA[<color=red>(obnoxious cough)</color>]]> ...maybe send a ship to it?</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,279 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Zircon</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hm?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>How did you get here?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Feldspar?!</Text>
+				<DialogueTarget>7</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>zephyria-fact-1</RequiredLogCondition>
+				<Text>I found something!</Text>
+				<DialogueTarget>FOUND</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>See you later.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<RevealFacts>
+			<FactID>ginth-fact-2</FactID>
+		</RevealFacts>
+		<Dialogue>
+			<Page>Well, this place is pretty undiscoverable by default. Did you perchance go into a black hole?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh, I guess? Seems like this place is a solar system cutoff from the universe.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Well no kidding. Say, you're the one with the ship here, so may I ask you a favor?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah, sure, what is it.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>So, long story short, I was whizzing around the outer solar system, when suddenly I crash into some ghostly planet.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>How were you not trapped there?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Well, you see, the back end of my ship got lodged in there, while the front half got sent flying forward. Somehow, I crashed near here.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Ok, so what's the favor?</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Get my radio from that ghostly moon. It's urgent.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...</Text>
+				<DialogueTarget>6</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>6</Name>
+		<RevealFacts>
+			<FactID>tower-rumor</FactID>
+		</RevealFacts>
+		<Dialogue>
+			<Page>Oh, right. I spotted a tall tower of unknown height on that gold-looking planet not long ago. That may get you somewhere.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Thanks.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>tower-fact-1</RequiredLogCondition>
+				<Text>I already went there?</Text>
+				<DialogueTarget>F2-4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>7</Name>
+		<Dialogue>
+			<Page>Feldspar? Haha, that's the funniest thing I've ever heard!</Page>
+			<Page>Not really. I've heard it a million times.</Page>
+			<Page>Feldpar is my 2nd cousin. We just so happen to look alike.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FOUND</Name>
+		<Dialogue>
+			<Page>Oh? Go on, tell me. It just might spark my curiosity.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>outpost-fact-1</RequiredLogCondition>
+				<Text>I found a Nomai colony on that golden moon.</Text>
+				<DialogueTarget>F1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>tower-fact-1</RequiredLogCondition>
+				<Text>There was a huge tower on the golden moon.</Text>
+				<DialogueTarget>F2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>spacestation-fact-1</RequiredLogCondition>
+				<Text>I found a black hole that takes you to the core of Helioplasmia.</Text>
+				<DialogueTarget>F3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nevermind, I forgot.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F1</Name>
+		<Dialogue>
+			<Page>Oh, there was? Wonder how they got there.</Page>
+			<Page>Probably used it for mining or something.</Page>
+			<Page>Eh, who knows? Let me know if you find anything else.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>They did actually use it for mining. So,</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F2</Name>
+		<Dialogue>
+			<Page>Really? Can't imagine how tall it is.</Page>
+			<Page>What was it used for?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Something about a "ghost moon" and some strange property.</Text>
+				<DialogueTarget>F2-2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F2-2</Name>
+		<Dialogue>
+			<Page>Ghost moon? Sounds crazy. But there has been wandering moon around here.</Page>
+			<Page>Wouldn't doubt what the Nomai are saying is true.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Huh.</Text>
+				<DialogueTarget>F2-3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F2-3</Name>
+		<Dialogue>
+			<Page>In fact, I actually crashed into that ghost moon, or at least I think so.</Page>
+			<Page>I was in the outer solar system, so...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>How did you not get trapped?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>F2-4</Name>
+		<Dialogue>
+			<Page>Oh, sorry, haha! I'm old, my memory is a little fuzzy.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No problem.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>F3</Name>
+		<Dialogue>
+			<Page>Oh really? You can't just fly down there yourself? Why and where would you need a black hole?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The core of Helioplasmia is completely shut off from the world.</Text>
+				<DialogueTarget>F3-2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>F3-2</Name>
+		<Dialogue>
+			<Page>Wait... then how did you get... out?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh... Anyways! The black hole was in a building on an asteroid colony. It was to access the Ghost Moon.</Text>
+				<DialogueTarget>F3-3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>F3-3</Name>
+		<Dialogue>
+			<Page>Ah, another Ghost Moon predicament, eh? They sure are persistent.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>So,</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Ok, see you around, pal!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

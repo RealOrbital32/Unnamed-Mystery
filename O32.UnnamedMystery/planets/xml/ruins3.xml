@@ -1,0 +1,51 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>WELBAR: Gosh darn it, just when I thought we were onto something.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>WELBAR: The stupid vessel went all crazy and sent our escape pod flying into space, when suddenly we teleport and end up here.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>IRNA: You know, Welbar, I think we weren't the only escape pod to crash.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>WELBAR: How so?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>IRNA: I may have caught a glimpse of another pod as we were teleporting.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>WELBAR: Well gosh digity dangit, I guess we have to-</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>QUIAX: Hey guys, do you see that?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>QUIAX: There's an escape pod crashing on that <![CDATA[<color=orange>desert planet</color>]]>!</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>ruins-fact-3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>zephyria-rumor</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,50 @@
+{
+	"name": "Aetherion",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 3000,
+		"surfaceGravity": 35,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Star": {
+		"hasAtmosphere": true,
+		"lightRadius": 150000,
+		"size": 3000,
+		"solarLuminosity": 0.75,
+		"supernovaTint": {
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 255
+		},
+		"tint": {
+			"r": 58,
+			"g": 194,
+			"b": 146,
+			"a": 0
+		},
+		"lifespan": 11,
+		"supernovaSize": 150000,
+		"supernovaSpeed": 1000
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/aetherion.png",
+			"scale": 3,
+			"manualPosition": {
+				"x": 0,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 2
+			}
+		}
+	}
+}

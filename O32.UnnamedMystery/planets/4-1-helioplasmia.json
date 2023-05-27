@@ -1,0 +1,146 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Helioplasmia",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 800,
+		"surfaceGravity": 21,
+		"hasMapMarker": true,
+		"showMinimap": true
+	},
+	"AmbientLights": [
+		{
+			"isShell": true,
+			"innerRadius": 290,
+			"outerRadius": 800,
+			"intensity": 1,
+			"tint": {
+				"r": 210,
+				"g": 100,
+				"b": 240
+			}
+		},
+		{
+			"innerRadius": 0,
+			"outerRadius": 4,
+			"intensity": 0.4,
+			"position": {
+				"x": 25,
+				"y": 36,
+				"z": 47
+			}
+		}
+	],
+	"Orbit": {
+		"semiMajorAxis": 10,
+		"inclination": 1.32,
+		"primaryBody": "Barycenter",
+		"trueAnomaly": 276,
+		"isMoon": true,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 98,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 7,
+		"tint": {
+			"r": 166,
+			"g": 0,
+			"b": 255,
+			"a": 255
+		}
+	},
+	"Atmosphere": {
+		"size": 800,
+		"fogSize": 800,
+		"fogDensity": 1,
+		"atmosphereSunIntensity": 1,
+		"atmosphereTint": {
+			"r": 210,
+			"g": 50,
+			"b": 240
+		},
+		"fogTint": {
+			"r": 210,
+			"g": 50,
+			"b": 240
+		},
+		"clouds": {
+			"cloudsPrefab": "giantsDeep",
+			"capPath": "planets/assets/helioplasmia_c.png",
+			"texturePath": "planets/assets/helioplasmia_g.png",
+			"innerCloudRadius": 690,
+			"outerCloudRadius": 790,
+			"hasLightning": true,
+			"tint": {
+				"r": 210,
+				"g": 100,
+				"b": 240
+			}
+		}
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"radius": 95
+			}
+		],
+		"revealVolumes": [
+			{
+				"radius": 50,
+				"reveals": [ "spacestation-fact-3", "this-rumor-is-just-to-link-the-stuff" ],
+				"revealOn": "enter"
+			}
+		],
+		"reverbVolumes": [
+			{
+				"radius": 95
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+			{
+				"xmlFile": "planets/xml/helioDarv.xml",
+				"type": "recorder",
+				"position": {
+					"x": 25,
+					"y": 36,
+					"z": 47
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-helioplasmiacore",
+				"path": "hollow3.prefab",
+				"scale": 5,
+				"keepLoaded": true
+			}
+		],
+		"singularities": [
+			{
+				"horizonRadius": 5,
+				"type": "whiteHole",
+				"uniqueID": "helioplasmia-core",
+				"pairedSingularity": "spacestation-1"
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/helioplasmia.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/helioplasmia.png",
+			"scale": 0.8,
+			"manualPosition": {
+				"x": 450,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 2
+			}
+		}
+	}
+}

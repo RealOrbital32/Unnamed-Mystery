@@ -1,0 +1,197 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Taux",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 45,
+		"surfaceGravity": 3,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1250,
+		"inclination": 5,
+		"primaryBody": "Teraxia",
+		"trueAnomaly": 27,
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 98,
+			"g": 90,
+			"b": 107,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/taux_h.png",
+		"textureMap": "planets/assets/taux_t.png",
+		"minHeight": 40,
+		"maxHeight": 45
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 5,
+				"reveals": [ "spacestation-fact-1" ],
+				"revealOn": "enter",
+				"position": {
+					"x": -35.26839,
+					"y": 29.88556,
+					"z": 6.691902
+				}
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+			{
+				"xmlFile": "planets/xml/tauxNom.xml",
+				"type": "recorder",
+				"position": {
+					"x": -35.52447,
+					"y": 25.92817,
+					"z": 6.487786
+				},
+				"rotation": {
+					"x": 359.4367,
+					"y": 7.0874,
+					"z": 55.25861
+				}
+			},
+			{
+				"type": "cairnVariant",
+				"xmlFile": "planets/xml/riddleC.xml",
+				"position": {
+					"x": -30.32444,
+					"y": 21.66107,
+					"z": 16.61344
+				},
+				"rotation": {
+					"x": 45.14261,
+					"y": 336.6884,
+					"z": 30.34571
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "DynamoLab.prefab",
+				"position": {
+					"x": -29.99018,
+					"y": 26.27341,
+					"z": 6.15014
+				},
+				"rotation": {
+					"x": 34.09726,
+					"y": 338.6979,
+					"z": 46.51641
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "GeothermalLab.prefab",
+				"position": {
+					"x": -25.00192,
+					"y": 29.47477,
+					"z": -10.30255
+				},
+				"rotation": {
+					"x": 6.198059,
+					"y": 330.8067,
+					"z": 42.16611
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "GeothermalLab.prefab",
+				"position": {
+					"x": -26.63353,
+					"y": 18.55873,
+					"z": -24.06867
+				},
+				"rotation": {
+					"x": 333.5318,
+					"y": 332.1426,
+					"z": 70.1687
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "GeothermalLab.prefab",
+				"position": {
+					"x": -19.13952,
+					"y": 16.08903,
+					"z": -32.69999
+				},
+				"rotation": {
+					"x": 63.06942,
+					"y": 251.2482,
+					"z": 35.1624
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "GeothermalLab.prefab",
+				"position": {
+					"x": -0.9642086,
+					"y": 24.162,
+					"z": -34.49659
+				},
+				"rotation": {
+					"x": 330.8901,
+					"y": 95.01506,
+					"z": 307.7187
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "GeothermalLab.prefab",
+				"position": {
+					"x": 20.05025,
+					"y": 25.00233,
+					"z": -26.99619
+				},
+				"rotation": {
+					"x": 46.44281,
+					"y": 146.8429,
+					"z": 1.26598
+				}
+			}
+		],
+		"singularities": [
+			{
+				"horizonRadius": 0.75,
+				"distortRadius": 1.25,
+				"type": "blackHole",
+				"uniqueID": "spacestation-1",
+				"pairedSingularity": "helioplasmia-core",
+				"position": {
+					"x": -35.26839,
+					"y": 29.88556,
+					"z": 6.691902
+				},
+				"rotation": {
+					"x": 349.7894,
+					"y": 177.1672,
+					"z": 303.6429
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/taux.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/taux.png",
+			"scale": 0.1,
+			"manualPosition": {
+				"x": 600,
+				"y": -60
+			},
+			"manualNavigationPosition": {
+				"x": 4,
+				"y": 1
+			}
+		}
+	}
+}

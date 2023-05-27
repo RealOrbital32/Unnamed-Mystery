@@ -1,0 +1,37 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>NYLOX: It's been four days since the crash, and we're running out of supplies. Namely, oxygen. They've gone so far as to plant all the tree seeds they have.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: I'm using this as a journal for anybody to find if we die. I feel bad for anybody else unfortunate enough to crash here.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NYLOX: Over the past few days, the rest of us Nomai have been trying to build shelter to no avail.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>NYLOX: Over that time, we've occasionally seen a slightly-green tinted moon that tends to "wander about". It's nothing like that <![CDATA[<color=pink>Quantum Lean.</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NYLOX: Anyways, where was I? Right. The top of the tribe are devising a building three-layers thick, and four stories high, that will house all of us.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>NYLOX: It's our only hope. I'll update my journal if I come out of this... not dead.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>zephyria-fact-2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

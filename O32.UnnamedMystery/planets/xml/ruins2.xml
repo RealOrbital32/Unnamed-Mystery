@@ -1,0 +1,31 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TROV: Hey, what should our next project be? I mean, we finished the basic structure of the colony;</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>TROV: We have houses, agriculture, and a crude mining site, though it doesn't pull out much.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>OYVAR: Ah yes, that's it! We could go to that moon above us and mine there! Chances are, it has lots of metal.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>TROV: Good thinking as always, Oyvar! Let's get started.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>ruins-fact-2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ginth-rumor</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,168 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ginth",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 150,
+		"surfaceGravity": 6,
+		"hasMapMarker": true,
+		"showMinimap": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 2000,
+		"inclination": 1.32,
+		"primaryBody": "Thalassia",
+		"trueAnomaly": 315,
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 13,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"tint": {
+			"r": 168,
+			"g": 128,
+			"b": 111,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/ginth_h.png",
+		"textureMap": "planets/assets/ginth_t.png",
+		"resolution": 300,
+		"minHeight": 150,
+		"maxHeight": 200
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 50,
+				"reveals": [ "ginth-fact-1" ],
+				"revealOn": "enter",
+				"position": {
+					"x": 57.93298,
+					"y": -154.1217,
+					"z": 38.12156
+				}
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/ginthNom.xml",
+				"position": {
+					"x": 49.7405,
+					"y": -155.2043,
+					"z": 48.04736
+				},
+				"rotation": {
+					"x": 15.47268,
+					"y": 176.5731,
+					"z": 156.6629
+				}
+			},
+			{
+				"type": "cairnVariant",
+				"xmlFile": "planets/xml/riddle.xml"
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/Zircon.xml",
+				"position": {
+					"x": 58.92381,
+					"y": -153.2901,
+					"z": 40.14618
+				}
+			}
+		],
+		"details": [
+			{
+				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
+				"position": {
+					"x": 58.92381,
+					"y": -153.2901,
+					"z": 40.14618
+				},
+				"rotation": {
+					"x": 0.5490942,
+					"y": 123.2315,
+					"z": 159.6667
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "BasicHouse.prefab",
+				"position": {
+					"x": 45.90118,
+					"y": -156.0722,
+					"z": 46.935
+				},
+				"rotation": {
+					"x": 5.277223,
+					"y": 154.9792,
+					"z": 152.7105
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "SmallHouse.prefab",
+				"position": {
+					"x": 43.53159,
+					"y": -160.2757,
+					"z": 32.65539
+				},
+				"rotation": {
+					"x": 342.8203,
+					"y": 60.81912,
+					"z": 180.174
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"path": "SmallHouse.prefab",
+				"position": {
+					"x": 50.37846,
+					"y": -159.7244,
+					"z": 24.61702
+				},
+				"rotation": {
+					"x": 348.3202,
+					"y": 31.43725,
+					"z": 189.8822
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"position": {
+					"x": 57.93298,
+					"y": -154.1217,
+					"z": 38.12156
+				},
+				"rotation": {
+					"x": 348.924,
+					"y": 89.87598,
+					"z": 162.8315
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/ginth.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/ginth.png",
+			"scale": 0.2,
+			"manualPosition": {
+				"x": 325,
+				"y": -55
+			},
+			"manualNavigationPosition": {
+				"x": 2,
+				"y": 1
+			}
+		}
+	}
+}

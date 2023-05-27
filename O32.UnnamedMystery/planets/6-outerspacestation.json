@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Outer Space Station",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 45,
+		"surfaceGravity": 3,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 26000,
+		"inclination": 15,
+		"primaryBody": "Aetherion",
+		"trueAnomaly": 27,
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 98,
+			"g": 90,
+			"b": 107,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/taux_h.png",
+		"textureMap": "planets/assets/taux_t.png",
+		"minHeight": 40,
+		"maxHeight": 45
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 5,
+				"reveals": [ "spacestation-fact-1" ],
+				"revealOn": "enter",
+				"position": {
+					"x": -35.26839,
+					"y": 29.88556,
+					"z": 6.691902
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/taux.png",
+			"scale": 0.5,
+			"manualPosition": {
+				"x": 750,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 5,
+				"y": 2
+			}
+		}
+	}
+}

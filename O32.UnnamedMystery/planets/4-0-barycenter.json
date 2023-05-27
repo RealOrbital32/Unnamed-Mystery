@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Barycenter",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 0,
+		"surfaceGravity": 0
+	},
+	"Orbit": {
+		"semiMajorAxis": 19000,
+		"inclination": 1.32,
+		"primaryBody": "Aetherion",
+		"trueAnomaly": 14,
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"axialTilt": 0,
+		"longitudeOfAscendingNode": 98,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+		"siderealPeriod": 10,
+		"tint": {
+			"r": 10,
+			"g": 99,
+			"b": 79,
+			"a": 255
+		}
+	},
+	"FocalPoint": {
+		"primary": "Helioplasmia",
+		"secondary": "Electrum"
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	}
+}

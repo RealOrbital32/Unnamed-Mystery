@@ -79,6 +79,38 @@
 			}
 		}
 	},
+	"Rings": [
+		{
+			"texture": "planets/assets/copperdust.png",
+			"fluidType": "sand",
+			"unlit": true,
+			"inclination": 44,
+			"innerRadius": 0,
+			"outerRadius": 310,
+			"rotationSpeed": 4,
+			"longitudeOfAscendingNode": 118
+		},
+		{
+			"texture": "planets/assets/copperdust.png",
+			"fluidType": "sand",
+			"unlit": true,
+			"inclination": 111,
+			"innerRadius": 0,
+			"outerRadius": 460,
+			"rotationSpeed": 3,
+			"longitudeOfAscendingNode": 312
+		},
+		{
+			"texture": "planets/assets/copperdust.png",
+			"fluidType": "sand",
+			"unlit": true,
+			"inclination": 153,
+			"innerRadius": 0,
+			"outerRadius": 650,
+			"rotationSpeed": 2,
+			"longitudeOfAscendingNode": 46
+		}
+	],
 	"Volumes": {
 		"zeroGravityVolumes": [
 			{
@@ -94,6 +126,13 @@
 		],
 		"reverbVolumes": [
 			{
+				"radius": 95
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/HelioplasmiaCore.wav",
+				"loop": true,
 				"radius": 95
 			}
 		]

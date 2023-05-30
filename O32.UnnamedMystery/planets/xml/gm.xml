@@ -1,0 +1,47 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>QUIAX: We- We're safe?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>QUIAX: We're safe! We aren't dead!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NYLOX: Well I guess it worked.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>WELBAR: Wowee! I didn't think that'd work!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>QUIAX: This is the final celestial object we have yet to conquer.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>NYLOX: So shall we get building?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>5</ParentID>
+		<Text>WELBAR: Yeah, let's build!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>6</ParentID>
+		<Text>NYLOX: Also, I call lead colony supervisor.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>gmc-fact-1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

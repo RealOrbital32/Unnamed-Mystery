@@ -83,7 +83,7 @@
 		],
 		"destructionVolumes": [
 			{
-				"deathType": "energy",
+				"deathType": "crushed",
 				"radius": 155,
 				"shrinkBodies": true
 			}

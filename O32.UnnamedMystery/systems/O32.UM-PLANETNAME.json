@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"canEnterViaWarpDrive": false,
+	"mapRestricted": true,
+	"destroyStockPlanets": true,
+	"enableTimeLoop": false,
+	"respawnHere": true,
+	"loopDuration": 5000,
+	"Skybox": {
+		"destroyStarField": true,
+		"rightPath": "planets/assets/dark.png",
+		"leftPath": "planets/assets/dark.png",
+		"topPath": "planets/assets/dark.png",
+		"bottomPath": "planets/assets/dark.png",
+		"frontPath": "planets/assets/dark.png",
+		"backPath": "planets/assets/dark.png"
+	}
+}

@@ -3,7 +3,7 @@
 	"name": "Ring3",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 0,
+		"surfaceSize": 950,
 		"surfaceGravity": 0,
 		"hasMapMarker": false,
 		"showMinimap": false

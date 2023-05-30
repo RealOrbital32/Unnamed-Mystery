@@ -55,7 +55,7 @@
 	},
 	"ShipLog": {
 		"mapMode": {
-			"revealedSprite": "planets/logs/mapmode/ionos.png",
+			"revealedSprite": "planets/logs/mapmode/metallos.png",
 			"scale": 0.2,
 			"manualPosition": {
 				"x": 450,

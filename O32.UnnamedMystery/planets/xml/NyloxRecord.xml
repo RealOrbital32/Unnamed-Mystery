@@ -1,0 +1,152 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Recorder</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+			
+		<Dialogue>
+			<Page>My name is Nylox. I don't know how anybody would have gotten here, consider yourself lucky.</Page>
+			<Page>Our ship randomly exploded without reason. Some supernatural force is at play here.</Page>
+			<Page>We are destined to die here. If you are translating this, know this:</Page>
+			<Page>I have installed buttons on this recorder with the help of my friend Quiax.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>NEXT</Text>
+				<DialogueTarget>ZERO</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ZERO</Name>
+		
+		<RevealFacts>
+			<FactID>gmc-nylox-fact-1</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>Each button does something different. It will give all the information I know.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Ghost Moon</Text>
+				<DialogueTarget>A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Outer Space Station</Text>
+				<DialogueTarget>B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nylox</Text>
+				<DialogueTarget>C</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Darvy</Text>
+				<DialogueTarget>D</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Shut off recorder</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>A</Name>
+		
+		<RevealFacts>
+			<FactID>gmc-nylox-fact-2</FactID>
+		</RevealFacts>
+			
+		<Dialogue>
+			<Page>The Ghost Moon, to my knowledge, is an object comprised of 4D matter.</Page>
+			<Page>When it moves around the system, it changes size as it moves across the 4th dimension into our plane of existence.</Page>
+			<Page>However, when it is in this position, it is perfectly aligned with the 3rd dimension.</Page>
+			<Page>The 4D matter is what kills living beings. You can't see it... but it's there. And it's deadly.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Back to MAIN</Text>
+				<DialogueTarget>ZERO</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>B</Name>
+		
+		<RevealFacts>
+			<FactID>gmc-nylox-fact-3</FactID>
+		</RevealFacts>
+			
+		<Dialogue>
+			<Page>I have to admit... I did delete some archives from the Outer Space Station.</Page>
+			<Page>It was too dangerous. So at least I thought. Now I realize that it's safe.</Page>
+			<Page>Quiax was the one who found out about the safety of this location.</Page>
+			<Page>The machine on board the station didn't process any 4D matter when getting the data.</Page>
+			<Page>That's how we found out it was safe.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Back to MAIN</Text>
+				<DialogueTarget>ZERO</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>C</Name>
+		<Dialogue>
+			<Page>I am a Nomai. Three eyes and some horns and fur. We are known for being an interstellar civilization.</Page>
+			<Page>Before we got trapped here, though, I had crashed previously on a planet we named Wher.</Page>
+			<Page>The whole system was extremely weird. Five stars packed tightly together. A strange teleporting moon that was purple.</Page>
+			<Page>We crashed twice in one trip.</Page>
+			<Page>I hope I can see my parents soon...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Back to MAIN</Text>
+				<DialogueTarget>ZERO</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>D</Name>
+		
+		<RevealFacts>
+			<FactID>gmc-nylox-fact-4</FactID>
+		</RevealFacts>
+			
+		<Dialogue>
+			<Page>Darvy was basically a brother to me. He was a scientist with brilliant ideas, though a little crazy.</Page>
+			<Page>I remember the day I found out he had died from toying around with 4D matter.</Page>
+			<Page>I don't have the words to describe it.</Page>
+			<Page>But I was honored to find out that he wanted me to read his notebook. He always kept it secret.</Page>
+			<Page>So here I confess: I have know something about the Ghost Moon that everybody else doesn't.</Page>
+			<Page>Darvy had found out that there is a link between the Ghost Moon and a planet outside of... wherever we are.</Page>
+			<Page>He found that out in an experiment just before he died. He asked me to build a machine to access that link.</Page>
+			<Page>And... that's what I did. Darvy was smart, he wrote down all the steps required to build it.</Page>
+			<Page>Even though I did have to ask Quiax to help a little... I still kept it secret.</Page>
+			<Page>The building is somewhere on this planet. It harnesses the 4D matter in the core to access the link.</Page>
+			<Page>Be careful.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Back to MAIN</Text>
+				<DialogueTarget>ZERO</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>(shutting down)</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

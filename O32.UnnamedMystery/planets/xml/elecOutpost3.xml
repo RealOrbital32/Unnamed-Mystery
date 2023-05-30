@@ -76,7 +76,7 @@
 	<TextBlock>
 		<ID>16</ID>
 		<ParentID>15</ParentID>
-		<Text>QUIAX: What? We almost died there. If you insist, then sure, but it's a bad idea.</Text>
+		<Text>QUIAX: What!? We almost died there! If you insist, then sure, but it's a bad idea.</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

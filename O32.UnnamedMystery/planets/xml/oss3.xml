@@ -1,0 +1,47 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>QUIAX: Guys, come quick! The results are in!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>WELBAR: Well, what is it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>KRAK: What do the results say?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: I'm excited to hear this.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>TROV: The tension is insane!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>QUIAX: Okay, this is going to sound crazy. But out of every single test we ran on the Ghost Moon, one piece of information stuck out.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>KRAK: Well, what is it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>6</ParentID>
+		<Text>QUIAX: Every now and then, the Ghost Moon-</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>oss-fact-4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

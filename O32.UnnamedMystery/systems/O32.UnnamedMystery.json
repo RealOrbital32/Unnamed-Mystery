@@ -1,12 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"canEnterViaWarpDrive": true,
-	"travelAudioFilePath": "planets/music/aemutic.wav",
 	"mapRestricted": false,
 	"destroyStockPlanets": true,
 	"enableTimeLoop": true,
 	"respawnHere": true,
-	"loopDuration": 11,
+	"loopDuration": 16,
 	"Skybox": {
 		"destroyStarField": true,
 		"rightPath": "planets/assets/dark.png",
@@ -93,21 +92,6 @@
 			}
 		},
 		{
-			"id": "teraxia",
-			"color": {
-				"r": 138,
-				"g": 228,
-				"b": 255,
-				"a": 255
-			},
-			"highlightColor": {
-				"r": 194,
-				"g": 241,
-				"b": 255,
-				"a": 255
-			}
-		},
-		{
 			"id": "helioplasmia",
 			"color": {
 				"r": 115,
@@ -128,9 +112,16 @@
 	],
 	"entryPositions": [
 		{
+			"id": "ghostmoon-c",
+			"position": {
+				"x": -900.0,
+				"y": -1350.0
+			}
+		},
+		{
 			"id": "ghostmoon-b",
 			"position": {
-				"x": -700.0,
+				"x": -1200.0,
 				"y": -1000.0
 			}
 		},
@@ -139,6 +130,13 @@
 			"position": {
 				"x": -900.0,
 				"y": -1000.0
+			}
+		},
+		{
+			"id": "oss",
+			"position": {
+				"x": -1400.0,
+				"y": -800.0
 			}
 		},
 		{

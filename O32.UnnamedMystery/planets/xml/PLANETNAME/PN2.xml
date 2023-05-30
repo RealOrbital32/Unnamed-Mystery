@@ -1,0 +1,36 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>PN2</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>I advise you turn around.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What will happen if I don't?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+
+		<Dialogue>
+			<Page>Oh, a curious little creature I see.</Page>
+			<Page>Go on. <![CDATA[<color=purple>Keep walking.</color>]]></Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh... okay...</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,67 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>QUIAX: Hey, don't touch that.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>IRNA: What? Why not?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>QUIAX: That's the thing that turns this machine on. The extractor is not prepared yet.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PLOD: Um, Quiax? What do you mean by 'extractor'?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>QUIAX: The 'extractor' are those rods attached to the bottom of this thing. Basically, it is what allows us to read data from the 4th dimension.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>QUIAX: The machine sends the 4D data to a computer on board the station, which uses AI to analyze the data and compress it into 3D data.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>IRNA: Compress 4D data into 3D data? That makes no sense.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>QUIAX: Okay, basically, the extractor takes 4D samples from the Ghost Moon, which is highly dangerous. So a machine has to hold the matter in place and remove <![CDATA[<color=orange>all of the dangerous stuff</color>]]> from it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>PLOD: Oh, I see! Does the AI read the 3D data outputted to give us information on the Ghost Moon?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>QUIAX: Basically, yeah.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>IRNA: So when will it be ready?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>QUIAX: It'll be ready whenever Welbar decides to get off his darn rear and help me fix the core processor.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>oss-fact-2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,12 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>4-Dimensional Link - Proceed With Caution</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>gmc-fact-3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

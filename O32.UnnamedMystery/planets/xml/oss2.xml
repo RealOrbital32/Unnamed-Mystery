@@ -1,0 +1,50 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>NYLOX: This place is neat. I like the structure. Feels spacious.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: Now that Quiax has cracked the code, we'll be off to the Ghost Moon in a matter of days.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NYLOX: But the journey is so dangerous... Darvy was killed by messing with 4D matter.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>NYLOX: Agh, what's wrong with you? They've proven it's safe!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NYLOX: You know what? I'm going to <![CDATA[<color=hide the code in pieces around this system.></color>]]>. I'll put the pieces in places so <![CDATA[<color=orange>obvious you'd overlook them</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>NYLOX: That way nobody will make the journey.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>NYLOX: Let's see here, <![CDATA[<color=orange>'ADFBEC'</color>]]>. That'll work wonders.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>oss-fact-3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>word-rumor-7</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ghostmoon-rumor-4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

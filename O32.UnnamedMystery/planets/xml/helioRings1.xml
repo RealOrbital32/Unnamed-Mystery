@@ -1,0 +1,37 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TROV: Ah! This is a narrow platform on a huge ring suspended less than a kilometer from the surface!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>TROV: This is dangerous!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>BLUH: Oh come on, it's not that bad.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>BLUH: If you're really that scared, just step into one of the buildings. They're glued to the ring, so you'll be 100% safe.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>TROV: Um... okay.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>2</ParentID>
+		<Text>BLUH: Gosh, Trov, we came here to activate the mining lasers and you're scared...</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>rings-fact-2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -27,7 +27,7 @@
 		"textureMap": "planets/assets/ghostmoon_t.png",
 		"resolution": 600,
 		"minHeight": 45,
-		"maxHeight": 50
+		"maxHeight": 47
 	},
 	"Atmosphere": {
 		"size": 70,
@@ -67,17 +67,193 @@
 				}
 			}
 		],
-		"visorEffects": {
-			"frostEffectVolumes": [
-				{
-					"radius": 200,
-					"frostRate": 0.05
-				}
-			]
-		},
 		"referenceFrameBlockerVolumes": [
 			{
 				"radius": 200
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [ "ghostmoon-fact-1", "word-fact", "gmc-rumor-1" ],
+				"revealOn": "enter",
+				"radius": 62
+			},
+			{
+				"reveals": [ "ghostmoon-fact-2" ],
+				"revealOn": "enter",
+				"radius": 5,
+				"position": {
+					"x": 35.7431,
+					"y": 12.35481,
+					"z": 26.54723
+				}
+			},
+			{
+				"reveals": [ "gmc-fact-2" ],
+				"revealOn": "enter",
+				"radius": 5,
+				"position": {
+					"x": -16.53382,
+					"y": 49.58779,
+					"z": 1.943694
+				}
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/GhostMoon.wav",
+				"loop": true,
+				"radius": 62
+			}
+		]
+	},
+	"Props": {
+		"singularities": [
+			{
+				"type": "blackHole",
+				"targetStarSystem": "O32.UM-PLANETNAME",
+				"horizonRadius": 0.75,
+				"distortRadius": 1.25,
+				"position": {
+					"x": -16.53382,
+					"y": 49.58779,
+					"z": 1.943694
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": -14.66723,
+					"y": -42.29528,
+					"z": 4.580522
+				},
+				"rotation": {
+					"x": 341.6187,
+					"y": 311.187,
+					"z": 172.0659
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/gm.xml",
+				"position": {
+					"x": -35.88775,
+					"y": -28.58062,
+					"z": -6.987885
+				},
+				"rotation": {
+					"x": 306.1711,
+					"y": 291.9655,
+					"z": 152.7925
+				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/xml/gmSign.xml",
+				"position": {
+					"x": -15.92499,
+					"y": 47.52012,
+					"z": 4.203023
+				},
+				"rotation": {
+					"x": 2.204659,
+					"y": 0.3525048,
+					"z": 18.51723
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/NyloxRecord.xml",
+				"position": {
+					"x": -31.24893,
+					"y": -33.14424,
+					"z": 9.11174
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "RuinedHouse.prefab",
+				"position": {
+					"x": -28.03769,
+					"y": -32.22758,
+					"z": 14.15172
+				},
+				"rotation": {
+					"x": 27.0948,
+					"y": 175.1148,
+					"z": 216.4424
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"path": "SupplyStation.prefab",
+				"position": {
+					"x": -37.65242,
+					"y": -23.62776,
+					"z": -7.001736
+				},
+				"rotation": {
+					"x": 29.26257,
+					"y": 9.689352,
+					"z": 127.0037
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"path": "FuelCells.prefab",
+				"position": {
+					"x": -11.18725,
+					"y": -38.03191,
+					"z": 21.29364
+				},
+				"rotation": {
+					"x": 13.05461,
+					"y": 220.7761,
+					"z": 209.8219
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District3/Interactables_HangingCity_District3/Prefab_NOM_Recorder",
+				"removeComponents": true,
+				"position": {
+					"x": -31.24893,
+					"y": -33.14424,
+					"z": 9.11174
+				},
+				"rotation": {
+					"x": 25.84914,
+					"y": 56.57191,
+					"z": 142.728
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "DynamoLab.prefab",
+				"alignRadial": true,
+				"position": {
+					"x": -14.5635,
+					"y": 43.48163,
+					"z": 1.763568
+				}
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"keepLoaded": true,
+				"position": {
+					"x": 35.7431,
+					"y": 12.35481,
+					"z": 26.54723
+				},
+				"rotation": {
+					"x": 345.0912,
+					"y": 320.5735,
+					"z": 292.6081
+				}
 			}
 		]
 	},

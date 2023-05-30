@@ -1,0 +1,177 @@
+{
+	"name": "PLANET NAME",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "O32.UM-PLANETNAME",
+	"Base": {
+		"surfaceSize": 50,
+		"surfaceGravity": 24,
+		"hasMapMarker": false,
+		"centerOfSolarSystem": true,
+		"showMinimap": false
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"startWithSuit": true,
+			"position": {
+				"x": 36.06672,
+				"y": 44.43881,
+				"z": 21.0775
+			},
+			"rotation": {
+				"x": 26.7451,
+				"y": 17.87463,
+				"z": 330.5466
+			}
+		},
+		"shipSpawn": {
+			"position": {
+				"x": 10000000,
+				"y": 10000000,
+				"z": 10000000
+			}
+		}
+	},
+	"Star": {
+		"hasAtmosphere": false,
+		"lightRadius": 150000,
+		"size": 5,
+		"solarLuminosity": 0.75,
+		"supernovaTint": {
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 255
+		},
+		"tint": {
+			"r": 58,
+			"g": 194,
+			"b": 146,
+			"a": 0
+		},
+		"lifespan": 10000000000,
+		"supernovaSize": 150000,
+		"supernovaSpeed": 1000
+	},
+	"Volumes": {
+		"rulesets": {
+			"probeRulesets": [
+				{
+					"ignoreAnchor": true,
+					"overrideLanternRange": true,
+					"overrideProbeSpeed": true,
+					"lanternRange": 3,
+					"probeSpeed": 2,
+					"radius": 100
+				}
+			]
+		},
+		"creditsVolume": [
+			{
+				"creditsType": "fast",
+				"deathType": "blackHole",
+				"gameOverText": "Unnamed Mystery",
+				"radius": 20,
+				"position": {
+					"x": -1.209023,
+					"y": 48.81889,
+					"z": -17.14057
+				}
+			}
+		]
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/PLANETNAME/PN1.xml",
+				"remoteTrigger": {
+					"radius": 15
+				},
+				"position": {
+					"x": 4.476006,
+					"y": -18.76326,
+					"z": 48.82365
+				}
+			},
+			{
+				"xmlFile": "planets/xml/PLANETNAME/PN2.xml",
+				"remoteTrigger": {
+					"radius": 15
+				},
+				"position": {
+					"x": -48.31622,
+					"y": -4.700035,
+					"z": 17.62416
+				}
+			},
+			{
+				"xmlFile": "planets/xml/PLANETNAME/PN3.xml",
+				"remoteTrigger": {
+					"radius": 15,
+					"position": {
+						"x": -12.09636,
+						"y": -34.28773,
+						"z": -36.86113
+					}
+				}
+			},
+			{
+				"xmlFile": "planets/xml/PLANETNAME/PN4.xml",
+				"remoteTrigger": {
+					"radius": 15
+				},
+				"position": {
+					"x": -4.024752,
+					"y": 24.69423,
+					"z": -45.83705
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-helioplasmiacore",
+				"path": "hollow3.prefab",
+				"scale": 4,
+				"keepLoaded": true
+			}
+		]
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/planetname_h.png",
+		"textureMap": "planets/assets/planetname_t.png",
+		"resolution": 400,
+		"minHeight": 50,
+		"maxHeight": 70,
+		"metallic": 0.1,
+		"smoothness": 0.1
+	},
+	"Atmosphere": {
+		"size": 105,
+		"fogSize": 105,
+		"fogDensity": 1,
+		"atmosphereSunIntensity": 1,
+		"atmosphereTint": {
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		"fogTint": {
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		"clouds": {
+			"cloudsPrefab": "basic",
+			"texturePath": "planets/assets/planetname_g.png",
+			"innerCloudRadius": 62,
+			"outerCloudRadius": 100,
+			"tint": {
+				"r": 0,
+				"g": 0,
+				"b": 0
+			}
+		}
+	},
+	"Orbit": {
+		"isStatic": true
+	}
+}

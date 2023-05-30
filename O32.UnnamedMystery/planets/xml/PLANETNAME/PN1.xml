@@ -1,0 +1,19 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>PN1</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Why hello there, young creature.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What- Who's talking to me?</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+</DialogueTree>

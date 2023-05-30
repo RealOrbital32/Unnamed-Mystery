@@ -3,51 +3,170 @@
 	"name": "Outer Space Station",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 45,
-		"surfaceGravity": 3,
-		"hasMapMarker": true
+		"surfaceSize": 200,
+		"surfaceGravity": 0,
+		"hasMapMarker": false
 	},
 	"Orbit": {
-		"semiMajorAxis": 26000,
-		"inclination": 15,
+		"semiMajorAxis": 27000,
+		"inclination": 90,
+		"axialTilt": 90,
 		"primaryBody": "Aetherion",
-		"trueAnomaly": 27,
-		"isMoon": true,
-		"isTidallyLocked": true,
+		"trueAnomaly": 135,
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"dottedOrbitLine": true,
+		"siderealPeriod": 6,
 		"tint": {
-			"r": 98,
-			"g": 90,
-			"b": 107,
+			"r": 255,
+			"g": 64,
+			"b": 255,
 			"a": 255
 		}
-	},
-	"HeightMap": {
-		"heightMap": "planets/assets/taux_h.png",
-		"textureMap": "planets/assets/taux_t.png",
-		"minHeight": 40,
-		"maxHeight": 45
 	},
 	"Volumes": {
 		"revealVolumes": [
 			{
-				"radius": 5,
-				"reveals": [ "spacestation-fact-1" ],
+				"reveals": [ "oss-fact-1" ],
 				"revealOn": "enter",
+				"radius": 65,
 				"position": {
-					"x": -35.26839,
-					"y": 29.88556,
-					"z": 6.691902
+					"x": 0,
+					"y": 85,
+					"z": 0
 				}
+			}
+		],
+		"zeroGravityVolumes": [
+			{
+				"radius": 200
+			}
+		],
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "Notice: Entering altered gravity field."
+				},
+				"radius": 200
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": 0.1102347,
+					"y": 69.13705,
+					"z": 25.3843
+				},
+				"rotation": {
+					"x": 4.804109E-06,
+					"y": 180.6727,
+					"z": 4.962646E-07
+				}
+			},
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": -0.01212692,
+					"y": 69.13706,
+					"z": -24.48177
+				},
+				"rotation": {
+					"x": -7.568957E-06,
+					"y": 358.9479,
+					"z": -6.518189E-06
+				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/xml/oss0.xml",
+				"position": {
+					"x": -1.481546,
+					"y": 69.13705,
+					"z": 0.03984833
+				},
+				"rotation": {
+					"x": -1.091934E-05,
+					"y": 270.2121,
+					"z": -9.313816E-06
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/oss1.xml",
+				"position": {
+					"x": -42.51205,
+					"y": 69.88933,
+					"z": -6.700005
+				},
+				"rotation": {
+					"x": 0.01122427,
+					"y": 37.19834,
+					"z": 359.9925
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/oss2.xml",
+				"position": {
+					"x": 3.396727,
+					"y": 69.13706,
+					"z": 23.69731
+				},
+				"rotation": {
+					"x": 1.500205E-05,
+					"y": 207.5129,
+					"z": 1.449154E-06
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/oss3.xml",
+				"position": {
+					"x": 2.447919,
+					"y": 71.92741,
+					"z": -39.68723
+				},
+				"rotation": {
+					"x": 352.4223,
+					"y": 12.8005,
+					"z": 30.13124
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/oss4.xml",
+				"position": {
+					"x": -5.379902,
+					"y": 69.32465,
+					"z": -39.71929
+				},
+				"rotation": {
+					"x": 347.6199,
+					"y": 21.44159,
+					"z": 28.63051
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "OuterSpaceStation.prefab",
+				"keepLoaded": true
 			}
 		]
 	},
 	"ShipLog": {
+		"xmlFile": "planets/logs/outerspacestation.xml",
 		"spriteFolder": "planets/logs/entries/",
 		"mapMode": {
-			"revealedSprite": "planets/logs/mapmode/taux.png",
-			"scale": 0.5,
+			"revealedSprite": "planets/logs/mapmode/outerspacestation.png",
+			"invisibleWhenHidden": true,
+			"scale": 0.15,
 			"manualPosition": {
-				"x": 750,
+				"x": 725,
 				"y": 0
 			},
 			"manualNavigationPosition": {

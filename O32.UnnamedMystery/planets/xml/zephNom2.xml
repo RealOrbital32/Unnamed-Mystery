@@ -16,7 +16,7 @@
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>NYLOX: Over that time, we've occasionally seen a slightly-green tinted moon that tends to "wander about". It's nothing like that <![CDATA[<color=pink>Quantum Lean.</color>]]></Text>
+		<Text>NYLOX: Over that time, we've occasionally seen a slightly-green tinted moon that tends to 'wander about'. It's nothing like that <![CDATA[<color=purple>Quantum Lean.</color>]]></Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>

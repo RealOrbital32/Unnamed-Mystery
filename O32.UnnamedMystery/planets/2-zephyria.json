@@ -74,17 +74,17 @@
 	"Props": {
 		"translatorText": [
 			{
-				"type": "preCrashComputer",
+				"type": "preCrashRecorder",
 				"xmlFile": "planets/xml/zephNom1.xml",
 				"position": {
-					"x": -175.557,
-					"y": -85.09772,
-					"z": 343.9775
+					"x": -167.6046,
+					"y": -95.35119,
+					"z": 346.3831
 				},
 				"rotation": {
-					"x": 59.80249,
-					"y": 85.05843,
-					"z": 114.9135
+					"x": 323.936,
+					"y": 239.8518,
+					"z": 264.2351
 				}
 			},
 			{
@@ -169,6 +169,34 @@
 					"x": 329.484,
 					"y": 251.9008,
 					"z": 263.4815
+				}
+			},
+			{
+				"type": "computer",
+				"xmlFile": "planets/xml/gatewayComp.xml",
+				"position": {
+					"x": -15.10715,
+					"y": -100.2106,
+					"z": -378.7773
+				},
+				"rotation": {
+					"x": 2.366228,
+					"y": 91.78178,
+					"z": 257.7839
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/gatewayNom.xml",
+				"position": {
+					"x": -8.864622,
+					"y": -92.74323,
+					"z": -380.5563
+				},
+				"rotation": {
+					"x": 9.258504,
+					"y": 85.82659,
+					"z": 256.1859
 				}
 			}
 		],
@@ -386,6 +414,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
 				"removeChildren": [ "Interactibles_EscapePod/Prefab_NOM_Vessel_ComputerProps_NOM_Vessel_Computer 1" ],
+				"removeComponents": true,
 				"position": {
 					"x": -168.6379,
 					"y": -94.92142,

@@ -11,7 +11,7 @@
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>DARVY: You know what? No. I'm the one who created that portal. I can do this.</Text>
+		<Text>DARVY: You know what? No. I'm the one who opened that portal. I can do this.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
@@ -76,7 +76,7 @@
 	<TextBlock>
 		<ID>16</ID>
 		<ParentID>15</ParentID>
-		<Text><![CDATA[<color=red>(blood splatter)</color>]]></Text>
+		<Text><![CDATA[<color=red>(splatter)</color>]]></Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

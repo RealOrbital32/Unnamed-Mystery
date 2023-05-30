@@ -1,0 +1,42 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>ARVI: Wowee! This is amazing!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>ARVI: At this rate, we'll be able to build anything with all the resources we're gathering!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>KRAK: Build anything, you say? Think we can build something to finally enter that Ghost Moon?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>ARVI: Maybe. Who knows?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text><![CDATA[<color=red>(loud crashing and metal scraping)</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>QUIAX: It's all coming down! Evacuate! Get inside the ships!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>QUIAX: I repeat, the HelioRings are falling apart! Evacuate!</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>rings-fact-3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

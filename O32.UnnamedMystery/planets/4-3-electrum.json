@@ -93,6 +93,29 @@
 					"z": 13.98122
 				}
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/ElectrumTower.wav",
+				"volume": 0.5,
+				"radius": 50,
+				"loop": true,
+				"position": {
+					"x": -195.6978,
+					"y": -169.1324,
+					"z": -211.6626
+				}
+			},
+			{
+				"audio": "planets/music/ElectrumOutpost.wav",
+				"loop": true,
+				"radius": 50,
+				"position": {
+					"x": -257.992,
+					"y": -160.5837,
+					"z": 16.1279
+				}
+			}
 		]
 	},
 	"Props": {

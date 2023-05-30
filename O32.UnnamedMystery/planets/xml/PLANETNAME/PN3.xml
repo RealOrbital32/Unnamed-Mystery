@@ -1,0 +1,48 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>PN3</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>You know, there have been other creatures who have visited before you.</Page>
+			<Page>Most of them met the same fate.</Page>
+			<Page>Say, let me catch you up to speed.</Page>
+			<Page>Here's something from about 250,000 years ago:</Page>
+			<Page>'NYLOX: Wait, what's happening? Why are the clouds dissapearing?'</Page>
+			<Page>'QUIAX: Er, I don't know, but it doesn't seem safe.'</Page>
+			<Page>'WELBAR: Um... Guys, do you see that?'</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>How do you know-</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+
+		<Dialogue>
+			<Page>'NYLOX: See what!? All I've noticed is that the clouds have dissapeared!'</Page>
+			<Page>'WELBAR: Uh... look up...'</Page>
+			<Page>'QUIAX: What the heck is- What- Is that-? Am I-?'</Page>
+			<Page>'QUIAX: This... this has to be some sort of illusion!'</Page>
+			<Page>'NYLOX: No, it can't be. We're all seeing it, right?!'</Page>
+			<Page>'WELBAR: <![CDATA[<color=red>(hyperventilating)</color>]]> THEY'RE COMING FOR US! THE PLANETS ARE ALIVE!'</Page>
+			<Page>'QUIAX: THIS DOESN'T MAKE ANY SENSE! WHAT DO WE DO?!'</Page>
+			<Page>'NYLOX: Okay, everybody stay calm, I have a plan!'</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+</DialogueTree>

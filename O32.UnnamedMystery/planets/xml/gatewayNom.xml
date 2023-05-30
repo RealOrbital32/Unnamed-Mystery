@@ -1,0 +1,51 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>QUIAX: Uh, what? As far as I know, there should be no interference to have caused that.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: Perhaps it was from the radiation?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>QUIAX: It couldn't have been the radiation. Zephyria's magnetic field is strong. Plus, there was that creepy message.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>OYVAR: Hey everyone! How's the gateway going?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>QUIAX: Erm... it failed miserably. We need to build another megastructure.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>OYVAR: Another megastructure?! Remember what happened to the HelioRings?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>NYLOX: Oh come on, that was only a fluke. We can do better this time.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>QUIAX: Here's what I have in mind: a <![CDATA[<color=orange>space station out past Teraxia</color>]]>. It will be dedicated space specifically to researching the Ghost Moon. We WILL crack this moon's code!</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>gateway-fact-3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>oss-rumor-1</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

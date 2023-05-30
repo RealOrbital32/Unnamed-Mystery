@@ -3,7 +3,7 @@
 	"name": "Ring1",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 0,
+		"surfaceSize": 1100,
 		"surfaceGravity": 0,
 		"hasMapMarker": false,
 		"showMinimap": false
@@ -21,13 +21,62 @@
 	"Volumes": {
 		"zeroGravityVolumes": [
 			{
-				"radius": 50,
-				"priority": 5,
-				"layer": 1,
+				"radius": 75,
+				"priority": 100,
+				"layer": 100,
 				"position": {
-					"x": 0.006652832,
-					"y": -209.0999,
-					"z": 1055.515
+					"x": -2.614044,
+					"y": -209.3602,
+					"z": 1062.295
+				}
+			}
+		],
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "Notice: Entering altered gravity field."
+				},
+				"radius": 75,
+				"position": {
+					"x": -2.614044,
+					"y": -209.3602,
+					"z": 1062.295
+				}
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"radius": 75,
+				"speedLimit": 5,
+				"position": {
+					"x": -2.614044,
+					"y": -209.3602,
+					"z": 1062.295
+				}
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [ "rings-fact-1" ],
+				"revealOn": "enter",
+				"radius": 75,
+				"position": {
+					"x": -2.614044,
+					"y": -209.3602,
+					"z": 1062.295
+				}
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/HelioRings.wav",
+				"loop": true,
+				"radius": 75,
+				"volume": 0.5,
+				"position": {
+					"x": -2.614044,
+					"y": -209.3602,
+					"z": 1062.295
 				}
 			}
 		]
@@ -54,8 +103,73 @@
 		],
 		"translatorText": [
 			{
+				"type": "whiteboard",
+				"position": {
+					"x": -1.140854,
+					"y": -217.8268,
+					"z": 1060.952
+				},
+				"rotation": {
+					"x": 281.5252,
+					"y": 320.9623,
+					"z": 218.4679
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/helioRings1.xml",
+				"position": {
+					"x": -28.46695,
+					"y": -221.5737,
+					"z": 1061.509
+				},
+				"rotation": {
+					"x": 282.704,
+					"y": 358.8091,
+					"z": 211.9614
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/helioRings2.xml",
+				"position": {
+					"x": 28.24126,
+					"y": -218.0378,
+					"z": 1061.979
+				},
+				"rotation": {
+					"x": 301.0991,
+					"y": 285.2003,
+					"z": 252.3812
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/helioRings3.xml",
+				"position": {
+					"x": -28.06943,
+					"y": -221.49,
+					"z": 1060.841
+				},
+				"rotation": {
+					"x": 301.0073,
+					"y": 319.7793,
+					"z": 248.7663
+				}
+			},
+			{
 				"type": "cairnVariant",
-				"xmlFile": "planets/xml/riddle.xml"
+				"xmlFile": "planets/xml/riddleF.xml",
+				"position": {
+					"x": -23.56174,
+					"y": -184.7565,
+					"z": 1066.191
+				},
+				"rotation": {
+					"x": 44.33774,
+					"y": 98.90311,
+					"z": 102.6338
+				}
 			}
 		],
 		"details": [
@@ -79,6 +193,76 @@
 					"x": 303.4963,
 					"y": 283.8468,
 					"z": 253.5334
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": 8.734131,
+					"y": -233.4323,
+					"z": 1058.482
+				},
+				"rotation": {
+					"x": 286.3282,
+					"y": 302.7275,
+					"z": 236.1906
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": 22.99255,
+					"y": -211.5052,
+					"z": 1061.955
+				},
+				"rotation": {
+					"x": 354.483,
+					"y": 270.8765,
+					"z": 260.9577
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": 13.98007,
+					"y": -189.9824,
+					"z": 1065.364
+				},
+				"rotation": {
+					"x": 54.22739,
+					"y": 257.3011,
+					"z": 254.4781
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": -15.41995,
+					"y": -189.01,
+					"z": 1065.518
+				},
+				"rotation": {
+					"x": 71.39712,
+					"y": 118.0701,
+					"z": 119.3656
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": -28.00629,
+					"y": -214.6014,
+					"z": 1061.464
+				},
+				"rotation": {
+					"x": 5.849332,
+					"y": 90.9297,
+					"z": 99.04751
 				}
 			}
 		]

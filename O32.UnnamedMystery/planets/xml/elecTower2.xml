@@ -26,7 +26,7 @@
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>DARVY: <![CDATA[<color=red>(sigh)</color>]]> Well, anyways, I think we'll have to build <![CDATA[<color=orange>a space station</color>]]> of sorts.</Text>
+		<Text>DARVY: <![CDATA[<color=red>(sigh)</color>]]> Well, anyways, I think we'll have to build <![CDATA[<color=orange>a space base</color>]]> of sorts.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
@@ -36,7 +36,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>DARVY: Actually, better idea, we should build a base on that <![CDATA[<color=orange>asteroid orbiting the white gas giant</color>]]>.</Text>
+		<Text>DARVY: Actually, great idea, we should build the base on that <![CDATA[<color=orange>asteroid orbiting the white gas giant</color>]]>.</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

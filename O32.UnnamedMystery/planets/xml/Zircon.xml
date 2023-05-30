@@ -52,7 +52,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Yeah, sure, what is it.</Text>
+				<Text>Yeah, sure, what is it?</Text>
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -74,11 +74,11 @@
 	<DialogueNode>
 		<Name>4</Name>
 		<Dialogue>
-			<Page>Well, you see, the back end of my ship got lodged in there, while the front half got sent flying forward. Somehow, I crashed near here.</Page>
+			<Page>Well, you see, the back end of my ship got lodged in there, while the front half got sent flying forward. Somehow, I crashed here.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Ok, so what's the favor?</Text>
+				<Text>Okay, so what's the favor?</Text>
 				<DialogueTarget>5</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -86,6 +86,9 @@
 
 	<DialogueNode>
 		<Name>5</Name>
+		<RevealFacts>
+			<FactID>ghostmoon-rumor-0</FactID>
+		</RevealFacts>
 		<Dialogue>
 			<Page>Get my radio from that ghostly moon. It's urgent.</Page>
 		</Dialogue>
@@ -155,6 +158,21 @@
 				<DialogueTarget>F3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
+				<RequiredLogCondition>gateway-fact-1</RequiredLogCondition>
+				<Text>The Nomai built some kind of gateway on Zephyria.</Text>
+				<DialogueTarget>F4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>oss-fact-1</RequiredLogCondition>
+				<Text>I landed on a huge space station.</Text>
+				<DialogueTarget>F5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>ghostmoon-fact-1</RequiredLogCondition>
+				<Text>I managed to land on the Ghost Moon!</Text>
+				<DialogueTarget>F6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
 				<Text>Nevermind, I forgot.</Text>
 				<DialogueTarget>MAIN</DialogueTarget>
 			</DialogueOption>
@@ -164,7 +182,7 @@
 	<DialogueNode>
 		<Name>F1</Name>
 		<Dialogue>
-			<Page>Oh, there was? Wonder how they got there.</Page>
+			<Page>Oh, there is? Wonder how they got there.</Page>
 			<Page>Probably used it for mining or something.</Page>
 			<Page>Eh, who knows? Let me know if you find anything else.</Page>
 		</Dialogue>
@@ -184,7 +202,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Something about a "ghost moon" and some strange property.</Text>
+				<Text>Something about a ghost moon and some strange property.</Text>
 				<DialogueTarget>F2-2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -269,11 +287,149 @@
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F4</Name>
+		<Dialogue>
+			<Page>Gateway? I wouldn't doubt they were trying to leave this place.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Trying to leave? Leaving is easy!</Text>
+				<DialogueTarget>F4-2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F4-2</Name>
+		<Dialogue>
+			<Page>Easy? Pfft, entering this place is a one-way trip to purgatory!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What? I can just warp out.</Text>
+				<DialogueTarget>F4-3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F4-3</Name>
+		<Dialogue>
+			<Page>Oh, you can teleport out, but the Nomai didn't have whatever warp tech you have.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Eh, fair enough. So,</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F5</Name>
+		<Dialogue>
+			<Page>Huge space station? What purpose would a space station have for the Nomai?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Apparently it was constructed mainly to experiment on...</Text>
+				<DialogueTarget>F5-2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F5-2</Name>
+		<Dialogue>
+			<Page>Let me guess, the Ghost Moon?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yup.</Text>
+				<DialogueTarget>F5-3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F5-3</Name>
+		<Dialogue>
+			<Page>Was there anything else there?</Page>
+			<Page>Like some kind of clue or what not?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>There was a wall with letters on it. A Nomai also mentioned how he scattered words tied to those letters across this system.</Text>
+				<DialogueTarget>F5-4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F5-4</Name>
+		<Dialogue>
+			<Page>Hmm. Actually, you might be best checking the houses behind me. I think I saw a strange pile of rocks in one of them.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Thanks!</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F6</Name>
+		<Dialogue>
+			<Page>What!? You managed to do it?</Page>
+			<Page>Did you find my radio?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>ghostmoon-fact-2</RequiredLogCondition>
+				<Text>I sure did. But I couldn't pick it up. It was glued to the ground.</Text>
+				<DialogueTarget>F6-3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, unfortunately. I didn't see it anywhere.</Text>
+				<DialogueTarget>F6-2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F6-2</Name>
+		<Dialogue>
+			<Page>Aw, that's too bad.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sorry.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F6-3</Name>
+		<Dialogue>
+			<Page>Well, thanks for going out to find it anyway.</Page>
+			<Page>Even if you couldn't pick it up, I still appreciate you.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Thanks. So,</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
 	
 	<DialogueNode>
 		<Name>END</Name>
 		<Dialogue>
-			<Page>Ok, see you around, pal!</Page>
+			<Page>Ok, see you around, pal.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

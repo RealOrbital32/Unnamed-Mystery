@@ -1,0 +1,75 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>PN4</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Ready for more?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No! Don't! I get the story! I get it. What do you want?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+
+		<Dialogue>
+			<Page>Those little creatures suffered the fate of my immense power.</Page>
+			<Page>Their foolish actions led them to my domain.</Page>
+			<Page>Tampering with the 4th dimension was not, is not, and will NEVER be a good idea.</Page>
+			<Page>You're lucky I'm keeping you alive.</Page>
+			<Page>I have a task for you.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...What is it?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+
+		<Dialogue>
+			<Page>You may have lots of questions, so I'd like to answer them first.</Page>
+			<Page><![CDATA[<color=purple>Then I'll make that knowledge go down the drain.</color>]]></Page>
+			<Page>Here's your task: There is a time paradox that will break the fabric of the universe at any moment.</Page>
+			<Page>For some reason, I feel as if I can trust you.</Page>
+			<Page>You must reset time back to a point. That will prevent the paradox.</Page>
+			<Page>DO YOU UNDERSTAND?</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...Yes!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+
+		<Dialogue>
+			<Page>Now walk forward. I'll fill you in on the details.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Got it.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+</DialogueTree>

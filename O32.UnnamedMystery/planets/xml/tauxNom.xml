@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>DARVY: Alas! We've finally finished the construction of the Geothermal Dynamo Generator!</Text>
+		<Text>DARVY: At last! We've finally finished the construction of the Geothermal Dynamo Generator!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>

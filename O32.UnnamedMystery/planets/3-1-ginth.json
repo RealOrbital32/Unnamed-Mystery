@@ -45,6 +45,18 @@
 					"z": 38.12156
 				}
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/GinthCampsite.wav",
+				"loop": true,
+				"radius": 15,
+				"position": {
+					"x": 50.9537,
+					"y": -157.8074,
+					"z": 34.46936
+				}
+			}
 		]
 	},
 	"Props": {
@@ -65,17 +77,29 @@
 			},
 			{
 				"type": "cairnVariant",
-				"xmlFile": "planets/xml/riddle.xml"
+				"xmlFile": "planets/xml/riddleD.xml",
+				"position": {
+					"x": 44.05611,
+					"y": -164.8723,
+					"z": 30.02765
+				},
+				"rotation": {
+					"x": 354.5604,
+					"y": 349.3466,
+					"z": 196.3214
+				}
 			}
 		],
 		"dialogue": [
 			{
 				"xmlFile": "planets/xml/Zircon.xml",
 				"position": {
-					"x": 58.92381,
-					"y": -153.2901,
-					"z": 40.14618
-				}
+					"x": 59.92381,
+					"y": -154.2901,
+					"z": 41.14618
+				},
+				"range": 2,
+				"radius": 2
 			}
 		],
 		"details": [

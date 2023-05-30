@@ -21,7 +21,7 @@
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>RERERE: What do you mean? <![CDATA[<color=red>(obnoxious chuckle)</color>]]> I hear nothing!</Text>
+		<Text>RERERE: What do you mean? <![CDATA[<color=red>(obnoxious chuckle and wheezing)</color>]]> I hear nothing!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
@@ -31,6 +31,6 @@
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>3</ParentID>
-		<Text>RERERE: Solid as in state of matter? <![CDATA[<color=red>(loud snort)</color>]]></Text>
+		<Text>RERERE: Solid as in state of matter! <![CDATA[<color=red>(loud snort and laughter)</color>]]></Text>
 	</TextBlock>
 </NomaiObject>

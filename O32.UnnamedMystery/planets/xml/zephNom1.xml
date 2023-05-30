@@ -6,17 +6,17 @@
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>BLUH: Dunno but- <![CDATA[<color=red>*heavy wind sounds*</color>]]> Ow, shidunes! Ah, my suit is tearing apart!</Text>
+		<Text>BLUH: Dunno but- <![CDATA[<color=red>(heavy wind sounds)</color>]]> Ow, shards! Ah, my suit is tearing apart!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>DARVY: What on Dyseria is this place? My suit fabric is- <![CDATA[<color=red>*heavy clang*</color>]]> Fudge! My helmet!</Text>
+		<Text>DARVY: What on Dyseria is this place? My suit fabric is- <![CDATA[<color=red>(heavy clang)</color>]]> Fudge! My helmet!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text><![CDATA[<color=red>*other Nomai yelling in despair*</color>]]></Text>
+		<Text><![CDATA[<color=red>(other Nomai yelling in despair)</color>]]></Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
@@ -26,7 +26,7 @@
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>BLUH: Yeah, no kidding! Wait, woah! Woah! <![CDATA[<color=red>*hard impact on the floor*</color>]]></Text>
+		<Text>BLUH: Yeah, no kidding! Wait, woah! Woah! <![CDATA[<color=red>(hard impact on the floor)</color>]]></Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

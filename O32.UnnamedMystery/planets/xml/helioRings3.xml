@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>NYLOX: So this is the place where it all happened.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>NYLOX: Must've been both scary and mesmorizing to watch it shatter into pieces.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NYLOX: Just standing here on the edge is terrifying... seeing all the gas looming below me.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>NYLOX: But I guess that what makes it beautiful.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NYLOX: Oh! Right! Stupid me, I have to place the thingy for the <![CDATA[<color=orange>Outer Space Station</color>]]>!</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>rings-fact-4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>oss-rumor-2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

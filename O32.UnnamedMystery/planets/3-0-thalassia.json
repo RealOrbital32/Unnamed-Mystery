@@ -84,6 +84,18 @@
 					"z": 59.99408
 				}
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/ThalassiaRuins.wav",
+				"loop": true,
+				"radius": 35,
+				"position": {
+					"x": -508.4457,
+					"y": -176.532,
+					"z": 82.61487
+				}
+			}
 		]
 	},
 	"Props": {
@@ -183,20 +195,28 @@
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
 				"position": {
-					"x": -508.4457,
-					"y": -176.532,
-					"z": 82.61487
+					"x": -510.8976,
+					"y": -164.6213,
+					"z": 66.01657
 				},
-				"alignRadial": true
+				"rotation": {
+					"x": 307.252,
+					"y": 342.5331,
+					"z": 120.1639
+				}
 			},
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam",
 				"position": {
-					"x": -508.4457,
-					"y": -176.532,
-					"z": 82.61487
+					"x": -510.8976,
+					"y": -164.6213,
+					"z": 66.01657
 				},
-				"alignRadial": true
+				"rotation": {
+					"x": 307.252,
+					"y": 342.5331,
+					"z": 120.1639
+				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-thallasia-structures",

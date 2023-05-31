@@ -39,6 +39,13 @@
 					"z": 6.691902
 				}
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/TauxTidalBase.wav",
+				"loop": true,
+				"radius": 55
+			}
 		]
 	},
 	"Props": {

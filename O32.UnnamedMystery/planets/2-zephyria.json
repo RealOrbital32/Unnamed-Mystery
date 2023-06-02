@@ -69,6 +69,30 @@
 					"z": -384.3431
 				}
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/ZephyriaRuins.wav",
+				"volume": 0.75,
+				"radius": 100,
+				"loop": true,
+				"position": {
+					"x": -75.61245,
+					"y": -57.69289,
+					"z": 382.6503
+				}
+			},
+			{
+				"audio": "planets/music/ZephyriaGateway.wav",
+				"volume": 0.75,
+				"radius": 75,
+				"loop": true,
+				"position": {
+					"x": 22.75083,
+					"y": -82.83785,
+					"z": -383.3612
+				}
+			}
 		]
 	},
 	"Props": {

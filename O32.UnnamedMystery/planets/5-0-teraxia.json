@@ -96,6 +96,18 @@
 					"z": 343.1491
 				}
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/TeraxiaCoreBase.wav",
+				"loop": true,
+				"radius": 30,
+				"position": {
+					"x": -32.98611,
+					"y": -59.93079,
+					"z": 343.2495
+				}
+			}
 		]
 	},
 	"Props": {
@@ -122,14 +134,28 @@
 				"assetBundle": "planets/prefabs/o32-minor-structures",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
-					"x": -18.52186,
-					"y": -58.11272,
-					"z": 344.6445
+					"x": -13.96133,
+					"y": -70.38879,
+					"z": 342.5646
 				},
 				"rotation": {
-					"x": 39.33277,
-					"y": 258.9932,
-					"z": 257.6043
+					"x": 323.0966,
+					"y": 276.5347,
+					"z": 255.4338
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": -53.51153,
+					"y": -48.81718,
+					"z": 342.4229
+				},
+				"rotation": {
+					"x": 24.61387,
+					"y": 84.81789,
+					"z": 98.82505
 				}
 			}
 		]

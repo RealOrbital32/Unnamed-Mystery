@@ -97,7 +97,7 @@
 		"audioVolumes": [
 			{
 				"audio": "planets/music/ElectrumTower.wav",
-				"volume": 0.5,
+				"volume": 0.425,
 				"radius": 50,
 				"loop": true,
 				"position": {
@@ -108,6 +108,7 @@
 			},
 			{
 				"audio": "planets/music/ElectrumOutpost.wav",
+				"volume": 0.75,
 				"loop": true,
 				"radius": 50,
 				"position": {

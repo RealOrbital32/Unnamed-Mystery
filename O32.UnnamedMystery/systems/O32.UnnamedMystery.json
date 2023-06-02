@@ -15,6 +15,7 @@
 		"frontPath": "planets/assets/dark.png",
 		"backPath": "planets/assets/dark.png"
 	},
+	"travelAudioFilePath": "planets/music/Space.wav",
 	"curiosities": [
 		{
 			"id": "thalassia",
@@ -163,6 +164,13 @@
 			"id": "electrum-tower",
 			"position": {
 				"x": -400.0
+			}
+		},
+		{
+			"id": "metallos-observation",
+			"position": {
+				"x": 100.0,
+				"y": 400.0
 			}
 		},
 		{

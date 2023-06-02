@@ -53,7 +53,26 @@
 			"b": 24
 		}
 	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 145,
+				"reveals": [ "metallos-fact" ],
+				"revealOn": "enter"
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/Metallos.wav",
+				"volume": 0.75,
+				"loop": true,
+				"radius": 145
+			}
+		]
+	},
 	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/metallos.xml",
 		"mapMode": {
 			"revealedSprite": "planets/logs/mapmode/metallos.png",
 			"scale": 0.2,

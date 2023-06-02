@@ -31,40 +31,27 @@
 			}
 		}
 	},
-	"Star": {
-		"hasAtmosphere": false,
-		"lightRadius": 150000,
-		"size": 5,
-		"solarLuminosity": 0.75,
-		"supernovaTint": {
-			"r": 0,
-			"g": 0,
-			"b": 0,
-			"a": 255
-		},
-		"tint": {
-			"r": 58,
-			"g": 194,
-			"b": 146,
-			"a": 0
-		},
-		"lifespan": 10000000000,
-		"supernovaSize": 150000,
-		"supernovaSpeed": 1000
-	},
 	"Volumes": {
 		"rulesets": {
 			"probeRulesets": [
 				{
-					"ignoreAnchor": true,
+					"ignoreAnchor": false,
 					"overrideLanternRange": true,
 					"overrideProbeSpeed": true,
 					"lanternRange": 3,
-					"probeSpeed": 2,
+					"probeSpeed": 3,
 					"radius": 100
 				}
 			]
 		},
+		"audioVolumes": [
+			{
+				"audio": "planets/music/PLANETNAME_drums_and_sun.wav",
+				"volume": 0.75,
+				"loop": true,
+				"radius": 100
+			}
+		],
 		"creditsVolume": [
 			{
 				"creditsType": "fast",
@@ -138,7 +125,7 @@
 	"HeightMap": {
 		"heightMap": "planets/assets/planetname_h.png",
 		"textureMap": "planets/assets/planetname_t.png",
-		"resolution": 400,
+		"resolution": 2000,
 		"minHeight": 50,
 		"maxHeight": 70,
 		"metallic": 0.1,

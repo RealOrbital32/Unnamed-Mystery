@@ -132,6 +132,7 @@
 		"audioVolumes": [
 			{
 				"audio": "planets/music/HelioplasmiaCore.wav",
+				"volume": 0.75,
 				"loop": true,
 				"radius": 95
 			}

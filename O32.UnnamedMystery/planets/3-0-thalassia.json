@@ -88,6 +88,7 @@
 		"audioVolumes": [
 			{
 				"audio": "planets/music/ThalassiaRuins.wav",
+				"volume": 0.75,
 				"loop": true,
 				"radius": 35,
 				"position": {
@@ -127,9 +128,9 @@
 				"detectionRadius": 500,
 				"identificationRadius": 20,
 				"position": {
-					"x": -508.4457,
-					"y": -176.532,
-					"z": 82.61487
+					"x": -510.8976,
+					"y": -164.6213,
+					"z": 66.01657
 				}
 			}
 		],

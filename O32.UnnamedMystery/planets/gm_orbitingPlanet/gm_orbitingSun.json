@@ -103,6 +103,7 @@
 			{
 				"audio": "planets/music/GhostMoon.ogg",
 				"loop": true,
+				"track": "music",
 				"radius": 62
 			}
 		]

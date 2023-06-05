@@ -101,6 +101,7 @@
 			{
 				"audio": "planets/music/TeraxiaCoreBase.ogg",
 				"loop": true,
+				"track": "music",
 				"radius": 30,
 				"position": {
 					"x": -32.98611,

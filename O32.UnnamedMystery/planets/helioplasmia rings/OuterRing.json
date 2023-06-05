@@ -71,6 +71,7 @@
 			{
 				"audio": "planets/music/HelioRings.ogg",
 				"loop": true,
+				"track": "music",
 				"radius": 75,
 				"volume": 0.5,
 				"position": {

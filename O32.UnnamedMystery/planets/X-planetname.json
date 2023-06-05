@@ -49,6 +49,7 @@
 				"audio": "planets/music/PLANETNAME_drums_and_sun.ogg",
 				"volume": 0.75,
 				"loop": true,
+				"track": "music",
 				"radius": 100
 			}
 		],

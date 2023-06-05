@@ -31,6 +31,7 @@
 				"audio": "planets/music/OuterSpaceStation.ogg",
 				"volume": 0.35,
 				"loop": true,
+				"track": "music",
 				"radius": 130
 			}
 		],

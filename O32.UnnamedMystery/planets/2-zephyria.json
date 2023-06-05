@@ -77,6 +77,7 @@
 				"volume": 0.75,
 				"radius": 100,
 				"loop": true,
+				"track": "music",
 				"position": {
 					"x": -75.61245,
 					"y": -57.69289,
@@ -88,6 +89,7 @@
 				"volume": 0.75,
 				"radius": 75,
 				"loop": true,
+				"track": "music",
 				"position": {
 					"x": 22.75083,
 					"y": -82.83785,

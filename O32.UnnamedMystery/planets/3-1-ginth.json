@@ -61,6 +61,7 @@
 				"audio": "planets/music/GinthCampsite.ogg",
 				"volume": 0.5,
 				"loop": true,
+				"track": "music",
 				"radius": 25,
 				"position": {
 					"x": 50.9537,

@@ -101,6 +101,7 @@
 				"volume": 0.425,
 				"radius": 50,
 				"loop": true,
+				"track": "music",
 				"position": {
 					"x": -195.6978,
 					"y": -169.1324,
@@ -111,6 +112,7 @@
 				"audio": "planets/music/ElectrumOutpost.ogg",
 				"volume": 0.75,
 				"loop": true,
+				"track": "music",
 				"radius": 50,
 				"position": {
 					"x": -257.992,

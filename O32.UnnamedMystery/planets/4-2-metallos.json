@@ -66,6 +66,7 @@
 				"audio": "planets/music/Metallos.ogg",
 				"volume": 0.75,
 				"loop": true,
+				"track": "music",
 				"radius": 145
 			}
 		]

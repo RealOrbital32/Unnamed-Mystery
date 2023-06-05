@@ -35,6 +35,7 @@
 		"maxHeight": 450
 	},
 	"Atmosphere": {
+		"useAtmosphereShader": true,
 		"size": 500,
 		"fogSize": 500,
 		"fogDensity": 0.4,

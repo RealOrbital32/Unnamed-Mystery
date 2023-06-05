@@ -84,7 +84,7 @@
 	"Props": {
 		"remotes": [
 			{
-				"id": "2",
+				"id": "Helioplasmia",
 				"decalPath": "planets/assets/pool_helioplasmia.png",
 				"platform": {
 					"reveals": "rings-rumor",

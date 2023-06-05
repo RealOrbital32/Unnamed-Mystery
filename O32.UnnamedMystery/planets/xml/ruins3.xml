@@ -36,7 +36,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>QUIAX: There's an escape pod crashing on that <![CDATA[<color=orange>desert planet</color>]]>!</Text>
+		<Text>QUIAX: There! An escape pod crashing on that <![CDATA[<color=orange>desert planet</color>]]>!</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

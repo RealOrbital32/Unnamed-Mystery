@@ -26,7 +26,7 @@
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>2</ParentID>
-		<Text>BLUH: Gosh, Trov, we came here to activate the mining lasers and you're scared...</Text>
+		<Text>BLUH: Gosh, Trov, we came here to activate the mining lasers and you're scared?</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

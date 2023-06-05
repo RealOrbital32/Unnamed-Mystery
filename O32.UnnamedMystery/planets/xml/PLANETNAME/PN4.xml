@@ -22,9 +22,9 @@
 		<Name>1</Name>
 
 		<Dialogue>
-			<Page>Those little creatures suffered the fate of my immense power.</Page>
-			<Page>Their foolish actions led them to my domain.</Page>
-			<Page>Tampering with the 4th dimension was not, is not, and will NEVER be a good idea.</Page>
+			<Page>Those little creatures suffered the fate of <![CDATA[<color=purple>my immense power.</color>]]></Page>
+			<Page>Their foolish actions led them to <![CDATA[<color=purple>my domain.</color>]]></Page>
+			<Page>Tampering with the 4th dimension was not, is not, and will <![CDATA[<color=purple>NEVER</color>]]> be a good idea.</Page>
 			<Page>You're lucky I'm keeping you alive.</Page>
 			<Page>I have a task for you.</Page>
 		</Dialogue>
@@ -44,9 +44,9 @@
 			<Page>You may have lots of questions, so I'd like to answer them first.</Page>
 			<Page><![CDATA[<color=purple>Then I'll make that knowledge go down the drain.</color>]]></Page>
 			<Page>Here's your task: There is a time paradox that will break the fabric of the universe at any moment.</Page>
-			<Page>For some reason, I feel as if I can trust you.</Page>
+			<Page>For some reason, I feel as if I can trust you with this.</Page>
 			<Page>You must reset time back to a point. That will prevent the paradox.</Page>
-			<Page>DO YOU UNDERSTAND?</Page>
+			<Page><![CDATA[<color=purple>DO YOU UNDERSTAND?</color>]]></Page>
 		</Dialogue>
 
 		<DialogueOptionsList>
@@ -62,7 +62,7 @@
 		<Name>3</Name>
 
 		<Dialogue>
-			<Page>Now walk forward. I'll fill you in on the details.</Page>
+			<Page>Now walk forward. I'll fill you in with the details.</Page>
 		</Dialogue>
 
 		<DialogueOptionsList>

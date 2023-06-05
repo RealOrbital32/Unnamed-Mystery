@@ -38,6 +38,7 @@
 		"size": 530
 	},
 	"Atmosphere": {
+		"useAtmosphereShader": true,
 		"hasOxygen": true,
 		"hasTrees": true,
 		"size": 620,
@@ -102,10 +103,11 @@
 	"Props": {
 		"remotes": [
 			{
-				"id": "2",
+				"id": "Helioplasmia",
 				"decalPath": "planets/assets/pool_helioplasmia.png",
 				"stones": [
 					{
+						"rename": "Helioplasmia",
 						"position": {
 							"x": -511.0168,
 							"y": -183.8323,

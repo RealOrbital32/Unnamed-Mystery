@@ -34,6 +34,16 @@
 		"maxHeight": 200
 	},
 	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"radius": 25,
+				"position": {
+					"x": 57.93298,
+					"y": -154.1217,
+					"z": 38.12156
+				}
+			}
+		],
 		"revealVolumes": [
 			{
 				"radius": 50,
@@ -49,8 +59,9 @@
 		"audioVolumes": [
 			{
 				"audio": "planets/music/GinthCampsite.wav",
+				"volume": 0.5,
 				"loop": true,
-				"radius": 15,
+				"radius": 25,
 				"position": {
 					"x": 50.9537,
 					"y": -157.8074,
@@ -114,6 +125,15 @@
 					"x": 0.5490942,
 					"y": 123.2315,
 					"z": 159.6667
+				}
+			},
+			{
+				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Props_PioneerDimension/OtherComponentsGroup/Trees",
+				"alignRadial": true,
+				"position": {
+					"x": 63.41064,
+					"y": -153.5019,
+					"z": 33.45453
 				}
 			},
 			{

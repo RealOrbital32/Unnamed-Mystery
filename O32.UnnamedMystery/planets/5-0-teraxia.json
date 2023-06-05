@@ -113,7 +113,7 @@
 	"Props": {
 		"remotes": [
 			{
-				"id": "1",
+				"id": "Teraxia Core Base",
 				"decalPath": "planets/assets/pool_teraxia.png",
 				"platform": {
 					"position": {

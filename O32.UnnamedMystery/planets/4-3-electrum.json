@@ -30,7 +30,7 @@
 	"HeightMap": {
 		"heightMap": "planets/assets/electrum_h.png",
 		"textureMap": "planets/assets/electrum_t.png",
-		"resolution": 300,
+		"resolution": 500,
 		"minHeight": 290,
 		"maxHeight": 310,
 		"smoothness": 0.8,
@@ -45,6 +45,7 @@
 		}
 	},
 	"Atmosphere": {
+		"useAtmosphereShader": true,
 		"size": 350,
 		"fogSize": 350,
 		"fogDensity": 0.7,

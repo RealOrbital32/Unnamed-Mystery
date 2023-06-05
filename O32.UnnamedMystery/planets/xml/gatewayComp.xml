@@ -36,7 +36,7 @@
 	<ShipLogConditions>
 		<RevealFact>
 			<FactID>gateway-fact-2</FactID>
-			<Condition>8</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

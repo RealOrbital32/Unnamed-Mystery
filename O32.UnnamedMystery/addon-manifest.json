@@ -14,10 +14,9 @@
     "Voice Actors",
     "official.SneakyVase1#Nylox",
     "theoccupied#Darvy",
-    "Orbital 32#Welbar",
-    "N/A#PLANET NAME",
+    "Orbital 32#Welbar\n#PLANET NAME",
     "Bunny#Zircon",
-    "Controser 8888#Quiax\nUbile",
+    "Controser 8888#Quiax\n#Ubile",
     "kurtymckurt 8130#Oyvar",
     "FunkyShoeMan 7501#Krak",
     "Sack_Guy 5053#Rerere",
@@ -28,9 +27,9 @@
     "Annie (forfoxsake) Herzberg#Plod",
     "",
     "Playtesters",
-    "N/A",
-    "N/A",
-    "N/A"
+    "Texture_Turtle",
+    "NeroKilah",
+    "ilyNerY"
   ],
   "popupMessage": "UNNA-MYST: Hey there! This mod is better experienced with Suit Log and Voice Mod, and is compatible with Funny System, but those are not required. Enjoy!"
 }

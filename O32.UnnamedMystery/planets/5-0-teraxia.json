@@ -99,7 +99,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/TeraxiaCoreBase.wav",
+				"audio": "planets/music/TeraxiaCoreBase.ogg",
 				"loop": true,
 				"radius": 30,
 				"position": {
@@ -131,7 +131,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": -13.96133,
@@ -145,7 +145,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": -53.51153,

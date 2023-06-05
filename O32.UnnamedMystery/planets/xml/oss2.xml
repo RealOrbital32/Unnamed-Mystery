@@ -21,7 +21,7 @@
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>NYLOX: You know what? I'm going to <![CDATA[<color=orange>hide the code in pieces around this system.</color>]]>. I'll put the pieces in places so <![CDATA[<color=orange>obvious you'd overlook them</color>]]>.</Text>
+		<Text>NYLOX: You know what? I'm going to <![CDATA[<color=orange>hide the code in pieces around this system</color>]]>. I'll put the pieces in places so <![CDATA[<color=orange>obvious you'd overlook them</color>]]>.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>

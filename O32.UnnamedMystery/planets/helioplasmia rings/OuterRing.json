@@ -69,7 +69,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/HelioRings.wav",
+				"audio": "planets/music/HelioRings.ogg",
 				"loop": true,
 				"radius": 75,
 				"volume": 0.5,
@@ -174,7 +174,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "HelioRing.prefab",
 				"scale": 20,
 				"keepLoaded": true
@@ -196,7 +196,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": 8.734131,
@@ -210,7 +210,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": 22.99255,
@@ -224,7 +224,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": 13.98007,
@@ -238,7 +238,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": -15.41995,
@@ -252,7 +252,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "TeraxiaStructure.prefab",
 				"position": {
 					"x": -28.00629,

@@ -97,7 +97,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/ElectrumTower.wav",
+				"audio": "planets/music/ElectrumTower.ogg",
 				"volume": 0.425,
 				"radius": 50,
 				"loop": true,
@@ -108,7 +108,7 @@
 				}
 			},
 			{
-				"audio": "planets/music/ElectrumOutpost.wav",
+				"audio": "planets/music/ElectrumOutpost.ogg",
 				"volume": 0.75,
 				"loop": true,
 				"radius": 50,
@@ -285,7 +285,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ElectrumTower.prefab",
 				"position": {
 					"x": -178.8316,
@@ -299,7 +299,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerA.prefab",
 				"position": {
 					"x": -247.4954,
@@ -313,7 +313,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerC.prefab",
 				"position": {
 					"x": -250.8297,
@@ -327,7 +327,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SupplyStation.prefab",
 				"position": {
 					"x": -266.1426,
@@ -341,7 +341,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerB.prefab",
 				"position": {
 					"x": -267.9498,
@@ -355,7 +355,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SupplyStation.prefab",
 				"position": {
 					"x": -267.4012,
@@ -369,7 +369,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerA.prefab",
 				"position": {
 					"x": -258.6746,
@@ -383,7 +383,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerB.prefab",
 				"position": {
 					"x": -257.6459,

@@ -15,7 +15,7 @@
 		"frontPath": "planets/assets/dark.png",
 		"backPath": "planets/assets/dark.png"
 	},
-	"travelAudioFilePath": "planets/music/Space.wav",
+	"travelAudioFilePath": "planets/music/Space.ogg",
 	"curiosities": [
 		{
 			"id": "thalassia",

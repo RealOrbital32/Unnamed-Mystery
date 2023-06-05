@@ -28,7 +28,7 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"audio": "planets/music/OuterSpaceStation.wav",
+				"audio": "planets/music/OuterSpaceStation.ogg",
 				"volume": 0.35,
 				"loop": true,
 				"radius": 130
@@ -161,7 +161,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "OuterSpaceStation.prefab",
 				"keepLoaded": true
 			}

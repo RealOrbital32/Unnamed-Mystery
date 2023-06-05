@@ -21,7 +21,7 @@
 	"Props": {
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "HelioRing.prefab",
 				"scale": 18.5,
 				"keepLoaded": true

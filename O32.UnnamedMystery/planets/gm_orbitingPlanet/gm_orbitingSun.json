@@ -101,7 +101,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/GhostMoon.wav",
+				"audio": "planets/music/GhostMoon.ogg",
 				"loop": true,
 				"radius": 62
 			}

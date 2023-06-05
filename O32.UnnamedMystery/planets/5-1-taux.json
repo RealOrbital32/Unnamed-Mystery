@@ -42,7 +42,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/TauxTidalBase.wav",
+				"audio": "planets/music/TauxTidalBase.ogg",
 				"loop": true,
 				"radius": 55
 			}
@@ -81,7 +81,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "DynamoLab.prefab",
 				"position": {
 					"x": -29.99018,
@@ -95,7 +95,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
 					"x": -25.00192,
@@ -109,7 +109,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
 					"x": -26.63353,
@@ -123,7 +123,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
 					"x": -19.13952,
@@ -137,7 +137,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
 					"x": -0.9642086,
@@ -151,7 +151,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
 					"x": 20.05025,

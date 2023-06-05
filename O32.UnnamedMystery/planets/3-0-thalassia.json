@@ -88,7 +88,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/ThalassiaRuins.wav",
+				"audio": "planets/music/ThalassiaRuins.ogg",
 				"volume": 0.75,
 				"loop": true,
 				"radius": 35,
@@ -222,7 +222,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "BasicHouse.prefab",
 				"position": {
 					"x": -509.5925,
@@ -236,7 +236,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "BasicHouse.prefab",
 				"position": {
 					"x": -514.4941,
@@ -250,7 +250,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
 					"x": -512.2455,
@@ -264,7 +264,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
 					"x": -502.0169,
@@ -278,7 +278,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
 					"x": -505.8728,
@@ -292,7 +292,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "Arch.prefab",
 				"position": {
 					"x": -501.7512,

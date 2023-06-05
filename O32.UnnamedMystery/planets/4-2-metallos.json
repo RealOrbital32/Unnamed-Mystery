@@ -63,7 +63,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/Metallos.wav",
+				"audio": "planets/music/Metallos.ogg",
 				"volume": 0.75,
 				"loop": true,
 				"radius": 145

@@ -58,7 +58,7 @@
 		],
 		"audioVolumes": [
 			{
-				"audio": "planets/music/GinthCampsite.wav",
+				"audio": "planets/music/GinthCampsite.ogg",
 				"volume": 0.5,
 				"loop": true,
 				"radius": 25,
@@ -137,7 +137,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "BasicHouse.prefab",
 				"position": {
 					"x": 45.90118,
@@ -151,7 +151,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
 					"x": 43.53159,
@@ -165,7 +165,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-thallasia-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
 					"x": 50.37846,

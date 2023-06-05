@@ -176,7 +176,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
 					"x": -28.03769,
@@ -190,7 +190,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-electrum-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SupplyStation.prefab",
 				"position": {
 					"x": -37.65242,
@@ -204,7 +204,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-zephyria-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "FuelCells.prefab",
 				"position": {
 					"x": -11.18725,
@@ -232,7 +232,7 @@
 				}
 			},
 			{
-				"assetBundle": "planets/prefabs/o32-minor-structures",
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "DynamoLab.prefab",
 				"alignRadial": true,
 				"position": {

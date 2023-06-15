@@ -9,7 +9,7 @@
 		"showMinimap": false
 	},
 	"Orbit": {
-		"semiMajorAxis": 27000,
+		"semiMajorAxis": 17000,
 		"inclination": 90,
 		"axialTilt": 90,
 		"primaryBody": "Aetherion",
@@ -176,11 +176,11 @@
 			"invisibleWhenHidden": true,
 			"scale": 0.15,
 			"manualPosition": {
-				"x": 725,
+				"x": 500,
 				"y": 0
 			},
 			"manualNavigationPosition": {
-				"x": 5,
+				"x": 4,
 				"y": 2
 			}
 		}

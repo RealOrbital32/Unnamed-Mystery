@@ -10,7 +10,7 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 2500,
+		"semiMajorAxis": 2000,
 		"inclination": 14,
 		"primaryBody": "Thalassia",
 		"trueAnomaly": 65,

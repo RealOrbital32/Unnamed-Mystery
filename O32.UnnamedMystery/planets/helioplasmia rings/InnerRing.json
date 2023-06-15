@@ -11,7 +11,7 @@
 	"Orbit": {
 		"semiMajorAxis": 0.0001,
 		"axialTilt": 34,
-		"primaryBody": "Helioplasmia",
+		"primaryBody": "Helioraxia",
 		"isMoon": true,
 		"siderealPeriod": 1
 	},

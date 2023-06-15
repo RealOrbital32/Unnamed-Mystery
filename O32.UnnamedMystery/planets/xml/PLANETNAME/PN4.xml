@@ -11,7 +11,7 @@
 		
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>No! Don't! I get the story! I get it. What do you want?</Text>
+				<Text>No...</Text>
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>

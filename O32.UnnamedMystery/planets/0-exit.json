@@ -27,7 +27,7 @@
 	},
 	"Orbit": {
 		"semiMajorAxis": 20000,
-		"inclination": 56,
+		"inclination": 60,
 		"primaryBody": "Aetherion",
 		"trueAnomaly": 319,
 		"isMoon": false,

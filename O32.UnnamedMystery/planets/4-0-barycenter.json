@@ -7,17 +7,11 @@
 		"surfaceGravity": 0
 	},
 	"Orbit": {
-		"semiMajorAxis": 19000,
-		"inclination": 1.32,
+		"semiMajorAxis": 14000,
 		"primaryBody": "Aetherion",
 		"trueAnomaly": 14,
 		"isMoon": false,
 		"isTidallyLocked": false,
-		"axialTilt": 0,
-		"longitudeOfAscendingNode": 98,
-		"eccentricity": 0,
-		"argumentOfPeriapsis": 0,
-		"siderealPeriod": 10,
 		"tint": {
 			"r": 10,
 			"g": 99,
@@ -26,7 +20,7 @@
 		}
 	},
 	"FocalPoint": {
-		"primary": "Helioplasmia",
+		"primary": "Helioraxia",
 		"secondary": "Electrum"
 	},
 	"ReferenceFrame": {

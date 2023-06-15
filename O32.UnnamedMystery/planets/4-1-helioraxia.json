@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Helioplasmia",
+	"name": "Helioraxia",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
 		"surfaceSize": 800,
@@ -33,15 +33,10 @@
 	],
 	"Orbit": {
 		"semiMajorAxis": 10,
-		"inclination": 1.32,
 		"primaryBody": "Barycenter",
 		"trueAnomaly": 276,
 		"isMoon": true,
 		"isTidallyLocked": false,
-		"axialTilt": 0,
-		"longitudeOfAscendingNode": 98,
-		"eccentricity": 0,
-		"argumentOfPeriapsis": 0,
 		"siderealPeriod": 7,
 		"tint": {
 			"r": 166,
@@ -69,7 +64,7 @@
 			"cloudsPrefab": "giantsDeep",
 			"capPath": "planets/assets/helioplasmia_c.png",
 			"texturePath": "planets/assets/helioplasmia_g.png",
-			"innerCloudRadius": 690,
+			"innerCloudRadius": 640,
 			"outerCloudRadius": 790,
 			"hasLightning": true,
 			"tint": {
@@ -140,6 +135,25 @@
 		]
 	},
 	"Props": {
+		"remotes": [
+			{
+				"id": "Core Base",
+				"decalPath": "planets/assets/pool_corebase.png",
+				"platform": {
+					"reveals": "core-rumor",
+					"position": {
+						"x": 1.757164,
+						"y": 3.397726,
+						"z": 104.4623
+					},
+					"rotation": {
+						"x": 10.02909,
+						"y": 91.14594,
+						"z": 88.61515
+					}
+				}
+			}
+		],
 		"translatorText": [
 			{
 				"xmlFile": "planets/xml/helioDarv.xml",
@@ -157,6 +171,34 @@
 				"path": "hollow3.prefab",
 				"scale": 5,
 				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": 3.120207,
+					"y": -23.50844,
+					"z": 105.0701
+				},
+				"rotation": {
+					"x": 277.018,
+					"y": 260.2373,
+					"z": 281.2319
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": -22.98407,
+					"y": -1.861496,
+					"z": 105.1867
+				},
+				"rotation": {
+					"x": 341.3669,
+					"y": 91.84703,
+					"z": 88.56086
+				}
 			}
 		],
 		"singularities": [
@@ -175,7 +217,7 @@
 			"revealedSprite": "planets/logs/mapmode/helioplasmia.png",
 			"scale": 0.8,
 			"manualPosition": {
-				"x": 450,
+				"x": 400,
 				"y": 0
 			},
 			"manualNavigationPosition": {

@@ -9,16 +9,11 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 2000,
-		"inclination": 1.32,
+		"semiMajorAxis": 1500,
 		"primaryBody": "Thalassia",
 		"trueAnomaly": 315,
 		"isMoon": true,
 		"isTidallyLocked": true,
-		"axialTilt": 0,
-		"longitudeOfAscendingNode": 13,
-		"eccentricity": 0,
-		"argumentOfPeriapsis": 0,
 		"tint": {
 			"r": 168,
 			"g": 128,
@@ -201,7 +196,7 @@
 			"revealedSprite": "planets/logs/mapmode/ginth.png",
 			"scale": 0.2,
 			"manualPosition": {
-				"x": 325,
+				"x": 275,
 				"y": -55
 			},
 			"manualNavigationPosition": {

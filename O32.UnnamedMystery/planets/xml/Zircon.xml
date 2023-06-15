@@ -154,7 +154,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>spacestation-fact-1</RequiredLogCondition>
-				<Text>I found a black hole that takes you to the core of Helioplasmia.</Text>
+				<Text>I found a black hole that takes you to the core of Helioraxia.</Text>
 				<DialogueTarget>F3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -239,7 +239,7 @@
 	<DialogueNode>
 		<Name>F2-4</Name>
 		<Dialogue>
-			<Page>Oh, sorry, haha! I'm old, my memory is a little fuzzy.</Page>
+			<Page>Oh, you did? Haha, sorry.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>

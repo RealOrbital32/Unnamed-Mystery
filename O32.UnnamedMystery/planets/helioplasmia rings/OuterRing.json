@@ -11,7 +11,7 @@
 	"Orbit": {
 		"semiMajorAxis": 0.0001,
 		"axialTilt": 67,
-		"primaryBody": "Helioplasmia",
+		"primaryBody": "Helioraxia",
 		"isMoon": true,
 		"siderealPeriod": 2
 	},
@@ -85,10 +85,9 @@
 	"Props": {
 		"remotes": [
 			{
-				"id": "Helioplasmia",
-				"decalPath": "planets/assets/pool_helioplasmia.png",
+				"id": "Helioraxia",
+				"decalPath": "planets/assets/pool_helioraxia.png",
 				"platform": {
-					"reveals": "rings-rumor",
 					"position": {
 						"x": -2.614044,
 						"y": -209.3602,

@@ -36,7 +36,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>QUIAX: Here's what I have in mind: a <![CDATA[<color=orange>space station out past Teraxia</color>]]>. It will be dedicated space specifically to researching the Ghost Moon. We WILL crack this moon's code!</Text>
+		<Text>QUIAX: Here's what I have in mind: a <![CDATA[<color=orange>space station out past Helioraxia</color>]]>. It will be dedicated space specifically to researching the Ghost Moon. We WILL crack this moon's code!</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

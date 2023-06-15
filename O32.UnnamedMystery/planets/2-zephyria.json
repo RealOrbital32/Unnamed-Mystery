@@ -9,16 +9,11 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 9000,
-		"inclination": 1.32,
+		"semiMajorAxis": 7000,
 		"primaryBody": "Aetherion",
-		"trueAnomaly": 276,
+		"trueAnomaly": 216,
 		"isMoon": false,
 		"isTidallyLocked": false,
-		"axialTilt": 0,
-		"longitudeOfAscendingNode": 52,
-		"eccentricity": 0,
-		"argumentOfPeriapsis": 0,
 		"siderealPeriod": 12,
 		"tint": {
 			"r": 255,
@@ -546,7 +541,7 @@
 			"revealedSprite": "planets/logs/mapmode/zephyria.png",
 			"scale": 0.5,
 			"manualPosition": {
-				"x": 225,
+				"x": 175,
 				"y": 0
 			},
 			"manualNavigationPosition": {

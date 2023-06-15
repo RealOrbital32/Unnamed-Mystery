@@ -9,7 +9,7 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 27000,
+		"semiMajorAxis": 17000,
 		"inclination": 1,
 		"primaryBody": "Aetherion",
 		"trueAnomaly": 65,
@@ -267,7 +267,7 @@
 			"offset": 0.45,
 			"scale": 0.3,
 			"manualPosition": {
-				"x": 425,
+				"x": 325,
 				"y": 100
 			},
 			"manualNavigationPosition": {

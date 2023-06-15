@@ -9,16 +9,11 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 3000,
-		"inclination": 1.32,
+		"semiMajorAxis": 2500,
 		"primaryBody": "Barycenter",
 		"trueAnomaly": 276,
 		"isMoon": true,
 		"isTidallyLocked": false,
-		"axialTilt": 0,
-		"longitudeOfAscendingNode": 98,
-		"eccentricity": 0,
-		"argumentOfPeriapsis": 0,
 		"siderealPeriod": 9,
 		"tint": {
 			"r": 240,
@@ -407,7 +402,7 @@
 			"revealedSprite": "planets/logs/mapmode/electrum.png",
 			"scale": 0.4,
 			"manualPosition": {
-				"x": 450,
+				"x": 400,
 				"y": -110
 			},
 			"manualNavigationPosition": {

@@ -10,7 +10,7 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 3500,
+		"semiMajorAxis": 3000,
 		"inclination": 11,
 		"primaryBody": "Barycenter",
 		"trueAnomaly": 65,

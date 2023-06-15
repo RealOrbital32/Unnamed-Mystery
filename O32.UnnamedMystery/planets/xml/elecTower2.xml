@@ -36,7 +36,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>DARVY: Actually, great idea, we should build the base on that <![CDATA[<color=orange>asteroid orbiting the white gas giant</color>]]>.</Text>
+		<Text>DARVY: Actually, great idea, we should build the base on <![CDATA[<color=orange>Metallos</color>]]>.</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

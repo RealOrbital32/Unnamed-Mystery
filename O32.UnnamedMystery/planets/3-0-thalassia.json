@@ -9,16 +9,11 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 13000,
-		"inclination": 1.32,
+		"semiMajorAxis": 10500,
 		"primaryBody": "Aetherion",
 		"trueAnomaly": 276,
 		"isMoon": false,
 		"isTidallyLocked": false,
-		"axialTilt": 0,
-		"longitudeOfAscendingNode": 98,
-		"eccentricity": 0,
-		"argumentOfPeriapsis": 0,
 		"siderealPeriod": 15,
 		"tint": {
 			"r": 41,
@@ -104,11 +99,11 @@
 	"Props": {
 		"remotes": [
 			{
-				"id": "Helioplasmia",
-				"decalPath": "planets/assets/pool_helioplasmia.png",
+				"id": "Core Base",
+				"decalPath": "planets/assets/pool_corebase.png",
 				"stones": [
 					{
-						"rename": "Helioplasmia",
+						"rename": "Core Base Stone",
 						"position": {
 							"x": -511.0168,
 							"y": -183.8323,
@@ -326,7 +321,7 @@
 			"revealedSprite": "planets/logs/mapmode/thalassia.png",
 			"scale": 0.6,
 			"manualPosition": {
-				"x": 325,
+				"x": 275,
 				"y": 0
 			},
 			"manualNavigationPosition": {

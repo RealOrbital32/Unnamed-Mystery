@@ -117,6 +117,16 @@
 				"radius": 50,
 				"reveals": [ "spacestation-fact-3", "this-rumor-is-just-to-link-the-stuff" ],
 				"revealOn": "enter"
+			},
+			{
+				"radius": 10,
+				"reveals": [ "teraxia-fact-1" ],
+				"revealOn": "enter",
+				"position": {
+					"x": 1.757164,
+					"y": 3.397726,
+					"z": 104.4623
+				}
 			}
 		],
 		"reverbVolumes": [

@@ -55,7 +55,7 @@
 			"texturePath": "planets/assets/thalassia_g.png",
 			"innerCloudRadius": 0,
 			"outerCloudRadius": 610,
-			"rotationSpeed": -3
+			"rotationSpeed": -3.8
 		}
 	},
 	"Volumes": {

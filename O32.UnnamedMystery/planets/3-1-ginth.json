@@ -109,6 +109,14 @@
 				"radius": 2
 			}
 		],
+		"scatter": [
+			{
+				"path": "Foliage_TH_PebblePatch",
+				"preventOverlap": true,
+				"count": 100,
+				"scale": 1.5
+			}
+		],
 		"details": [
 			{
 				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",

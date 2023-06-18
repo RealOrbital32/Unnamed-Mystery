@@ -222,6 +222,38 @@
 				}
 			}
 		],
+		"scatter": [
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Single_A",
+				"preventOverlap": true,
+				"count": 40
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_ClumpedCacti",
+				"preventOverlap": true,
+				"count": 40
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Spread_A",
+				"preventOverlap": true,
+				"count": 40
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedQuantum/Geometry_LakebedQuantum/LakeBedQuantum_EntranceRocks/OtherComponentsGroup/Rocks_HCT_Interior_A",
+				"preventOverlap": true,
+				"count": 20
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedQuantum/Geometry_LakebedQuantum/LakeBedQuantum_EntranceRocks/OtherComponentsGroup/Rocks_HCT_Interior_C",
+				"preventOverlap": true,
+				"count": 20
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_SealedCavern/Geometry_SealedCavern/Rocks_SealedCavern/OtherComponentsGroup/Rocks_HCT_Interior_B",
+				"preventOverlap": true,
+				"count": 10
+			}
+		],
 		"details": [
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",

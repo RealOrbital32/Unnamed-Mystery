@@ -2,8 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
 	"DialogueDictionary": {
 
-		// regular dialogue
-
 		"Zircon": "Zircon",
 		"Hm?": "Hm?",
 		"How did you get here?": "Comment es-tu arrivé ici?",
@@ -156,8 +154,6 @@
 		"...Yes!": "... Oui!",
 		"Now walk forward. I'll fill you in on the details.": "Maintenant continue. Je vais te donner les détails.",
 		"Got it.": "Compris.",
-
-		// Nomai text spirals and stuff
 
 		"NYLOX: So. I had to make a new journal, because I forgot the one on that sandy planet.": "NYLOX: Bon. j'ai dû faire un nouveau journal, parce que j'ai oublié celui sur cette planète de sable.",
 		"NYLOX: Anyways. I am now residing in the <![CDATA[<color=orange>Electrum Tower</color>]]>, so there's that.": "NYLOX: Peu importe. Je réside maintenant dans la <![CDATA[<color=orange>Tour d'Électrum</color>]]>, alors voilà.",
@@ -400,7 +396,7 @@
 
 		"Emergency Tree Planting Site": "Site de plantation d'arbres d'urgence",
 
-		"Housing": "Habitations",
+		"Housing": "Habitations"
 
 	},
 	"ShipLogDictionary": {

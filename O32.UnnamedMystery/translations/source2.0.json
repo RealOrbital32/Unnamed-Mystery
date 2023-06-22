@@ -43,9 +43,9 @@
 		"In fact, I actually crashed into that ghost moon, or at least I think so.": "",
 		"I was in the outer solar system, so...": "",
 		"How did you not get trapped?": "",
-		"I found a black hole that takes you to the core of Helioplasmia.": "",
+		"I found a black hole that takes you to the core of Helioraxia.": "",
 		"Oh really? You can't just fly down there yourself? Why and where would you need a black hole?": "",
-		"The core of Helioplasmia is completely shut off from the world.": "",
+		"The core of Helioraxia is completely shut off from the world.": "",
 		"Wait... then how did you get... out?": "",
 		"Uh... Anyways! The black hole was in a building on an asteroid colony. It was to access the Ghost Moon.": "",
 		"Ah, another Ghost Moon predicament, eh? They sure are persistent.": "",
@@ -168,7 +168,7 @@
 		"OYVAR: What? That sounds nonsensical. There's no way that a moon can just-": "",
 		"OYVAR: Oh. My. Goodness.": "",
 		"UBILE: See? It's just... growing. Brown gas from the planet is just being sucked into that moon and getting cooled.": "",
-		"OYVAR: Well, I don't know about you, but I think Helioplasmia just spat out all the pieces that fell into it.": "",
+		"OYVAR: Well, I don't know about you, but I think Helioraxia just spat out all the pieces that fell into it.": "",
 		"UBILE: Oh, right. I almost forgot about that. So much hard work gone to waste...": "",
 
 		"KRAK: I feel like this outpost is/should be our main base of operations.": "",
@@ -244,7 +244,7 @@
 		"QUIAX: Erm... it failed miserably. We need to build another megastructure.": "",
 		"OYVAR: Another megastructure?! Remember what happened to the HelioRings?": "",
 		"NYLOX: Oh come on, that was only a fluke. We can do better this time.": "",
-		"QUIAX: Here's what I have in mind: a <![CDATA[<color=orange>space station out past Teraxia</color>]]>. It will be dedicated space specifically to researching the Ghost Moon. We WILL crack this moon's code!": "",
+		"QUIAX: Here's what I have in mind: a <![CDATA[<color=orange>space station out past Helioraxia</color>]]>. It will be dedicated space specifically to researching the Ghost Moon. We WILL crack this moon's code!": "",
 
 		"WELBAR: You know what's funny? This moon is tidally locked to the planet it's orbiting.": "",
 		"WELBAR: Even crazier is the fact that the planet's clouds are perfectly in sync with this moon's orbit.": "",
@@ -358,11 +358,11 @@
 		"QUIAX: Hey guys, do you see that?": "",
 		"QUIAX: There's an escape pod crashing on that <![CDATA[<color=orange>desert planet</color>]]>!": "",
 
-		"Teraxia 'HelioRing' Link": "",
+		"HelioRings 'CoreLink'": "",
 
 		"DARVY: At last! We've finally finished the construction of the Geothermal Dynamo Generator!": "",
 		"DARVY: Thanks to the help of Quiax's sister Plod and the master builder Trov, of course. I only came up with the idea.": "",
-		"DARVY: Uh, nonetheless, this thing is supposed to be powered by the tidal forces exerted by what we've named Teraxia.": "",
+		"DARVY: Uh, nonetheless, this thing is supposed to be powered by the tidal forces exerted by what we've named Helioraxia.": "",
 		"DARVY: Both that and geothermal activity. Anyways, that's besides the point.": "",
 		"DARVY: Today I activate the machine that will be our first steps into the <![CDATA[<color=orange>fourth dimension</color>]]>!": "",
 		"DARVY: If this all goes well, we'll be able to conquer the <![CDATA[<color=orange>Ghost Moon</color>]]>!": "",
@@ -400,7 +400,7 @@
 
 		"Emergency Tree Planting Site": "",
 
-		"Housing": "",
+		"Housing": ""
 
 	},
 	"ShipLogDictionary": {
@@ -440,13 +440,13 @@
 		"The front entrance is blocked.": "",
 		"I was able to enter the tower from the top.": "",
 		"Darvy, a Nomai, was talking about needing a higher dimension of technology to access the Ghost Moon.": "",
-		"Two Nomai were discussing building something in/on Teraxia.": "",
+		"Two Nomai were discussing building something in/on Helioraxia.": "",
 
 		"Mining Outpost": "",
 		"When We Finally Leave": "",
 		"The Nomai wanted to build a base on what they described to be Electrum.": "",
 		"There appears to be a mining outpost here, but it's rather small.": "",
-		"I learned about how Metallos came into existence. Apparently, it is composed of remnants from previous rings that once orbited Helioplasmia.": "",
+		"I learned about how Metallos came into existence. Apparently, it is composed of remnants from previous rings that once orbited Helioraxia.": "",
 		"Nylox dreamt of a gateway sort-of thing on Helixia.": "",
 		"This place used to be full of radiation. Nylox's shoulder was supposedly mutated.": "",
 
@@ -459,28 +459,28 @@
 
 		"Core Base": "",
 		"Core Structure": "",
-		"A Nomai wanted to build something on the core of Teraxia.": "",
+		"A Nomai wanted to build something on the core of Helioraxia.": "",
 		"Missing Stone": "",
-		"The projection pool should be on Teraxia.": "",
-		"There's a rather small base on Teraxia's core along the equator, which is red.": "",
+		"The projection pool should be on Helioraxia.": "",
+		"There's a rather small base on Helioraxia's core on a grey cap.": "",
 
 		"Core": "",
 		"Link": "",
-		"The Taux base links to Helioplasmia's core.": "",
-		"A black hole took me to the core of Helioplasmia. I appear to be stuck here.": "",
+		"The Metallos base links to Helioraxia's core.": "",
+		"A black hole took me to the core of Helioraxia. I appear to be stuck here.": "",
 		"Darvy was killed by some unknown means, whilst stranded with no access to the outside world.": "",
 
 		"HelioRings": "",
 		"Ring Projection": "",
-		"I saw a projection that showed a platform on one of Helioplasmia's rings.": "",
+		"I saw a projection that showed a platform inside Helioraxia.": "",
 		"There is a platform on one of the rings that has artifical gravity.": "",
-		"These rings had lasers which were used to extract resources from Helioplasmia.": "",
+		"These rings had lasers which were used to extract resources from Helioraxia.": "",
 		"One day, an unknown amount of 'HelioRings' came crashing down for some reason.": "",
 		"A Nomai visited here and commented on the view.": "",
 
 		"Cracking the Code": "",
 		"Last Stand": "",
-		"The Nomai wanted to build another megastructure to finally 'crack the Ghost Moon's code'. It is somewhere out past Teraxia.": "",
+		"The Nomai wanted to build another megastructure to finally 'crack the Ghost Moon's code'. It is somewhere out past Helioraxia.": "",
 		"Things for the Space Station": "",
 		"Nylox, a Nomai, talked about placing down a 'thingy' for the 'Outer Space Station'.": "",
 		"There is a huge space station in a large polar orbit around Aetherion.": "",
@@ -526,11 +526,9 @@
 		"Zephyria": "",
 		"Thalassia": "",
 		"Ginth": "",
-		"Helioplasmia": "",
+		"Helioraxia": "",
 		"Metallos": "",
 		"Electrum": "",
-		"Teraxia": "",
-		"Taux": "",
 		"Outer Space Station": "",
 		"Ghost Moon": "",
 		"PLANET NAME": "",

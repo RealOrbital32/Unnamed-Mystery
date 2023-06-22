@@ -1,8 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
 	"DialogueDictionary": {
-		//机翻+人工润色
-		// regular dialogue
 
 		"Zircon": "费尔德斯齐",
 		"Hm?": "呃？",
@@ -156,8 +154,6 @@
 		"...Yes!": "...是的！",
 		"Now walk forward. I'll fill you in on the details.": "现在向前走。我会告诉你细节的。",
 		"Got it.": "明白了。",
-
-		// Nomai text spirals and stuff
 
 		"NYLOX: So. I had to make a new journal, because I forgot the one on that sandy planet.": "Nylox：所以。我不得不写一本新的日记，因为我把之前那本遗留在那个沙漠行星上了。",
 		"NYLOX: Anyways. I am now residing in the <![CDATA[<color=orange>Electrum Tower</color>]]>, so there's that.": "Nylox：无论如何。我现在住在<![CDATA[<color=orange>电极星的高塔</color>]]>里，就是这样。",
@@ -421,7 +417,6 @@
 		"A Nomai named Nylox wrote in a journal talking about how the group was about to die, and planned to construct a building to shield the clan from the harsh environment.": "一个叫做Nylox的挪麦人在日记中写道，他们这个小组快要死了，并计划建造一座建筑来保护家族免受恶劣环境的侵害。",
 		"I found a log stating another base site on a metallic moon.": "我找到了一条记录，说在一个金属卫星上还有另一个基地点。",
 
-		"Gateway Project": "门户计划",
 		"Gateway Project": "门户计划",
 		"Three Nomai agreed to build a gateway on Zephyria.": "三个挪麦人同意在沙烬星上建造一个门户。",
 		"There is a huge facility with a ring structure and storage tanks. It is on the opposite side from the crash site.": "这里有一个巨大的设施，有一个环形结构和储存罐。它在坠毁点的对面。",

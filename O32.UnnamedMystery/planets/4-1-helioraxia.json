@@ -173,6 +173,20 @@
 					"y": 36,
 					"z": 47
 				}
+			},
+			{
+				"xmlFile": "planets/xml/comingsoon.xml",
+				"type": "trailmarker",
+				"position": {
+					"x": -1.73292,
+					"y": -3.982732,
+					"z": 104.7226
+				},
+				"rotation": {
+					"x": 13.85272,
+					"y": 91.05074,
+					"z": 88.59544
+				}
 			}
 		],
 		"details": [

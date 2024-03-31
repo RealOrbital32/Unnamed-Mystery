@@ -249,5 +249,12 @@
 				"y": 2
 			}
 		}
+	},
+	"extras": {
+		"helioraxiaZapper": {
+			"radius": 440,
+			"zapSpeed": 100,
+			"damage": 10
+		}
 	}
 }

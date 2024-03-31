@@ -262,7 +262,7 @@
 			"zapRepeatTime": 5,
 			"flashbangExposure": 10,
 			"flashbangFadeLength": 2,
-			"damage": 10
+			"damage": 50
 		}
 	}
 }

@@ -9,7 +9,7 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 1500,
+		"semiMajorAxis": 1300,
 		"primaryBody": "Helioraxia",
 		"trueAnomaly": 276,
 		"isMoon": true,
@@ -26,32 +26,21 @@
 		"heightMap": "planets/assets/metallos_h.png",
 		"textureMap": "planets/assets/metallos_t.png",
 		"resolution": 300,
-		"minHeight": 85,
-		"maxHeight": 95,
+		"minHeight": 55,
+		"maxHeight": 65,
 		"metallic": 0.9,
-		"smoothness": 0.55
-	},
-	"Atmosphere": {
-		"hasSnow": true,
-		"size": 115,
-		"fogSize": 115,
-		"fogDensity": 0.1,
-		"atmosphereSunIntensity": 0.5,
-		"atmosphereTint": {
-			"r": 70,
-			"g": 50,
-			"b": 24
-		},
-		"fogTint": {
-			"r": 70,
-			"g": 50,
-			"b": 24
+		"smoothness": 0.7,
+		"normalMap": "planets/assets/metallos_normal.png",
+		"baseTile": {
+			"textureTile": "planets/assets/tiles/metallos_copper1.png",
+			"normalTile": "planets/assets/tiles/metallos_copper2.png",
+			"size": 24
 		}
 	},
 	"Volumes": {
 		"revealVolumes": [
 			{
-				"radius": 115,
+				"radius": 80,
 				"reveals": [ "metallos-fact" ],
 				"revealOn": "enter"
 			},
@@ -60,9 +49,9 @@
 				"reveals": [ "spacestation-fact-1" ],
 				"revealOn": "enter",
 				"position": {
-					"x": -53.8538,
-					"y": 1.810127,
-					"z": -81.7427
+					"x": 5.669589,
+					"y": -1.306784,
+					"z": -66.7217
 				}
 			}
 		],
@@ -82,28 +71,28 @@
 				"xmlFile": "planets/xml/tauxNom.xml",
 				"type": "recorder",
 				"position": {
-					"x": -51.37383,
-					"y": 5.037605,
-					"z": -81.0677
+					"x": 7.59333,
+					"y": -3.784699,
+					"z": -64.28888
 				},
 				"rotation": {
-					"x": 13.62548,
-					"y": 124.7602,
-					"z": 268.3691
+					"x": 54.31332,
+					"y": 269.8926,
+					"z": 96.58382
 				}
 			},
 			{
-				"type": "cairnVariant",
+				"type": "cairnCT",
 				"xmlFile": "planets/xml/riddleC.xml",
 				"position": {
-					"x": -27.29931,
-					"y": -27.11956,
-					"z": -82.38151
+					"x": 26.21545,
+					"y": -21.935,
+					"z": -49.22247
 				},
 				"rotation": {
-					"x": 290.2061,
-					"y": 232.0258,
-					"z": 148.9674
+					"x": 297.3983,
+					"y": 89.79083,
+					"z": 222.8687
 				}
 			}
 		],
@@ -112,80 +101,84 @@
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "DynamoLab.prefab",
 				"position": {
-					"x": -50.16604,
-					"y": 1.990519,
-					"z": -76.49007
+					"x": 5.076221,
+					"y": -0.8978961,
+					"z": -60.34192
 				},
 				"rotation": {
-					"x": 346.8668,
-					"y": 125.5144,
-					"z": 268.3724
+					"x": 86.09605,
+					"y": 5.330855,
+					"z": 190.7693
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
-					"x": -27.35077,
-					"y": -27.1275,
-					"z": -82.36076
+					"x": 28.10793,
+					"y": -6.578366,
+					"z": -52.95943
 				},
 				"rotation": {
-					"x": 293.6215,
-					"y": 244.2509,
-					"z": 137.6146
+					"x": 358.5736,
+					"y": 237.2139,
+					"z": 92.57935
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
-					"x": -26.63353,
-					"y": 18.55873,
-					"z": -24.06867
+					"x": 29.59102,
+					"y": -20.57019,
+					"z": -47.13401
 				},
 				"rotation": {
-					"x": 333.5318,
-					"y": 332.1426,
-					"z": 70.1687
+					"x": 343.7828,
+					"y": 228.331,
+					"z": 113.5326
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
-					"x": -13.47356,
-					"y": -16.84736,
-					"z": -90.05733
+					"x": 6.440426,
+					"y": -28.92404,
+					"z": -52.40956
 				},
 				"rotation": {
-					"x": 355.2819,
-					"y": 277.106,
-					"z": 100.1463
+					"x": 295.5569,
+					"y": 194.1755,
+					"z": 160.4697
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
 				"position": {
-					"x": -22.32418,
-					"y": 6.28028,
-					"z": -89.64329
+					"x": -15.13049,
+					"y": -22.37743,
+					"z": -54.90532
 				},
 				"rotation": {
-					"x": 64.79576,
-					"y": 272.9198,
-					"z": 79.40861
+					"x": 322.1924,
+					"y": 119.7764,
+					"z": 245.0766
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "GeothermalLab.prefab",
-				"alignRadial": true,
 				"position": {
-					"x": -36.40724,
-					"y": 14.78867,
-					"z": -82.21479
+					"x": -22.95092,
+					"y": -6.301109,
+					"z": -56.16106
+				},
+				"rotation": {
+					"x": 26.38635,
+					"y": 109.8608,
+					"z": 263.7711
 				}
 			}
 		],
@@ -197,14 +190,14 @@
 				"uniqueID": "spacestation-1",
 				"pairedSingularity": "helioplasmia-core",
 				"position": {
-					"x": -53.8538,
-					"y": 1.810127,
-					"z": -81.7427
+					"x": 5.669589,
+					"y": -1.306784,
+					"z": -66.7217
 				},
 				"rotation": {
-					"x": 28.90316,
-					"y": 123.9752,
-					"z": 268.0923
+					"x": 358.3799,
+					"y": 264.9526,
+					"z": 93.21265
 				}
 			}
 		]

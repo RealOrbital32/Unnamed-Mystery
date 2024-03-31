@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3226389281
+CRC: 3256349131
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4a43eef6349fab180dc98a7ef446e2da
+    Hash: f95c3be95cce37ea9c5e93c0643e51e3
   TypeTreeHash:
     serializedVersion: 2
     Hash: cda065d4cef8b17c62e60feadc557613
@@ -75,6 +75,7 @@ Assets:
 - Assets/Nomai Ruins/Real Stuff/HelioRing.prefab
 - Assets/Nomai Ruins/Real Stuff/BasicHouse.prefab
 - Assets/Nomai Ruins/Real Stuff/Gateway.prefab
+- Assets/Nomai Ruins/Real Stuff/IynoCore.prefab
 - Assets/Nomai Ruins/Real Stuff/SmallHouse.prefab
 - Assets/Nomai Ruins/Real Stuff/MainBase.prefab
 - Assets/Nomai Ruins/Real Stuff/TeraxiaStructure.prefab
@@ -83,12 +84,14 @@ Assets:
 - Assets/Nomai Ruins/Real Stuff/MassPlanting.prefab
 - Assets/Nomai Ruins/Real Stuff/ElectrumTower.prefab
 - Assets/Nomai Ruins/Real Stuff/Tower.prefab
+- Assets/Nomai Ruins/Real Stuff/IynoRing.prefab
 - Assets/Nomai Ruins/Real Stuff/FuelCells.prefab
 - Assets/Nomai Ruins/Real Stuff/ReallyRuinedHouse.prefab
 - Assets/Nomai Ruins/Real Stuff/WorkerHouse_VerB.prefab
 - Assets/Nomai Ruins/Real Stuff/GeothermalLab.prefab
 - Assets/Nomai Ruins/Real Stuff/WorkerHouse_VerA.prefab
 - Assets/Nomai Ruins/Real Stuff/RuinedHouse.prefab
+- Assets/Nomai Ruins/Real Stuff/HelioRingsMaster.prefab
 - Assets/Nomai Ruins/Real Stuff/OuterSpaceStation.prefab
 - Assets/Nomai Ruins/Real Stuff/WorkerHouse_VerC.prefab
 Dependencies: []

@@ -27,7 +27,13 @@
 		"textureMap": "planets/assets/ghostmoon_t.png",
 		"resolution": 600,
 		"minHeight": 45,
-		"maxHeight": 47
+		"maxHeight": 47,
+		"normalMap": "planets/assets/ghostmoon_normal.png",
+		"baseTile": {
+			"textureTile": "planets/assets/tiles/ghostmoon_4Dmatter1.png",
+			"normalTile": "planets/assets/tiles/ghostmoon_4Dmatter2.png",
+			"size": 12
+		}
 	},
 	"Atmosphere": {
 		"size": 70,
@@ -35,14 +41,14 @@
 		"fogDensity": 1,
 		"atmosphereSunIntensity": 1,
 		"atmosphereTint": {
-			"r": 238,
-			"g": 220,
-			"b": 242
+			"r": 220,
+			"g": 242,
+			"b": 220
 		},
 		"fogTint": {
-			"r": 238,
-			"g": 220,
-			"b": 242
+			"r": 220,
+			"g": 242,
+			"b": 220
 		},
 		"clouds": {
 			"cloudsPrefab": "giantsDeep",
@@ -51,9 +57,9 @@
 			"outerCloudRadius": 67,
 			"rotationSpeed": -2,
 			"tint": {
-				"r": 238,
-				"g": 220,
-				"b": 242
+				"r": 220,
+				"g": 242,
+				"b": 220
 			}
 		}
 	},
@@ -243,7 +249,8 @@
 				}
 			},
 			{
-				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_HEA_Recorder",
+				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
 					"x": 35.7431,
@@ -254,6 +261,14 @@
 					"x": 345.0912,
 					"y": 320.5735,
 					"z": 292.6081
+				},
+				"removeComponents": true,
+				"item": {
+					"pickupCondition": "RADIO-GRABBED",
+					"interactRange": 3,
+					"name": "Zircon's Radio",
+					"clearPickupConditionOnDrop": true,
+					"droppable": true
 				}
 			}
 		]

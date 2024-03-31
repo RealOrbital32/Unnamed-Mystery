@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ring3",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 950,
+		"surfaceGravity": 0,
+		"hasMapMarker": false,
+		"showMinimap": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 0.0001,
+		"axialTilt": 34,
+		"primaryBody": "Helioraxia",
+		"isMoon": true,
+		"siderealPeriod": 1
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "HelioRingsMaster.prefab",
+				"scale": 10,
+				"keepLoaded": true
+			}
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

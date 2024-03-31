@@ -36,7 +36,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>DARVY: Nylox. Read my notebook.</Text>
+		<Text>DARVY: Nylox. Read my notebook. There is a digital copy <![CDATA[<color=orange>inside</color>]]> Ginth.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>9</ID>

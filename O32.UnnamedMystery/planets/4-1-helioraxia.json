@@ -3,8 +3,8 @@
 	"name": "Helioraxia",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 800,
-		"surfaceGravity": 21,
+		"surfaceSize": 560,
+		"surfaceGravity": 18,
 		"hasMapMarker": true,
 		"showMinimap": true
 	},
@@ -12,7 +12,7 @@
 		{
 			"isShell": true,
 			"innerRadius": 290,
-			"outerRadius": 800,
+			"outerRadius": 560,
 			"intensity": 1,
 			"tint": {
 				"r": 210,
@@ -32,7 +32,7 @@
 		}
 	],
 	"Orbit": {
-		"semiMajorAxis": 10,
+		"semiMajorAxis": 5,
 		"primaryBody": "Barycenter",
 		"trueAnomaly": 276,
 		"isMoon": true,
@@ -46,10 +46,10 @@
 		}
 	},
 	"Atmosphere": {
-		"size": 800,
-		"fogSize": 800,
-		"fogDensity": 1,
-		"atmosphereSunIntensity": 1,
+		"size": 560,
+		"fogSize": 560,
+		"fogDensity": 1.3,
+		"atmosphereSunIntensity": 0.9,
 		"atmosphereTint": {
 			"r": 210,
 			"g": 50,
@@ -64,8 +64,8 @@
 			"cloudsPrefab": "giantsDeep",
 			"capPath": "planets/assets/helioplasmia_c.png",
 			"texturePath": "planets/assets/helioplasmia_g.png",
-			"innerCloudRadius": 640,
-			"outerCloudRadius": 790,
+			"innerCloudRadius": 450,
+			"outerCloudRadius": 500,
 			"hasLightning": true,
 			"tint": {
 				"r": 210,
@@ -81,7 +81,7 @@
 			"unlit": true,
 			"inclination": 44,
 			"innerRadius": 0,
-			"outerRadius": 310,
+			"outerRadius": 150,
 			"rotationSpeed": 4,
 			"longitudeOfAscendingNode": 118
 		},
@@ -91,7 +91,7 @@
 			"unlit": true,
 			"inclination": 111,
 			"innerRadius": 0,
-			"outerRadius": 460,
+			"outerRadius": 250,
 			"rotationSpeed": 3,
 			"longitudeOfAscendingNode": 312
 		},
@@ -101,7 +101,7 @@
 			"unlit": true,
 			"inclination": 153,
 			"innerRadius": 0,
-			"outerRadius": 650,
+			"outerRadius": 350,
 			"rotationSpeed": 2,
 			"longitudeOfAscendingNode": 46
 		}

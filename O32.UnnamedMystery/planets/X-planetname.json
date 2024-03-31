@@ -130,7 +130,14 @@
 		"minHeight": 50,
 		"maxHeight": 70,
 		"metallic": 0.1,
-		"smoothness": 0.1
+		"smoothness": 0.1,
+		"normalMap": "planets/assets/planetname_normal.png",
+		"normalStrength": -5,
+		"baseTile": {
+			"textureTile": "planets/assets/tiles/ghostmoon_4Dmatter1.png",
+			"normalTile": "planets/assets/tiles/ghostmoon_4Dmatter2.png",
+			"size": 12
+		}
 	},
 	"Atmosphere": {
 		"size": 105,

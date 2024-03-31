@@ -3,7 +3,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 2000,
+		"surfaceSize": 1600,
 		"surfaceGravity": 35,
 		"hasMapMarker": true,
 		"gravityFallOff": "inverseSquared",
@@ -12,7 +12,7 @@
 	"Star": {
 		"hasAtmosphere": true,
 		"lightRadius": 150000,
-		"size": 2000,
+		"size": 1600,
 		"solarLuminosity": 0.75,
 		"supernovaTint": {
 			"r": 92,

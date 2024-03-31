@@ -3,13 +3,13 @@
 	"name": "Electrum",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 350,
-		"surfaceGravity": 12,
+		"surfaceSize": 165,
+		"surfaceGravity": 15,
 		"hasMapMarker": true,
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 2500,
+		"semiMajorAxis": 1850,
 		"primaryBody": "Barycenter",
 		"trueAnomaly": 276,
 		"isMoon": true,
@@ -26,13 +26,20 @@
 		"heightMap": "planets/assets/electrum_h.png",
 		"textureMap": "planets/assets/electrum_t.png",
 		"resolution": 500,
-		"minHeight": 290,
-		"maxHeight": 310,
+		"minHeight": 120,
+		"maxHeight": 140,
 		"smoothness": 0.8,
-		"metallic": 0.6
+		"metallic": 0.6,
+		"normalMap": "planets/assets/electrum_normal.png",
+		"normalStrength": 0.5,
+		"baseTile": {
+			"textureTile": "planets/assets/tiles/electrum_sheets1.png",
+			"normalTile": "planets/assets/tiles/electrum_sheets2.png",
+			"size": 80
+		}
 	},
 	"Lava": {
-		"size": 296,
+		"size": 130,
 		"tint": {
 			"r": 242,
 			"g": 141,
@@ -41,8 +48,8 @@
 	},
 	"Atmosphere": {
 		"useAtmosphereShader": true,
-		"size": 350,
-		"fogSize": 350,
+		"size": 165,
+		"fogSize": 165,
 		"fogDensity": 0.7,
 		"atmosphereSunIntensity": 0.7,
 		"atmosphereTint": {
@@ -120,8 +127,8 @@
 	"Props": {
 		"singularities": [
 			{
-				"horizonRadius": 50,
-				"distortRadius": 350,
+				"horizonRadius": 30,
+				"distortRadius": 150,
 				"type": "blackHole"
 			}
 		],
@@ -129,98 +136,98 @@
 			{
 				"type": "whiteboard",
 				"position": {
-					"x": -180.257,
-					"y": -166.2844,
-					"z": -196.8189
+					"x": -74.6883,
+					"y": 114.8117,
+					"z": 25.5239
 				},
 				"rotation": {
-					"x": 308.2645,
-					"y": 182.2662,
-					"z": 215.5637
+					"x": 330.0056,
+					"y": 136.1168,
+					"z": 343.6175
 				}
 			},
 			{
 				"type": "scroll",
 				"xmlFile": "planets/xml/elecTower1.xml",
 				"position": {
-					"x": -178.4136,
-					"y": -161.0392,
-					"z": -205.8926
+					"x": -71.5922,
+					"y": 118.3715,
+					"z": 32.0074
 				},
 				"rotation": {
-					"x": 342.268,
-					"y": 309.0779,
-					"z": 151.171
+					"x": 11.4202,
+					"y": 214.2534,
+					"z": 229.1226
 				}
 			},
 			{
 				"type": "scroll",
 				"xmlFile": "planets/xml/elecTower2.xml",
 				"position": {
-					"x": -177.914,
-					"y": -165.3306,
-					"z": -201.7433
+					"x": -68.5875,
+					"y": 119.2529,
+					"z": 29.5398
 				},
 				"rotation": {
-					"x": 332.8281,
-					"y": 287.046,
-					"z": 159.68
+					"x": 14.6205,
+					"y": 218.0304,
+					"z": 298.0771
 				}
 			},
 			{
 				"type": "recorder",
 				"xmlFile": "planets/xml/elecTower3.xml",
 				"position": {
-					"x": -210.0827,
-					"y": -184.7814,
-					"z": -225.6967
+					"x": -95.46633,
+					"y": 154.5306,
+					"z": 30.41186
 				},
 				"rotation": {
-					"x": 300.5898,
-					"y": 215.3473,
-					"z": 187.9769
+					"x": 33.77656,
+					"y": 283.5099,
+					"z": 358.8104
 				}
 			},
 			{
 				"type": "recorder",
 				"xmlFile": "planets/xml/elecTower4.xml",
 				"position": {
-					"x": -191.3761,
-					"y": -152.2975,
-					"z": -199.0201
+					"x": -82.82917,
+					"y": 111.4619,
+					"z": 20.00248
 				},
 				"rotation": {
-					"x": 59.641,
-					"y": 39.51015,
-					"z": 175.6237
+					"x": 331.0289,
+					"y": 71.47858,
+					"z": 18.21593
 				}
 			},
 			{
 				"type": "scroll",
 				"xmlFile": "planets/xml/elecTower5.xml",
 				"position": {
-					"x": -178.0779,
-					"y": -153.248,
-					"z": -198.8602
+					"x": -69.7728,
+					"y": 109.7155,
+					"z": 25.9121
 				},
 				"rotation": {
-					"x": 311.2213,
-					"y": 179.8651,
-					"z": 248.3757
+					"x": 327.6331,
+					"y": 133.5144,
+					"z": 314.0075
 				}
 			},
 			{
 				"type": "scroll",
 				"xmlFile": "planets/xml/elecTower6.xml",
 				"position": {
-					"x": -181.1646,
-					"y": -156.8811,
-					"z": -193.9522
+					"x": -74.808,
+					"y": 107.637,
+					"z": 24.084
 				},
 				"rotation": {
-					"x": 298.3826,
-					"y": 190.8514,
-					"z": 239.3143
+					"x": 327.8218,
+					"y": 140.4819,
+					"z": 305.1358
 				}
 			},
 			{
@@ -266,17 +273,17 @@
 				}
 			},
 			{
-				"type": "cairnVariant",
+				"type": "cairnCT",
 				"xmlFile": "planets/xml/riddleA.xml",
 				"position": {
-					"x": -195.5469,
-					"y": -166.1922,
-					"z": -214.5462
+					"x": -84.86095,
+					"y": 130.8239,
+					"z": 32.68171
 				},
 				"rotation": {
-					"x": 52.11446,
-					"y": 3.136526,
-					"z": 145.1214
+					"x": 14.52701,
+					"y": 218.4237,
+					"z": 329.1322
 				}
 			}
 		],
@@ -285,14 +292,14 @@
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ElectrumTower.prefab",
 				"position": {
-					"x": -178.8316,
-					"y": -155.6333,
-					"z": -194.1719
+					"x": -69.3241,
+					"y": 108.857,
+					"z": 23.2692
 				},
 				"rotation": {
-					"x": 21.57612,
-					"y": 121.2539,
-					"z": 237.1982
+					"x": 345.8527,
+					"y": 37.7702,
+					"z": 31.0296
 				}
 			},
 			{

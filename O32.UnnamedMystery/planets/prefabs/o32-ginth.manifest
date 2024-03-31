@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1783387161
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 98e954a859406d4206c5ca1885a8db47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/UNNA.prefab
+Dependencies: []

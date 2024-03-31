@@ -23,6 +23,11 @@
 				<DialogueTarget>FOUND</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
+				<RequiredCondition>RADIO-GRABBED</RequiredCondition>
+				<Text>I have your radio!</Text>
+				<DialogueTarget>F6-4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
 				<Text>See you later.</Text>
 				<DialogueTarget>END</DialogueTarget>
 			</DialogueOption>
@@ -389,8 +394,13 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>ghostmoon-fact-2</RequiredLogCondition>
-				<Text>I sure did. But I couldn't pick it up. It was glued to the ground.</Text>
+				<Text>I sure did. But I didn't pick it up.</Text>
 				<DialogueTarget>F6-3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>RADIO-GRABBED</RequiredCondition>
+				<Text>I sure did! It's right here.</Text>
+				<DialogueTarget>F6-4</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>No, unfortunately. I didn't see it anywhere.</Text>
@@ -415,12 +425,29 @@
 	<DialogueNode>
 		<Name>F6-3</Name>
 		<Dialogue>
-			<Page>Well, thanks for going out to find it anyway.</Page>
-			<Page>Even if you couldn't pick it up, I still appreciate you.</Page>
+			<Page>Gee, what a bummer.</Page>
+			<Page>Sigh, well on the bright side, at least you found it.</Page>
+			<Page>I know it's a big request, but could you grab it for me?</Page>
+			<Page>Please and thank you.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Thanks. So,</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F6-4</Name>
+		<Dialogue>
+			<Page>Wait, really!? You actually brought it back!?</Page>
+			<Page>My gratitude is beyond comprehension! Thank you!</Page>
+			<Page>Please, could you set it next to me?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No problem! So,</Text>
 				<DialogueTarget>MAIN</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>

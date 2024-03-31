@@ -10,7 +10,7 @@
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 1500,
+		"semiMajorAxis": 800,
 		"inclination": 12,
 		"primaryBody": "Zephyria",
 		"trueAnomaly": 65,
@@ -36,14 +36,14 @@
 		"fogDensity": 1,
 		"atmosphereSunIntensity": 1,
 		"atmosphereTint": {
-			"r": 238,
-			"g": 220,
-			"b": 242
+			"r": 220,
+			"g": 242,
+			"b": 220
 		},
 		"fogTint": {
-			"r": 238,
-			"g": 220,
-			"b": 242
+			"r": 220,
+			"g": 242,
+			"b": 220
 		},
 		"clouds": {
 			"cloudsPrefab": "giantsDeep",
@@ -52,9 +52,9 @@
 			"outerCloudRadius": 135,
 			"rotationSpeed": -2,
 			"tint": {
-				"r": 238,
-				"g": 220,
-				"b": 242
+				"r": 220,
+				"g": 242,
+				"b": 220
 			}
 		}
 	},

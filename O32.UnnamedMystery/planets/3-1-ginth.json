@@ -3,13 +3,19 @@
 	"name": "Ginth",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 150,
+		"surfaceSize": 100,
 		"surfaceGravity": 6,
 		"hasMapMarker": true,
 		"showMinimap": true
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 90,
+			"intensity": 1
+		}
+	],
 	"Orbit": {
-		"semiMajorAxis": 1500,
+		"semiMajorAxis": 900,
 		"primaryBody": "Thalassia",
 		"trueAnomaly": 315,
 		"isMoon": true,
@@ -20,13 +26,6 @@
 			"b": 111,
 			"a": 255
 		}
-	},
-	"HeightMap": {
-		"heightMap": "planets/assets/ginth_h.png",
-		"textureMap": "planets/assets/ginth_t.png",
-		"resolution": 300,
-		"minHeight": 150,
-		"maxHeight": 200
 	},
 	"Volumes": {
 		"oxygenVolumes": [
@@ -41,14 +40,19 @@
 		],
 		"revealVolumes": [
 			{
-				"radius": 50,
+				"radius": 20,
 				"reveals": [ "ginth-fact-1" ],
 				"revealOn": "enter",
 				"position": {
-					"x": 57.93298,
-					"y": -154.1217,
-					"z": 38.12156
+					"x": -0.003166199,
+					"y": -119.8552,
+					"z": 0.01187134
 				}
+			},
+			{
+				"radius": 20,
+				"reveals": [ "interior-fact-1" ],
+				"revealOn": "enter"
 			}
 		],
 		"audioVolumes": [
@@ -59,10 +63,15 @@
 				"track": "music",
 				"radius": 25,
 				"position": {
-					"x": 50.9537,
-					"y": -157.8074,
-					"z": 34.46936
+					"x": -0.003166199,
+					"y": -119.8552,
+					"z": 0.01187134
 				}
+			}
+		],
+		"zeroGravityVolumes": [
+			{
+				"radius": 90
 			}
 		]
 	},
@@ -72,28 +81,28 @@
 				"type": "recorder",
 				"xmlFile": "planets/xml/ginthNom.xml",
 				"position": {
-					"x": 49.7405,
-					"y": -155.2043,
-					"z": 48.04736
+					"x": 0.1000113,
+					"y": -119.0685,
+					"z": -13.18121
 				},
 				"rotation": {
-					"x": 15.47268,
-					"y": 176.5731,
-					"z": 156.6629
+					"x": 7.430385,
+					"y": 359.4184,
+					"z": 182.1654
 				}
 			},
 			{
-				"type": "cairnVariant",
+				"type": "cairnTH",
 				"xmlFile": "planets/xml/riddleD.xml",
 				"position": {
-					"x": 44.05611,
-					"y": -164.8723,
-					"z": 30.02765
+					"x": -9.448278,
+					"y": -121.8397,
+					"z": 15.67153
 				},
 				"rotation": {
-					"x": 354.5604,
-					"y": 349.3466,
-					"z": 196.3214
+					"x": 6.220345,
+					"y": 109.9223,
+					"z": 174.3337
 				}
 			}
 		],
@@ -101,98 +110,107 @@
 			{
 				"xmlFile": "planets/xml/Zircon.xml",
 				"position": {
-					"x": 59.92381,
-					"y": -154.2901,
-					"z": 41.14618
+					"x": -1.030216,
+					"y": -119.7162,
+					"z": -2.593996
 				},
 				"range": 2,
 				"radius": 2
 			}
 		],
-		"scatter": [
-			{
-				"path": "Foliage_TH_PebblePatch",
-				"preventOverlap": true,
-				"count": 100,
-				"scale": 1.5
-			}
-		],
 		"details": [
 			{
+				"assetBundle": "planets/prefabs/o32-ginth",
+				"path": "UNNA.prefab",
+				"scale": 14,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "IynoCore.prefab",
+				"scale": 3,
+				"keepLoaded": true
+			},
+			{
 				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
+				"removeComponents": true,
 				"position": {
-					"x": 58.92381,
-					"y": -153.2901,
-					"z": 40.14618
+					"x": -1.030216,
+					"y": -119.7162,
+					"z": -2.593996
 				},
 				"rotation": {
-					"x": 0.5490942,
-					"y": 123.2315,
-					"z": 159.6667
+					"x": 2.844407,
+					"y": 25.24162,
+					"z": 180.4181
 				}
 			},
 			{
 				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Props_PioneerDimension/OtherComponentsGroup/Trees",
-				"alignRadial": true,
 				"position": {
-					"x": 63.41064,
-					"y": -153.5019,
-					"z": 33.45453
+					"x": -0.1531382,
+					"y": -119.2678,
+					"z": 1.134212
+				},
+				"rotation": {
+					"x": 0.7909364,
+					"y": 89.08035,
+					"z": 177.2358
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "BasicHouse.prefab",
 				"position": {
-					"x": 45.90118,
-					"y": -156.0722,
-					"z": 46.935
+					"x": 4.052009,
+					"y": -118.0535,
+					"z": -12.08672
 				},
 				"rotation": {
-					"x": 5.277223,
-					"y": 154.9792,
-					"z": 152.7105
+					"x": 7.712802,
+					"y": 339.9828,
+					"z": 179.5777
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
-					"x": 43.53159,
-					"y": -160.2757,
-					"z": 32.65539
+					"x": -6.004739,
+					"y": -118.0824,
+					"z": 14.08215
 				},
 				"rotation": {
-					"x": 342.8203,
-					"y": 60.81912,
-					"z": 180.174
+					"x": 8.387564,
+					"y": 156.304,
+					"z": 180.5699
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
 				"position": {
-					"x": 50.37846,
-					"y": -159.7244,
-					"z": 24.61702
+					"x": -15.19728,
+					"y": -118.053,
+					"z": 2.040886
 				},
 				"rotation": {
-					"x": 348.3202,
-					"y": 31.43725,
-					"z": 189.8822
+					"x": 8.359859,
+					"y": 102.2598,
+					"z": 180.8936
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
 				"position": {
-					"x": 57.93298,
-					"y": -154.1217,
-					"z": 38.12156
+					"x": -0.003166199,
+					"y": -119.8552,
+					"z": 0.01187134
 				},
 				"rotation": {
-					"x": 348.924,
-					"y": 89.87598,
-					"z": 162.8315
+					"x": 357.1262,
+					"y": 344.7729,
+					"z": 179.9174
 				}
 			}
 		]

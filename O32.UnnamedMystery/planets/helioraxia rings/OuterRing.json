@@ -1,0 +1,233 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ring1",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 1100,
+		"surfaceGravity": 0,
+		"hasMapMarker": false,
+		"showMinimap": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 0.0001,
+		"axialTilt": 67,
+		"primaryBody": "Helioraxia",
+		"isMoon": true,
+		"siderealPeriod": 2
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"radius": 75,
+				"priority": 100,
+				"layer": 100,
+				"position": {
+					"x": 0.8437195,
+					"y": -177.0456,
+					"z": 711.3604
+				}
+			}
+		],
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "Notice: Entering altered gravity field."
+				},
+				"radius": 75,
+				"position": {
+					"x": 0.8437195,
+					"y": -177.0456,
+					"z": 711.3604
+				}
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"radius": 75,
+				"speedLimit": 5,
+				"position": {
+					"x": 0.8437195,
+					"y": -177.0456,
+					"z": 711.3604
+				}
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [ "rings-fact-1" ],
+				"revealOn": "enter",
+				"radius": 75,
+				"position": {
+					"x": 0.8437195,
+					"y": -177.0456,
+					"z": 711.3604
+				}
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/music/HelioRings.ogg",
+				"loop": true,
+				"track": "music",
+				"radius": 60,
+				"volume": 0.5,
+				"position": {
+					"x": 0.8437195,
+					"y": -177.0456,
+					"z": 711.3604
+				}
+			}
+		]
+	},
+	"Props": {
+		"remotes": [
+			{
+				"id": "Helioraxia",
+				"decalPath": "planets/assets/pool_helioraxia.png",
+				"platform": {
+					"position": {
+						"x": -0.1309052,
+						"y": -177.9338,
+						"z": 716.4686
+					},
+					"rotation": {
+						"x": 77.23208,
+						"y": 159.7184,
+						"z": 160.1803
+					}
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": -0.8573914,
+					"y": -169.6647,
+					"z": 718.2264
+				},
+				"rotation": {
+					"x": 76.93199,
+					"y": 156.3088,
+					"z": 156.857
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/helioRings1.xml",
+				"position": {
+					"x": 13.8244,
+					"y": -170.4205,
+					"z": 720.0629
+				},
+				"rotation": {
+					"x": 72.935,
+					"y": 108.1264,
+					"z": 340.0818
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/helioRings2.xml",
+				"position": {
+					"x": 22.74362,
+					"y": -181.6209,
+					"z": 716.7538
+				},
+				"rotation": {
+					"x": 318.4701,
+					"y": 280.8346,
+					"z": 253.8792
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/helioRings3.xml",
+				"position": {
+					"x": -16.7031,
+					"y": -186.384,
+					"z": 716.0085
+				},
+				"rotation": {
+					"x": 294.0628,
+					"y": 311.8963,
+					"z": 78.6274
+				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/xml/riddleF.xml",
+				"position": {
+					"x": -10.39281,
+					"y": -171.9113,
+					"z": 717.7488
+				},
+				"rotation": {
+					"x": 38.49419,
+					"y": 260.2681,
+					"z": 254.5948
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "HelioRingsMaster.prefab",
+				"scale": 12,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-helioplasmiacore",
+				"path": "GoofyAhhCylinder.prefab",
+				"scale": 5,
+				"keepLoaded": true,
+				"position": {
+					"x": 0.8437195,
+					"y": -177.0456,
+					"z": 711.3604
+				},
+				"rotation": {
+					"x": 282.356,
+					"y": 13.9949,
+					"z": 166.317
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": -16.59063,
+					"y": -179.5242,
+					"z": 716.1306
+				},
+				"rotation": {
+					"x": 354.0717,
+					"y": 88.73536,
+					"z": 102.0655
+				}
+			},
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "TeraxiaStructure.prefab",
+				"position": {
+					"x": 16.45057,
+					"y": -176.3395,
+					"z": 716.8074
+				},
+				"rotation": {
+					"x": 5.605554,
+					"y": 268.8047,
+					"z": 257.9415
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

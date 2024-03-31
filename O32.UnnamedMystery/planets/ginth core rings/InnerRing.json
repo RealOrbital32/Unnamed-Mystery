@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "GinthRing1",
+	"starSystem": "O32.UnnamedMystery",
+	"Base": {
+		"surfaceSize": 100,
+		"surfaceGravity": 0,
+		"hasMapMarker": false,
+		"showMinimap": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 0,
+		"axialTilt": 34,
+		"primaryBody": "Ginth",
+		"isMoon": true,
+		"siderealPeriod": 1
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-unnamedmystery",
+				"path": "IynoRing.prefab",
+				"scale": 0.3,
+				"keepLoaded": true
+			}
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

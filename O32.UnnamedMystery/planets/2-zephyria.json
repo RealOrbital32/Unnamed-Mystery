@@ -3,13 +3,13 @@
 	"name": "Zephyria",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 450,
-		"surfaceGravity": 12,
+		"surfaceSize": 335,
+		"surfaceGravity": 9,
 		"hasMapMarker": true,
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 7000,
+		"semiMajorAxis": 5000,
 		"primaryBody": "Aetherion",
 		"trueAnomaly": 216,
 		"isMoon": false,
@@ -25,16 +25,23 @@
 	"HeightMap": {
 		"heightMap": "planets/assets/zephyria_h.png",
 		"textureMap": "planets/assets/zephyria_t.png",
-		"resolution": 300,
-		"minHeight": 350,
-		"maxHeight": 450
+		"resolution": 400,
+		"minHeight": 270,
+		"maxHeight": 300,
+		"normalMap": "planets/assets/zephyria_normal.png",
+		"baseTile": {
+			"textureTile": "planets/assets/tiles/zephyria_dunes1.png",
+			"normalTile": "planets/assets/tiles/zephyria_dunes2.png",
+			"size": 4
+		}
 	},
 	"Atmosphere": {
 		"useAtmosphereShader": true,
-		"size": 500,
-		"fogSize": 500,
-		"fogDensity": 0.4,
+		"size": 335,
+		"fogSize": 330,
+		"fogDensity": 0.3,
 		"atmosphereSunIntensity": 1.2,
+		"fogRampPath": "planets/assets/zephyria_ramp.png",
 		"atmosphereTint": {
 			"r": 120,
 			"g": 25,
@@ -49,8 +56,8 @@
 			"cloudsPrefab": "transparent",
 			"texturePath": "planets/assets/zephyria_g.png",
 			"innerCloudRadius": 0,
-			"outerCloudRadius": 490,
-			"rotationSpeed": -6
+			"outerCloudRadius": 330,
+			"rotationSpeed": -8
 		}
 	},
 	"Volumes": {
@@ -74,9 +81,9 @@
 				"loop": true,
 				"track": "music",
 				"position": {
-					"x": -75.61245,
-					"y": -57.69289,
-					"z": 382.6503
+					"x": -71.14752,
+					"y": -210.9225,
+					"z": 192.0407
 				}
 			},
 			{
@@ -86,9 +93,9 @@
 				"loop": true,
 				"track": "music",
 				"position": {
-					"x": 22.75083,
-					"y": -82.83785,
-					"z": -383.3612
+					"x": 99.03854,
+					"y": 274.2562,
+					"z": -34.80753
 				}
 			}
 		]
@@ -99,126 +106,126 @@
 				"type": "preCrashRecorder",
 				"xmlFile": "planets/xml/zephNom1.xml",
 				"position": {
-					"x": -167.6046,
-					"y": -95.35119,
-					"z": 346.3831
+					"x": -88.28738,
+					"y": -204.9065,
+					"z": 189.6323
 				},
 				"rotation": {
-					"x": 323.936,
-					"y": 239.8518,
-					"z": 264.2351
+					"x": 32.76858,
+					"y": 87.67963,
+					"z": 146.5459
 				}
 			},
 			{
 				"type": "recorder",
 				"xmlFile": "planets/xml/zephNom2.xml",
 				"position": {
-					"x": -65.65112,
-					"y": -122.1322,
-					"z": 369.86
+					"x": -16.75316,
+					"y": -200.1231,
+					"z": 218.622
 				},
 				"rotation": {
-					"x": 329.6604,
-					"y": 267.6527,
-					"z": 248.4349
+					"x": 327.7782,
+					"y": 299.2125,
+					"z": 217.595
 				}
 			},
 			{
 				"type": "recorder",
 				"xmlFile": "planets/xml/zephNom3.xml",
 				"position": {
-					"x": -75.84509,
-					"y": -68.05824,
-					"z": 384.8918
+					"x": 2.819687,
+					"y": -235.2762,
+					"z": 184.8142
 				},
 				"rotation": {
-					"x": 73.58138,
-					"y": 217.1528,
-					"z": 226.3257
+					"x": 321.5837,
+					"y": 8.442675,
+					"z": 173.571
 				}
 			},
 			{
 				"type": "trailmarker",
 				"xmlFile": "planets/xml/zephSign1.xml",
 				"position": {
-					"x": -128.235,
-					"y": -79.55936,
-					"z": 362.4218
+					"x": -51.89179,
+					"y": -228.3789,
+					"z": 179.2601
 				},
 				"rotation": {
-					"x": 26.12504,
-					"y": 239.2185,
-					"z": 244.8302
+					"x": 37.70581,
+					"y": 144.0355,
+					"z": 167.9287
 				}
 			},
 			{
 				"type": "trailmarker",
 				"xmlFile": "planets/xml/zephSign2.xml",
 				"position": {
-					"x": -122.3252,
-					"y": -60.93464,
-					"z": 369.429
+					"x": -43.15154,
+					"y": -209.4006,
+					"z": 201.7868
 				},
 				"rotation": {
-					"x": 27.33628,
-					"y": 75.76836,
-					"z": 100.1013
+					"x": 337.5713,
+					"y": 53.17189,
+					"z": 140.5858
 				}
 			},
 			{
 				"type": "trailmarker",
 				"xmlFile": "planets/xml/zephSign3.xml",
 				"position": {
-					"x": -75.93958,
-					"y": -101.5165,
-					"z": 372.0773
+					"x": -62.18807,
+					"y": -182.2367,
+					"z": 224.3573
 				},
 				"rotation": {
-					"x": 323.6003,
-					"y": 260.4756,
-					"z": 252.1885
+					"x": 45.47573,
+					"y": 124.8219,
+					"z": 151.0441
 				}
 			},
 			{
-				"type": "cairnVariant",
+				"type": "cairnCT",
 				"xmlFile": "planets/xml/riddleE.xml",
 				"position": {
-					"x": -159.3047,
-					"y": -45.59696,
-					"z": 379.68
+					"x": -84.33339,
+					"y": -263.2959,
+					"z": 150.5347
 				},
 				"rotation": {
-					"x": 329.484,
-					"y": 251.9008,
-					"z": 263.4815
+					"x": 328.2063,
+					"y": 356.1702,
+					"z": 166.1139
 				}
 			},
 			{
 				"type": "computer",
 				"xmlFile": "planets/xml/gatewayComp.xml",
 				"position": {
-					"x": -15.10715,
-					"y": -100.2106,
-					"z": -378.7773
+					"x": 99.1683,
+					"y": 269.0687,
+					"z": -58.2207
 				},
 				"rotation": {
-					"x": 2.366228,
-					"y": 91.78178,
-					"z": 257.7839
+					"x": 356.4785,
+					"y": 26.7038,
+					"z": 353.443
 				}
 			},
 			{
 				"type": "recorder",
 				"xmlFile": "planets/xml/gatewayNom.xml",
 				"position": {
-					"x": -8.864622,
-					"y": -92.74323,
-					"z": -380.5563
+					"x": 95.1078,
+					"y": 272.1021,
+					"z": -52.4229
 				},
 				"rotation": {
-					"x": 9.258504,
-					"y": 85.82659,
-					"z": 256.1859
+					"x": 338.6415,
+					"y": 15.2853,
+					"z": 323.1521
 				}
 			}
 		],
@@ -259,210 +266,210 @@
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "MainBase.prefab",
 				"position": {
-					"x": -69.06807,
-					"y": -78.80684,
-					"z": 379.6873
+					"x": -5.443157,
+					"y": -230.0099,
+					"z": 184.5201
 				},
 				"rotation": {
-					"x": 58.01575,
-					"y": 241.0536,
-					"z": 248.377
+					"x": 327.3654,
+					"y": 320.7748,
+					"z": 202.3991
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
-					"x": -26.90044,
-					"y": -90.31512,
-					"z": 382.8715
+					"x": 20.36794,
+					"y": -192.381,
+					"z": 223.7053
 				},
 				"rotation": {
-					"x": 0.6933494,
-					"y": 265.2419,
-					"z": 256.379
+					"x": 41.59262,
+					"y": 226.2528,
+					"z": 209.8007
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ReallyRuinedHouse.prefab",
 				"position": {
-					"x": -29.74202,
-					"y": -104.9089,
-					"z": 378.9135
+					"x": -7.127182,
+					"y": -171.7004,
+					"z": 240.7028
 				},
 				"rotation": {
-					"x": 354.823,
-					"y": 266.7543,
-					"z": 255.0866
+					"x": 53.5592,
+					"y": 195.3692,
+					"z": 193.6638
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
-					"x": -33.72888,
-					"y": -120.5921,
-					"z": 374.8795
+					"x": -44.29091,
+					"y": -175.0839,
+					"z": 234.2205
 				},
 				"rotation": {
-					"x": 354.6464,
-					"y": 266.2365,
-					"z": 260.2464
+					"x": 47.46162,
+					"y": 133.0505,
+					"z": 152.0303
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
-					"x": -50.26912,
-					"y": -136.9882,
-					"z": 367.2485
+					"x": -86.32167,
+					"y": -180.8085,
+					"z": 217.4203
 				},
 				"rotation": {
-					"x": 282.4113,
-					"y": 1.304379,
-					"z": 162.1691
+					"x": 51.8222,
+					"y": 153.0017,
+					"z": 174.2524
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
-					"x": -70.99649,
-					"y": -123.1116,
-					"z": 367.061
+					"x": -100.6741,
+					"y": -241.6915,
+					"z": 135.2936
 				},
 				"rotation": {
-					"x": 311.4291,
-					"y": 54.074,
-					"z": 118.6484
+					"x": 324.6673,
+					"y": 337.8625,
+					"z": 169.3808
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ReallyRuinedHouse.prefab",
 				"position": {
-					"x": -83.1607,
-					"y": -115.1413,
-					"z": 365.5832
+					"x": -51.4021,
+					"y": -245.388,
+					"z": 154.4361
 				},
 				"rotation": {
-					"x": 307.5951,
-					"y": 50.29961,
-					"z": 119.0251
+					"x": 327.6725,
+					"y": 321.4628,
+					"z": 191.1595
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "MassPlanting.prefab",
 				"position": {
-					"x": -104.608,
-					"y": -103.4163,
-					"z": 363.7182
+					"x": -38.34077,
+					"y": -213.7577,
+					"z": 195.533
 				},
 				"rotation": {
-					"x": 316.0651,
-					"y": 59.71232,
-					"z": 110.968
+					"x": 359.0786,
+					"y": 77.48923,
+					"z": 137.1387
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "MassPlanting.prefab",
 				"position": {
-					"x": -129.9923,
-					"y": -57.199,
-					"z": 367.8423
+					"x": -53.15355,
+					"y": -205.4921,
+					"z": 201.3679
 				},
 				"rotation": {
-					"x": 23.69603,
-					"y": 74.67472,
-					"z": 98.60559
+					"x": 355.0421,
+					"y": 260.1065,
+					"z": 225.4269
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "Tower.prefab",
 				"position": {
-					"x": -157.3832,
-					"y": -39.32546,
-					"z": 359.4761
+					"x": -79.49117,
+					"y": -242.8967,
+					"z": 146.7235
 				},
 				"rotation": {
-					"x": 351.4588,
-					"y": 67.73452,
-					"z": 95.67561
+					"x": 345.7438,
+					"y": 39.17703,
+					"z": 148.1904
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
-					"x": -126.5709,
-					"y": -18.29816,
-					"z": 372.5078
+					"x": -22.49921,
+					"y": -199.4592,
+					"z": 217.2187
 				},
 				"rotation": {
-					"x": 72.20327,
-					"y": 253.5733,
-					"z": 272.3552
+					"x": 331.0311,
+					"y": 54.48963,
+					"z": 140.0096
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ReallyRuinedHouse.prefab",
 				"position": {
-					"x": -98.16617,
-					"y": -23.14642,
-					"z": 380.8203
+					"x": -111.121,
+					"y": -181.4444,
+					"z": 205.7704
 				},
 				"rotation": {
-					"x": 84.3952,
-					"y": 220.9111,
-					"z": 233.0441
+					"x": 51.11849,
+					"y": 166.7696,
+					"z": 192.1132
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
 				"position": {
-					"x": -66.7556,
-					"y": -1.543401,
-					"z": 385.8925
+					"x": -128.764,
+					"y": -189.2062,
+					"z": 187.3883
 				},
 				"rotation": {
-					"x": 79.14913,
-					"y": 118.554,
-					"z": 123.4511
+					"x": 48.34639,
+					"y": 111.0452,
+					"z": 155.6588
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ReallyRuinedHouse.prefab",
 				"position": {
-					"x": -52.91619,
-					"y": 13.76762,
-					"z": 389.0551
+					"x": -146.793,
+					"y": -199.8036,
+					"z": 161.2507
 				},
 				"rotation": {
-					"x": 59.74656,
-					"y": 70.17432,
-					"z": 85.89026
+					"x": 35.04659,
+					"y": 88.18655,
+					"z": 146.2861
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "ReallyRuinedHouse.prefab",
 				"position": {
-					"x": -38.58163,
-					"y": 30.54127,
-					"z": 391.196
+					"x": -124.9073,
+					"y": -235.1977,
+					"z": 126.7454
 				},
 				"rotation": {
-					"x": 76.67371,
-					"y": 65.60509,
-					"z": 70.62484
+					"x": 328.8538,
+					"y": 353.528,
+					"z": 158.3666
 				}
 			},
 			{
@@ -470,98 +477,98 @@
 				"removeChildren": [ "Interactibles_EscapePod/Prefab_NOM_Vessel_ComputerProps_NOM_Vessel_Computer 1" ],
 				"removeComponents": true,
 				"position": {
-					"x": -168.6379,
-					"y": -94.92142,
-					"z": 345.3428
+					"x": -89.25076,
+					"y": -205.2222,
+					"z": 187.741
 				},
 				"rotation": {
-					"x": 53.26292,
-					"y": 83.36404,
-					"z": 114.771
+					"x": 357.2008,
+					"y": 62.21811,
+					"z": 135.0215
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "Gateway.prefab",
 				"position": {
-					"x": -18.09116,
-					"y": -81.14132,
-					"z": -383.0274
+					"x": 83.724,
+					"y": 273.1117,
+					"z": -57.00545
 				},
 				"rotation": {
-					"x": 9.426567,
-					"y": 90.17652,
-					"z": 257.4078
+					"x": 357.4789,
+					"y": 27.53963,
+					"z": 339.5141
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "FuelCells.prefab",
 				"position": {
-					"x": 51.83006,
-					"y": -100.1423,
-					"z": -377.246
+					"x": 54.23244,
+					"y": 286.954,
+					"z": -17.80288
 				},
 				"rotation": {
-					"x": 317.8715,
-					"y": 245.283,
-					"z": 113.9402
+					"x": 10.38372,
+					"y": 131.0218,
+					"z": 4.021238
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "FuelCells.prefab",
 				"position": {
-					"x": 56.14805,
-					"y": -71.8478,
-					"z": -384.2654
+					"x": 77.97108,
+					"y": 281.9286,
+					"z": -10.41092
 				},
 				"rotation": {
-					"x": 13.71174,
-					"y": 270.3372,
-					"z": 100.5141
+					"x": 6.634349,
+					"y": 162.5731,
+					"z": 13.65689
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "FuelCells.prefab",
 				"position": {
-					"x": 28.74406,
-					"y": -104.8572,
-					"z": -377.3799
+					"x": 100.6351,
+					"y": 275.8486,
+					"z": -6.0214
 				},
 				"rotation": {
-					"x": 290.8831,
-					"y": 221.349,
-					"z": 135.9749
+					"x": 2.2583,
+					"y": 173.7947,
+					"z": 17.7497
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "FuelCells.prefab",
 				"position": {
-					"x": 33.14839,
-					"y": -80.71404,
-					"z": -383.7242
+					"x": 123.7769,
+					"y": 267.0745,
+					"z": -12.1895
 				},
 				"rotation": {
-					"x": 8.264686,
-					"y": 267.3199,
-					"z": 102.5769
+					"x": 352.0341,
+					"y": 205.559,
+					"z": 23.8145
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "FuelCells.prefab",
 				"position": {
-					"x": 38.08723,
-					"y": -52.08056,
-					"z": -389.0945
+					"x": 141.6987,
+					"y": 257.0742,
+					"z": -30.3123
 				},
 				"rotation": {
-					"x": 47.56313,
-					"y": 285.7042,
-					"z": 110.2634
+					"x": 341,
+					"y": 331.0941,
+					"z": 341.3506
 				}
 			}
 		]

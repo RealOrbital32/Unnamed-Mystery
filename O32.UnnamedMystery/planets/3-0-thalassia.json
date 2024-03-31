@@ -3,15 +3,15 @@
 	"name": "Thalassia",
 	"starSystem": "O32.UnnamedMystery",
 	"Base": {
-		"surfaceSize": 620,
-		"surfaceGravity": 15,
+		"surfaceSize": 320,
+		"surfaceGravity": 12,
 		"hasMapMarker": true,
 		"showMinimap": true
 	},
 	"Orbit": {
-		"semiMajorAxis": 10500,
+		"semiMajorAxis": 8000,
 		"primaryBody": "Aetherion",
-		"trueAnomaly": 276,
+		"trueAnomaly": 147,
 		"isMoon": false,
 		"isTidallyLocked": false,
 		"siderealPeriod": 15,
@@ -26,18 +26,41 @@
 		"heightMap": "planets/assets/thalassia_h.png",
 		"textureMap": "planets/assets/thalassia_t.png",
 		"resolution": 600,
-		"minHeight": 520,
-		"maxHeight": 550
+		"minHeight": 300,
+		"maxHeight": 320,
+		"normalMap": "planets/assets/thalassia_normal.png",
+		"tileBlendMap": "planets/assets/thalassia_b.png",
+		"baseTile": {
+			"textureTile": "planets/assets/tiles/thalassia_land1.png",
+			"normalTile": "planets/assets/tiles/thalassia_land2.png",
+			"size": 3
+		},
+		"redTile": {
+			"textureTile": "planets/assets/tiles/thalassia_land1.png",
+			"normalTile": "planets/assets/tiles/thalassia_land2.png",
+			"size": 3
+		},
+		"blueTile": {
+			"textureTile": "planets/assets/tiles/thalassia_ocean1.png",
+			"normalTile": "planets/assets/tiles/thalassia_ocean2.png",
+			"size": 4
+		},
+		"greenTile": {
+			"textureTile": "planets/assets/tiles/thalassia_deepOcean1.png",
+			"normalTile": "planets/assets/tiles/thalassia_deepOcean2.png",
+			"size": 5
+		}
+
 	},
 	"Water": {
-		"size": 530
+		"size": 310
 	},
 	"Atmosphere": {
 		"useAtmosphereShader": true,
 		"hasOxygen": true,
 		"hasTrees": true,
-		"size": 620,
-		"fogSize": 620,
+		"size": 340,
+		"fogSize": 345,
 		"fogDensity": 0.6,
 		"atmosphereSunIntensity": 1,
 		"atmosphereTint": {
@@ -54,8 +77,8 @@
 			"cloudsPrefab": "transparent",
 			"texturePath": "planets/assets/thalassia_g.png",
 			"innerCloudRadius": 0,
-			"outerCloudRadius": 610,
-			"rotationSpeed": -3.8
+			"outerCloudRadius": 340,
+			"rotationSpeed": -4.55
 		}
 	},
 	"Volumes": {
@@ -87,11 +110,11 @@
 				"volume": 0.75,
 				"loop": true,
 				"track": "music",
-				"radius": 35,
+				"radius": 75,
 				"position": {
-					"x": -508.4457,
-					"y": -176.532,
-					"z": 82.61487
+					"x": -183.604,
+					"y": 68.88959,
+					"z": -252.4017
 				}
 			}
 		]
@@ -105,14 +128,14 @@
 					{
 						"rename": "Core Base Stone",
 						"position": {
-							"x": -511.0168,
-							"y": -183.8323,
-							"z": 59.99408
+							"x": -229.4865,
+							"y": 80.70518,
+							"z": -198.5623
 						},
 						"rotation": {
-							"x": 46.32787,
-							"y": 22.01913,
-							"z": 110.5919
+							"x": 301.5909,
+							"y": 112.1472,
+							"z": 300.532
 						}
 					}
 				]
@@ -126,9 +149,9 @@
 				"detectionRadius": 500,
 				"identificationRadius": 20,
 				"position": {
-					"x": -510.8976,
-					"y": -164.6213,
-					"z": 66.01657
+					"x": -119.1357,
+					"y": 56.59468,
+					"z": -285.8011
 				}
 			}
 		],
@@ -137,56 +160,70 @@
 				"type": "recorder",
 				"xmlFile": "planets/xml/ruins2.xml",
 				"position": {
-					"x": -504.9929,
-					"y": -170.4137,
-					"z": 114.0216
+					"x": -182.2293,
+					"y": 68.42392,
+					"z": -255.4294
 				},
 				"rotation": {
-					"x": 348.9762,
-					"y": 200.9536,
-					"z": 251.6698
+					"x": 297.7316,
+					"y": 73.6069,
+					"z": 331.2405
 				}
 			},
 			{
 				"type": "preCrashRecorder",
 				"xmlFile": "planets/xml/ruins3.xml",
 				"position": {
-					"x": -515.2962,
-					"y": -152.0941,
-					"z": 73.27991
+					"x": -122.4502,
+					"y": 60.05534,
+					"z": -283.5665
 				},
 				"rotation": {
-					"x": 67.36012,
-					"y": 111.0025,
-					"z": 192.1449
+					"x": 9.460272,
+					"y": 292.2324,
+					"z": 76.07484
+				}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/ruins4.xml",
+				"position": {
+					"x": -196.8016,
+					"y": 94.10106,
+					"z": -237.5625
+				},
+				"rotation": {
+					"x": 64.98627,
+					"y": 254.989,
+					"z": 34.95989
 				}
 			},
 			{
 				"type": "cairn",
 				"xmlFile": "planets/xml/ruinsStone.xml",
 				"position": {
-					"x": -510.0351,
-					"y": -184.0951,
-					"z": 58.57367
+					"x": -226.8686,
+					"y": 80.15189,
+					"z": -200.1423
 				},
 				"rotation": {
-					"x": 31.67959,
-					"y": 15.69371,
-					"z": 106.5662
+					"x": 312.9203,
+					"y": 336.0856,
+					"z": 67.01376
 				}
 			},
 			{
 				"type": "cairnVariant",
 				"xmlFile": "planets/xml/riddleB.xml",
 				"position": {
-					"x": -511.535,
-					"y": -200.7068,
-					"z": 75.79668
+					"x": -206.2573,
+					"y": 121.4205,
+					"z": -221.1145
 				},
 				"rotation": {
-					"x": 355.7457,
-					"y": 192.0502,
-					"z": 246.9685
+					"x": 60.54166,
+					"y": 184.2989,
+					"z": 324.352
 				}
 			}
 		],
@@ -194,123 +231,149 @@
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
 				"position": {
-					"x": -510.8976,
-					"y": -164.6213,
-					"z": 66.01657
+					"x": -119.1357,
+					"y": 56.59468,
+					"z": -285.8011
 				},
 				"rotation": {
-					"x": 307.252,
-					"y": 342.5331,
-					"z": 120.1639
+					"x": 359.0023,
+					"y": 290.0781,
+					"z": 79.48812
 				}
 			},
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam",
 				"position": {
-					"x": -510.8976,
-					"y": -164.6213,
-					"z": 66.01657
+					"x": -119.1357,
+					"y": 56.59468,
+					"z": -285.8011
 				},
 				"rotation": {
-					"x": 307.252,
-					"y": 342.5331,
-					"z": 120.1639
+					"x": 359.0023,
+					"y": 290.0781,
+					"z": 79.48812
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "BasicHouse.prefab",
+				// House on top of the hill, near the escape pod
 				"position": {
-					"x": -509.5925,
-					"y": -159.78,
-					"z": 91.18878
+					"x": -182.6198,
+					"y": 68.92223,
+					"z": -253.1375
 				},
 				"rotation": {
-					"x": 48.29058,
-					"y": 173.1248,
-					"z": 247.4677
+					"x": 67.00865,
+					"y": 158.3956,
+					"z": 303.2269
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "BasicHouse.prefab",
+				// House near the arch
 				"position": {
-					"x": -514.4941,
-					"y": -152.5368,
-					"z": 69.94983
+					"x": -192.7486,
+					"y": 89.9425,
+					"z": -237.1426
 				},
 				"rotation": {
-					"x": 61.37291,
-					"y": 56.00915,
-					"z": 141.8037
+					"x": 67.0948,
+					"y": 188.3043,
+					"z": 332.9191
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
+				// Left-most house (1/3)
 				"position": {
-					"x": -512.2455,
-					"y": -165.1934,
-					"z": 56.20569
+					"x": -220.7284,
+					"y": 48.0719,
+					"z": -208.6879
 				},
 				"rotation": {
-					"x": 43.48679,
-					"y": 51.4306,
-					"z": 140.1821
+					"x": 320.6462,
+					"y": 129.9153,
+					"z": 280.1934
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
+				// Middle house (2/3)
 				"position": {
-					"x": -502.0169,
-					"y": -168.2076,
-					"z": 109.0002
+					"x": -225.6512,
+					"y": 60.3165,
+					"z": -201.5947
 				},
 				"rotation": {
-					"x": 313.7,
-					"y": 217.1819,
-					"z": 243.4611
+					"x": 339.3,
+					"y": 134.0893,
+					"z": 282.2181
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SmallHouse.prefab",
+				// Right-most house (3/3)
 				"position": {
-					"x": -505.8728,
-					"y": -183.1195,
-					"z": 59.36609
+					"x": -225.3884,
+					"y": 80.6692,
+					"z": -195.0689
 				},
 				"rotation": {
-					"x": 23.85199,
-					"y": 13.16357,
-					"z": 105.3846
+					"x": 359.9611,
+					"y": 138.8182,
+					"z": 285.4222
 				}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "Arch.prefab",
 				"position": {
-					"x": -501.7512,
-					"y": -194.6337,
-					"z": 63.55518
+					"x": -197.9133,
+					"y": 116.8652,
+					"z": -211.8581
 				},
 				"rotation": {
-					"x": 67.02242,
-					"y": 102.2972,
-					"z": 181.8906
+					"x": 63.17469,
+					"y": 193.3315,
+					"z": 332.3225
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
+				"removeChildren": [ "Interactibles_EscapePod/Prefab_NOM_Vessel_ComputerProps_NOM_Vessel_Computer 1" ],
+				"removeComponents": true,
+				"position": {
+					"x": -91.79433,
+					"y": 73.00433,
+					"z": -286.6537
+				},
+				"rotation": {
+					"x": 34.27639,
+					"y": 276.4929,
+					"z": 63.82595
 				}
 			}
 		],
 		"scatter": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
-				"count": 40,
-				"minHeight": 530
+				"count": 30,
+				"minHeight": 310
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
-				"count": 2
+				"count": 2,
+				"minHeight": 310
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiCrater Foliage/Foliage_TH_NomaiCrater_GrassPatch",
+				"count": 150,
+				"maxHeight": 310
 			}
 		]
 	},

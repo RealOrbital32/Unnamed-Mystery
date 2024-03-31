@@ -28,6 +28,7 @@ namespace UnnamedMystery
                 {
                     // check if helioraxia
                     if (name == "Helioraxia") OnHelioraxiaLoaded(_newHorizons.GetPlanet("Helioraxia"));
+                    if (name == "Zephyria") OnZephyriaLoaded(_newHorizons.GetPlanet("Zephyria"));
                 }
             });
 
@@ -76,6 +77,32 @@ namespace UnnamedMystery
             zapper._firstContactDamage = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaZapper.damage");
 
             zapperObject.SetActive(true);
+        }
+
+        public void OnZephyriaLoaded(GameObject zephyria)
+        {
+            ModHelper.Console.WriteLine("Zephyria has loaded", MessageType.Info);
+
+            //Get zephyria sector
+            Sector sector = zephyria.transform.Find("Sector").GetComponent<Sector>();
+
+            //Add new game object to the sector of zephyria
+            GameObject sandstormObject = new GameObject("Sandstorm");
+            sandstormObject.SetActive(false);
+            sandstormObject.layer = Layer.BasicEffectVolume;
+            sandstormObject.transform.SetParent(sector.transform, false);
+
+            //Add sphere shape volume to detect when player or something enters.
+            SphereShape sphere = sandstormObject.AddComponent<SphereShape>();
+            sphere._collisionMode = Shape.CollisionMode.Volume;
+            sphere._pointChecksOnly = true;
+            sphere._radius = _newHorizons.QueryBody<float>("Zephyria", "extras.sandstormVolume.radius");
+            sandstormObject.AddComponent<OWTriggerVolume>()._shape = sphere;
+
+            //Finally the component to handle the actual stuff
+            ZephyriaSandstormVolume sandstorm = sandstormObject.AddComponent<ZephyriaSandstormVolume>();
+
+            sandstormObject.SetActive(true);
         }
     }
 

@@ -588,5 +588,10 @@
 				"y": 2
 			}
 		}
+	},
+	"extras": {
+		"sandstormVolume": {
+			"radius": 335
+		}
 	}
 }

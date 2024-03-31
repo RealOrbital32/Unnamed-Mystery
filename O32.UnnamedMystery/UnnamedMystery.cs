@@ -2,7 +2,9 @@
 using NewHorizons.Utility.Files;
 using NewHorizons.Utility.OuterWilds;
 using OWML.Common;
+using OWML.Logging;
 using OWML.ModHelper;
+using OWML.Utils;
 using System.IO;
 using UnityEngine;
 
@@ -11,11 +13,14 @@ namespace UnnamedMystery
     public class UnnamedMystery : ModBehaviour
     {
         public INewHorizons _newHorizons;
+        public static IModConsole ModConsole;
 
         public static AudioType HelioraxiaThunder;
 
         private void Start()
         {
+            ModConsole = ModHelper.Console;
+
             //Base stuff that actually loads the configs
             _newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             _newHorizons.LoadConfigs(this);
@@ -40,7 +45,9 @@ namespace UnnamedMystery
                 {
                     // Load lightning audio clips for helioraxia
                     var thunderA = AudioUtilities.LoadAudio(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets/oneshot/thunderA.mp3"));
+                    thunderA.name = "HelioraxiaThunderA";
                     var thunderB = AudioUtilities.LoadAudio(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets/oneshot/thunderB.mp3"));
+                    thunderB.name = "HelioraxiaThunderB";
                     HelioraxiaThunder = AudioTypeHandler.AddCustomAudioType("HelioraxiaThunder", new AudioClip[] { thunderA, thunderB });
                 }
             });
@@ -63,18 +70,37 @@ namespace UnnamedMystery
             SphereShape sphere = zapperObject.AddComponent<SphereShape>();
             sphere._collisionMode = Shape.CollisionMode.Volume;
             sphere._pointChecksOnly = true;
-            sphere._radius = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaZapper.radius");
+            sphere._radius = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaLightning.radius");
             zapperObject.AddComponent<OWTriggerVolume>()._shape = sphere;
 
             //Add audio source for thunder
-            zapperObject.AddComponent<AudioSource>();
-            zapperObject.AddComponent<OWAudioSource>();
+            GameObject thunderObject = new GameObject("ThunderOneshot");
+            thunderObject.transform.SetParent(zapperObject.transform, false);
+            var audioSource = thunderObject.AddComponent<AudioSource>();
+            audioSource.playOnAwake = false;
+            audioSource.dopplerLevel = 0;
+            audioSource.spatialBlend = 1;
+            audioSource.minDistance = 0;
+            audioSource.maxDistance = 600;
+            //Taken from base game electricity
+            audioSource.rolloffMode = AudioRolloffMode.Custom;
+            audioSource.SetCustomCurve(AudioSourceCurveType.CustomRolloff, new AnimationCurve(
+                new Keyframe { time = 0.1f, value = 1, inTangent = -3.1855f, outTangent = -3.1855f, inWeight = 0.3333f, outWeight = 0.3333f },
+                new Keyframe { time = 1, value = 0, inTangent = -0.0603f, outTangent = -0.0603f, inWeight = 0.3333f, outWeight = 0.3333f }
+            ));
+            var owAudioSource = thunderObject.AddComponent<OWAudioSource>();
+            owAudioSource.SetTrack(OWAudioMixer.TrackName.Environment_Unfiltered);
+            owAudioSource.SetClipSelectionType(OWAudioSource.ClipSelectionOnPlay.RANDOM);
 
             //Finally the component to handle the actual stuff
             HelioraxiaLightningVolume zapper = zapperObject.AddComponent<HelioraxiaLightningVolume>();
-            zapper.zapSpeed = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaZapper.zapSpeed");
+            zapper.zapSpeed = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaLightning.zapSpeed");
+            HelioraxiaLightningVolume.zapRepeatTime = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaLightning.zapRepeatTime");
+            zapper.flashbangFadeLength = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaLightning.flashbangFadeLength");
+            zapper.flashbangExposure = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaLightning.flashbangExposure");
             zapper._attachedBody = helioraxia.GetAttachedOWRigidbody();
-            zapper._firstContactDamage = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaZapper.damage");
+            zapper._damagePerSecond = 0;
+            zapper._firstContactDamage = _newHorizons.QueryBody<float>("Helioraxia", "extras.helioraxiaLightning.damage");
 
             zapperObject.SetActive(true);
         }
@@ -96,7 +122,7 @@ namespace UnnamedMystery
             SphereShape sphere = sandstormObject.AddComponent<SphereShape>();
             sphere._collisionMode = Shape.CollisionMode.Volume;
             sphere._pointChecksOnly = true;
-            sphere._radius = _newHorizons.QueryBody<float>("Zephyria", "extras.sandstormVolume.radius");
+            sphere._radius = _newHorizons.QueryBody<float>("Zephyria", "extras.zephyriaSandstorm.radius");
             sandstormObject.AddComponent<OWTriggerVolume>()._shape = sphere;
 
             //Finally the component to handle the actual stuff

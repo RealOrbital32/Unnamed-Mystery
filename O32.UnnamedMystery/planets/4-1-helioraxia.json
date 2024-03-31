@@ -134,6 +134,11 @@
 				"radius": 95
 			}
 		],
+		"insulatingVolumes": [
+			{
+				"radius": 95
+			}
+		],
 		"audioVolumes": [
 			{
 				"audio": "planets/music/HelioplasmiaCore.ogg",
@@ -251,9 +256,12 @@
 		}
 	},
 	"extras": {
-		"helioraxiaZapper": {
+		"helioraxiaLightning": {
 			"radius": 440,
 			"zapSpeed": 100,
+			"zapRepeatTime": 5,
+			"flashbangExposure": 10,
+			"flashbangFadeLength": 2,
 			"damage": 10
 		}
 	}

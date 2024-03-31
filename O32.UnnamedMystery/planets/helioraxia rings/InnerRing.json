@@ -2,6 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Ring3",
 	"starSystem": "O32.UnnamedMystery",
+	"canShowOnTitle": false,
 	"Base": {
 		"surfaceSize": 950,
 		"surfaceGravity": 0,

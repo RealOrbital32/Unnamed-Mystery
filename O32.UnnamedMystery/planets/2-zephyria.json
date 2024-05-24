@@ -588,5 +588,10 @@
 				"y": 2
 			}
 		}
+	},
+	"extras": {
+		"zephyriaSandstorm": {
+			"radius": 335
+		}
 	}
 }

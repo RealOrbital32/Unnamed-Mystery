@@ -174,27 +174,16 @@
 		"dialogue": [
 			{
 				"xmlFile": "planets/xml/NyloxRecord.xml",
-				"position": {
-					"x": -31.24893,
-					"y": -33.14424,
-					"z": 9.11174
-				}
+				"position": {"x": -17.81415, "y": -40.7288, "z": -9.790701},
+				"rotation": {"x": 355.9675, "y": 162.0265, "z": 204.0933}
 			}
 		],
 		"details": [
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "RuinedHouse.prefab",
-				"position": {
-					"x": -28.03769,
-					"y": -32.22758,
-					"z": 14.15172
-				},
-				"rotation": {
-					"x": 27.0948,
-					"y": 175.1148,
-					"z": 216.4424
-				}
+				"position": {"x": -20.54166, "y": -38.35614, "z": -13.22499},
+				"rotation": {"x": 3.289539, "y": 352.7895, "z": 152.4278}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",

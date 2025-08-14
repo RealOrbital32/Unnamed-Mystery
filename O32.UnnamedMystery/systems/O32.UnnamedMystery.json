@@ -195,6 +195,13 @@
 			}
 		},
 		{
+			"id": "ginth-core",
+			"position": {
+				"x": -1000.0,
+				"y": 700.0
+			}
+		},
+		{
 			"id": "thalassia-ruins",
 			"position": {
 				"x": -1000.0,

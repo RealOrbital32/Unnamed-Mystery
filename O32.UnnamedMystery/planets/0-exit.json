@@ -16,6 +16,11 @@
 				"x": 100,
 				"y": -805,
 				"z": 100
+			},
+			"rotation": {
+				"x": 10,
+				"y": 60,
+				"z": 20
 			}
 		}
 	},
@@ -26,10 +31,10 @@
 		"showMinimap": false
 	},
 	"Orbit": {
-		"semiMajorAxis": 10,
-		"inclination": 60,
-		"primaryBody": "Thalassia",
-		"trueAnomaly": 270,
+		"semiMajorAxis": 12000,
+		"inclination": 20,
+		"primaryBody": "Aetherion",
+		"trueAnomaly": 120,
 		"isMoon": false,
 		"isTidallyLocked": false,
 		"axialTilt": -66,

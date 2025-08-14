@@ -33,5 +33,9 @@
 			<FactID>outpost-fact-2</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>formation-rumor</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

@@ -89,12 +89,8 @@
 			{
 				"reveals": [ "outpost-fact-1" ],
 				"revealOn": "enter",
-				"radius": 100,
-				"position": {
-					"x": -262.9928,
-					"y": -151.3036,
-					"z": 13.98122
-				}
+				"radius": 70,
+				"position": {"x": 10.60831, "y": 20.83621, "z": 129.5458}
 			}
 		],
 		"audioVolumes": [
@@ -115,12 +111,8 @@
 				"volume": 0.75,
 				"loop": true,
 				"track": "music",
-				"radius": 50,
-				"position": {
-					"x": -257.992,
-					"y": -160.5837,
-					"z": 16.1279
-				}
+				"radius": 60,
+				"position": {"x": 10.60831, "y": 20.83621, "z": 129.5458}
 			}
 		]
 	},
@@ -232,45 +224,21 @@
 			},
 			{
 				"type": "recorder",
-				"xmlFile": "planets/xml/elecOutpost1.xml",
-				"position": {
-					"x": -255.8052,
-					"y": -163.225,
-					"z": -13.29152
-				},
-				"rotation": {
-					"x": 309.2814,
-					"y": 311.0681,
-					"z": 145.9434
-				}
+				"xmlFile": "planets/xml/elecOutpost3.xml",
+				"position": {"x": -13.88905, "y": 6.684551, "z": 131.0664},
+				"rotation": {"x": 293.7916, "y": 254.0703, "z": 283.2927}
 			},
 			{
 				"type": "scroll",
 				"xmlFile": "planets/xml/elecOutpost2.xml",
-				"position": {
-					"x": -251.3444,
-					"y": -165.2212,
-					"z": 46.51638
-				},
-				"rotation": {
-					"x": 33.72851,
-					"y": 167.4226,
-					"z": 241.6317
-				}
+				"position": {"x": 37.153, "y": 4.769857, "z": 126.8916},
+				"rotation": {"x": 357.3306, "y": 282.2494, "z": 302.8258}
 			},
 			{
 				"type": "recorder",
-				"xmlFile": "planets/xml/elecOutpost3.xml",
-				"position": {
-					"x": -265.4724,
-					"y": -145.047,
-					"z": 26.91523
-				},
-				"rotation": {
-					"x": 356.6258,
-					"y": 9.698378,
-					"z": 121.4666
-				}
+				"xmlFile": "planets/xml/elecOutpost1.xml",
+				"position": {"x": -25.20278, "y": 46.01265, "z": 120.1877},
+				"rotation": {"x": 28.03311, "y": 71.54599, "z": 69.67157}
 			},
 			{
 				"type": "cairnCT",
@@ -305,100 +273,44 @@
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerA.prefab",
-				"position": {
-					"x": -247.4954,
-					"y": -171.9256,
-					"z": 35.90612
-				},
-				"rotation": {
-					"x": 328.499,
-					"y": 212.0666,
-					"z": 229.0378
-				}
+				"position": {"x": -15.2185, "y": 12.76478, "z": 129.2737},
+				"rotation": {"x": 57.07256, "y": 274.5643, "z": 279.8461}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerC.prefab",
-				"position": {
-					"x": -250.8297,
-					"y": -163.7365,
-					"z": 44.92692
-				},
-				"rotation": {
-					"x": 348.5685,
-					"y": 204.0316,
-					"z": 237.0198
-				}
+				"position": {"x": -18.84888, "y": 45.07198, "z": 121.3681},
+				"rotation": {"x": 311.7254, "y": 240.2452, "z": 297.4341}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SupplyStation.prefab",
-				"position": {
-					"x": -266.1426,
-					"y": -140.7522,
-					"z": 30.11709
-				},
-				"rotation": {
-					"x": 46.93948,
-					"y": 52.55534,
-					"z": 139.7614
-				}
+				"position": {"x": -25.02124, "y": 26.27305, "z": 125.3768},
+				"rotation": {"x": 13.26341, "y": 258.8026, "z": 281.7218}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerB.prefab",
-				"position": {
-					"x": -267.9498,
-					"y": -143.1548,
-					"z": 7.758484
-				},
-				"rotation": {
-					"x": 49.63985,
-					"y": 41.58817,
-					"z": 145.185
-				}
+				"position": {"x": 51.79997, "y": 12.59163, "z": 119.4172},
+				"rotation": {"x": 45.41585, "y": 102.6228, "z": 78.10085}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "SupplyStation.prefab",
-				"position": {
-					"x": -267.4012,
-					"y": -143.7418,
-					"z": -10.08859
-				},
-				"rotation": {
-					"x": 18.60242,
-					"y": 9.77389,
-					"z": 120.1477
-				}
+				"position": {"x": 38.59383, "y": 4.910109, "z": 125.1475},
+				"rotation": {"x": 84.07256, "y": 87.78918, "z": 70.30888}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerA.prefab",
-				"position": {
-					"x": -258.6746,
-					"y": -158.4341,
-					"z": 13.06787
-				},
-				"rotation": {
-					"x": 329.4518,
-					"y": 191.4518,
-					"z": 239.1914
-				}
+				"position": {"x": 20.48571, "y": 0.0859549, "z": 129.6055},
+				"rotation": {"x": 85.74435, "y": 276.511, "z": 269.9999}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
 				"path": "WorkerHouse_VerB.prefab",
-				"position": {
-					"x": -257.6459,
-					"y": -158.0788,
-					"z": -14.50699
-				},
-				"rotation": {
-					"x": 37.43255,
-					"y": 28.05408,
-					"z": 131.3297
-				}
+				"position": {"x": 4.743344, "y": 2.77141, "z": 131.0682},
+				"rotation": {"x": 59.69456, "y": 279.3643, "z": 278.5763}
 			}
 		]
 	},

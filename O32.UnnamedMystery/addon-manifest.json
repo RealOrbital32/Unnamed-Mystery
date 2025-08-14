@@ -4,10 +4,11 @@
   "credits": [
     "Orbital 32#Developed and managed the mod",
     "ItsKan#Music producer",
-    "ChatGPT#Planet descriptions",
+    "ChatGPT#Story organization",
     "",
-    "Programming Help",
-    "MegaPiggy",
+    "Additional Help",
+    "MegaPiggy#Programming",
+    "Solec#Ship log images"
     "",
     "Localization",
     "ilynery#Italian",
@@ -34,5 +35,5 @@
     "NeroKilah",
     "ilyNerY"
   ],
-  "popupMessage": "UNNA-MYST: This mod is better with Suit Log and Voice Mod, but are not required. Also, there is an update in progress, expect bugs."
+  "popupMessage": "UNNA-MYST: This mod is better with Suit Log and Voice Mod, but are not required."
 }

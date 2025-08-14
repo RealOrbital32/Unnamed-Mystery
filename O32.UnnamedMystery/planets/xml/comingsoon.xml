@@ -1,6 +1,6 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>Heya! Sorry to break your flow. Unnamed Mystery will have an expansion DLC in the near future, but as for now this location is rather barren. See you soon!</Text>
+		<Text>Heya! Sorry to break your flow. A complete overhaul of Unnamed Mystery is in the works and will soon be released as a separate mod. Until then, this location's contents are up to your imagination. See you soon!</Text>
 	</TextBlock>
 </NomaiObject>

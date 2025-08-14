@@ -4,6 +4,8 @@ Available in English, French, and Simplified Chinese.
 
 <img width="452" height="101" alt="System top view" src="https://github.com/user-attachments/assets/ae851c9b-be76-4d7e-bf26-97c817108232" />
 
+*Remake coming soon!*
+
 <hr>
 
 ### System top view

@@ -2,7 +2,7 @@
 Unnamed Mystery is a fairly large story mod (by New Horizons definition) that guides exigency to reality, and attempts to create an experience with similar feelings to the base game.
 Available in English, French, and Simplified Chinese.
 
-![unnamedMystery](https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/f2841c43-a6e1-4f5e-aa14-bd9ca4c8d9ef)
+<img width="452" height="101" alt="subtitle" src="https://github.com/user-attachments/assets/ae851c9b-be76-4d7e-bf26-97c817108232" />
 
 Map of the solar system **(Outdated!)**
 <img width="580" alt="aetherion" src="https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/9c556e75-fb1f-4575-8eca-cccd80816211">

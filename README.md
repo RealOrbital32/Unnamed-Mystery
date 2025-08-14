@@ -8,8 +8,11 @@ System top view
 Thalassia's Ruins
 <img width="720" height="717" alt="mrrrrp" src="https://github.com/user-attachments/assets/65e2239c-7216-4e70-b5a0-ff5440814a69" />
 
+Ginth Campsite
 ![20250813222255_1](https://github.com/user-attachments/assets/8b1f4014-c4f1-4c6e-b9bf-aa51a4826f03)
 
+?
 ![20250813222949_1](https://github.com/user-attachments/assets/f358b6cb-2bb0-4377-9cbc-88942a787ad0)
 
+Helioraxia from afar
 ![20250813222534_1](https://github.com/user-attachments/assets/e3180801-a04c-467a-beb9-5474284111a2)

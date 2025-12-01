@@ -97,14 +97,10 @@
 			{
 				"audio": "planets/music/ElectrumTower.ogg",
 				"volume": 0.425,
-				"radius": 50,
+				"radius": 40,
 				"loop": true,
 				"track": "music",
-				"position": {
-					"x": -195.6978,
-					"y": -169.1324,
-					"z": -211.6626
-				}
+				"position": {"x": -73.56991, "y": 115.2824, "z": 24.90129}
 			},
 			{
 				"audio": "planets/music/ElectrumOutpost.ogg",

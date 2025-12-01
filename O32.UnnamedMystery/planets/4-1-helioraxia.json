@@ -116,7 +116,8 @@
 			{
 				"radius": 50,
 				"reveals": [ "spacestation-fact-3", "this-rumor-is-just-to-link-the-stuff" ],
-				"revealOn": "enter"
+				"revealOn": "enter",
+				"achievementID": "UNNAMYST_sans"
 			},
 			{
 				"radius": 10,

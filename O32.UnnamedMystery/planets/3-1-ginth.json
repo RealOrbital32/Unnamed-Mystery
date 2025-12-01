@@ -52,7 +52,8 @@
 			{
 				"radius": 20,
 				"reveals": [ "interior-fact-1" ],
-				"revealOn": "enter"
+				"revealOn": "enter",
+				"achievementID": "UNNAMYST_ginth"
 			}
 		],
 		"audioVolumes": [

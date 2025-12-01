@@ -11,7 +11,7 @@
 	"Orbit": {
 		"semiMajorAxis": 8000,
 		"primaryBody": "Aetherion",
-		"trueAnomaly": 147,
+		"trueAnomaly": 157,
 		"isMoon": false,
 		"isTidallyLocked": false,
 		"siderealPeriod": 15,

@@ -82,7 +82,8 @@
 			{
 				"reveals": [ "ghostmoon-fact-1", "word-fact", "gmc-rumor-1" ],
 				"revealOn": "enter",
-				"radius": 62
+				"radius": 62,
+				"achievementID": "UNNAMYST_meow"
 			},
 			{
 				"reveals": [ "ghostmoon-fact-2" ],
@@ -92,7 +93,8 @@
 					"x": 35.7431,
 					"y": 12.35481,
 					"z": 26.54723
-				}
+				},
+				"achievementID": "UNNAMYST_gmod"
 			},
 			{
 				"reveals": [ "gmc-fact-2" ],

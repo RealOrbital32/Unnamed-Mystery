@@ -7,14 +7,14 @@
 			"startWithSuit": true,
 			"position": {
 				"x": 100,
-				"y": -800,
+				"y": -810,
 				"z": 100
 			}
 		},
 		"shipSpawn": {
 			"position": {
 				"x": 100,
-				"y": -805,
+				"y": -800,
 				"z": 100
 			},
 			"rotation": {

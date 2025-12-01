@@ -35,5 +35,25 @@
     "NeroKilah",
     "ilyNerY"
   ],
-  "popupMessage": "UNNA-MYST: This mod is better with Suit Log and Voice Mod, but are not required."
+  "popupMessage": "UNNA-MYST: This mod is better with Suit Log and Voice Mod, but are not required.",
+  "achievements": [
+
+    {
+      "ID": "UNNAMYST_gmod",
+      "secret": false
+    },
+    {
+      "ID": "UNNAMYST_meow",
+      "secret": false
+    },
+    {
+      "ID": "UNNAMYST_ginth",
+      "secret": false
+    },
+    {
+      "ID": "UNNAMYST_sans",
+      "secret": false
+    }
+
+  ]
 }

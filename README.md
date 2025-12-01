@@ -2,13 +2,31 @@
 Unnamed Mystery is a fairly large story mod (by New Horizons definition) that guides exigency to reality, and attempts to create an experience with similar feelings to the base game.
 Available in English, French, and Simplified Chinese.
 
-![unnamedMystery](https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/f2841c43-a6e1-4f5e-aa14-bd9ca4c8d9ef)
+<img width="452" height="101" alt="System top view" src="https://github.com/user-attachments/assets/ae851c9b-be76-4d7e-bf26-97c817108232" />
 
-Map of the solar system **(Outdated!)**
-<img width="580" alt="aetherion" src="https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/9c556e75-fb1f-4575-8eca-cccd80816211">
-Thalassia's Ruins
-<img width="1280" alt="thalassia" src="https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/b7587012-d169-40bb-ac1e-494b6340f451">
-Sunset on Zephyria
-<img width="1280" alt="zephyria" src="https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/6a1f880e-6b0c-4927-8e54-80e9c44465bf">
-A View From Metallos
-<img width="1280" alt="metallos" src="https://github.com/RealOrbital32/Unnamed-Mystery/assets/87882655/43642da8-6b6c-453c-862e-881288d13f45">
+*Remake coming soon!*
+
+<hr>
+
+### System top view
+<img width="720" height="720" alt="Thalassia's Ruins" src="https://github.com/user-attachments/assets/65e2239c-7216-4e70-b5a0-ff5440814a69" />
+
+<hr>
+
+### Thalassia's ruins
+![20250813222255_1](https://github.com/user-attachments/assets/8b1f4014-c4f1-4c6e-b9bf-aa51a4826f03)
+
+<hr>
+
+### Helioraxia from afar
+![20250813222534_1](https://github.com/user-attachments/assets/e3180801-a04c-467a-beb9-5474284111a2)
+
+<hr>
+
+### Ginth Campsite
+![20250813222949_1](https://github.com/user-attachments/assets/f358b6cb-2bb0-4377-9cbc-88942a787ad0)
+
+<hr>
+
+### Electrum shining
+![20250813223713_1](https://github.com/user-attachments/assets/46f210ad-1fcc-440e-b326-92acae9e8f05)

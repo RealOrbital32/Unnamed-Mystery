@@ -199,7 +199,7 @@
 				}
 			},
 			{
-				"type": "cairn",
+				"type": "cairnBH",
 				"xmlFile": "planets/xml/ruinsStone.xml",
 				"position": {
 					"x": -226.8686,
@@ -213,7 +213,7 @@
 				}
 			},
 			{
-				"type": "cairnVariant",
+				"type": "cairnTH",
 				"xmlFile": "planets/xml/riddleB.xml",
 				"position": {
 					"x": -206.2573,

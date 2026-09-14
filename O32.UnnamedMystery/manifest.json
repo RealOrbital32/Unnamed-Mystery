@@ -1,9 +1,11 @@
 {
-  "filename": "NewHorizonsConfig.dll",
-  "author": "Orbital 32 (a.k.a cigtu)",
-  "name": "Unnamed Mystery",
   "uniqueName": "O32.UnnamedMystery",
-  "version": "1.5.0",
+  "name": "Unnamed Mystery",
+  "author": "Orbital 32 (a.k.a cigtu)",
+  "version": "1.5.2",
+  "filename": "NewHorizonsConfig.dll",
   "owmlVersion": "2.1.0",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
 }

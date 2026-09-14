@@ -8,12 +8,6 @@
 		"hasMapMarker": true,
 		"showMinimap": true
 	},
-	"AmbientLights": [
-		{
-			"outerRadius": 90,
-			"intensity": 1
-		}
-	],
 	"Orbit": {
 		"semiMajorAxis": 900,
 		"primaryBody": "Thalassia",

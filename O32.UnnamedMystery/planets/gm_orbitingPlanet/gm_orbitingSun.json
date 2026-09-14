@@ -176,8 +176,8 @@
 		"dialogue": [
 			{
 				"xmlFile": "planets/xml/NyloxRecord.xml",
-				"position": {"x": -17.81415, "y": -40.7288, "z": -9.790701},
-				"rotation": {"x": 355.9675, "y": 162.0265, "z": 204.0933}
+				"position": {"x": -18.18672, "y": -41.35104, "z": -8.510913},
+				"rotation": {"x": 332.7107, "y": 267.7443, "z": 174.8085},
 			}
 		],
 		"details": [
@@ -218,16 +218,8 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District3/Interactables_HangingCity_District3/Prefab_NOM_Recorder",
 				"removeComponents": true,
-				"position": {
-					"x": -31.24893,
-					"y": -33.14424,
-					"z": 9.11174
-				},
-				"rotation": {
-					"x": 25.84914,
-					"y": 56.57191,
-					"z": 142.728
-				}
+				"position": {"x": -18.18672, "y": -41.35104, "z": -8.510913},
+				"rotation": {"x": 332.7107, "y": 267.7443, "z": 174.8085}
 			},
 			{
 				"assetBundle": "planets/prefabs/o32-unnamedmystery",
